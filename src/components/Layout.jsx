@@ -19,7 +19,7 @@ export const Layout = () => {
       <div id="hello" className='flex flex-col md:flex-row px-[50px] bg-green h-screen'>
         <div className='w-full h-screen md:w-6/12 flex flex-col justify-center'>
           <h1 className='text-[40px] md:text-[60px] xl:text-[80px] leading-[40px] md:leading-[62px] xl:leading-[82px] text-white font-bold font-title	pb-[25px]'>
-            <span className='flex'>Designer <span className='text-[15px] font-title pl-[5px] relative top-[4px] md:top-[7px] xl:top-[10px]'>&</span></span>
+            <span className='flex'>Designer <span className='text-[15px] z-0 font-title pl-[5px] relative top-[4px] md:top-[7px] xl:top-[10px]'>&</span></span>
             Developer
           </h1>
           <p className='text-[15px] xl:text-[20px] font-paragraph text-black font-regular'>Hi! I'm Nerea Sarasola, Graphic Designer <br className='hidden md:block'></br>and Front-end Developer.</p>

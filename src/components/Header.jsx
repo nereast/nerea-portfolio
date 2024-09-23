@@ -9,7 +9,7 @@ export const Header = () => {
 
   return (
    <nav className="w-screen flex justify-center">
-     <div className="flex p-[15px] fixed top-[25px] w-[70vw] bg-yellow/[.7] rounded-[50px] backdrop-blur-[20px] backdrop-saturate-[1.7]	">
+     <div className="flex p-[15px] fixed z-[100] top-[25px] w-[70vw] bg-yellow/[.7] rounded-[50px] backdrop-blur-[20px] backdrop-saturate-[1.7]	">
       <div className="w-6/12 md:w-2/12 xl:w-2/12">
         <a href="/home/#hello">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 310 310" fill="none" className='w-[40px] h-[40px]'>
