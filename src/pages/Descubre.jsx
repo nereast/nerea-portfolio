@@ -110,7 +110,7 @@ export const Descubre = ({ coverImage }) => {
             </div>
             <div className='p-[50px] flex justify-center'>
                 <Link to="/projects/mika">
-                    <p className='text-black font-bold text-[60px] font-title'>Next Project</p>
+                    <p className='text-black font-bold text-[60px] leading-[62px] font-title'>Next Project</p>
                 </Link>
             </div>
             <Footer/>

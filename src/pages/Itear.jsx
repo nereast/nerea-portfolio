@@ -23,7 +23,7 @@ export const Itear = ({ coverImage }) => {
             <Header />
             <div className='container'>
 
-                <div className='px-[50px] pt-[150px] md:pt-[100px] md:pb-[100px] xl:pb-[100px] grid grid-rows-[10vh_1fr] md:grid-rows-1 md:grid-cols-[40%_60%]'>
+                <div className='px-[50px] pt-[150px] md:pt-[100px] md:pb-[100px] xl:pb-[100px] grid grid-rows-[15vh_1fr] md:grid-rows-1 md:grid-cols-[40%_60%]'>
                     <h1 className='text-[30px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title	md:pb-[25px]'>
                         Itear: <br></br> New identity for small and family businesses.
                     </h1>
@@ -108,7 +108,7 @@ export const Itear = ({ coverImage }) => {
 
 
                 
-                <div className='px-[50px] pb-[50px] md:pb-[100px] grid grid-rows-3 md:grid-rows-1 md:grid-cols-2 gap-[25px]'>
+                <div className='px-[50px] pb-[50px] md:pb-[100px] grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-[25px]'>
                     <img className="object-cover w-screen h-[350px] md:h-[600px] rounded-[20px]" src={pieceFour} />
                     <img className="object-cover w-screen h-[350px] md:h-[600px] rounded-[20px]" src={pieceFive} />
                 </div> 
@@ -145,7 +145,7 @@ export const Itear = ({ coverImage }) => {
 
             <div className='p-[50px] flex justify-center'>
                 <Link to="/projects/descubre">
-                    <p className='text-black font-bold text-[60px] font-title'>Next Project</p>
+                    <p className='text-black font-bold text-[60px] leading-[62px] font-title'>Next Project</p>
                 </Link>
             </div>
             <Footer/>

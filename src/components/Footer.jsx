@@ -1,4 +1,5 @@
 import React from 'react'
+import cv from "../assets/CV_NereaSarasola.pdf";
 
 export const Footer = () => {
     return (
@@ -17,7 +18,7 @@ export const Footer = () => {
                     <h2 className='text-white mb-[20px] text-[25px] leading-[27px] text-center'>Or contact me on social media</h2>
                     <div className='grid grid-cols-2 grid-rows-2 gap-[20px] justify-items-center'>
                     <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white underline underline-offset-1 md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
-                    <a href='' target='_blank' className='text-white underline underline-offset-1 md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
+                    <a href={cv} target='_blank' className='text-white underline underline-offset-1 md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
                     </div>
                 </div>
             </div>
@@ -42,7 +43,7 @@ export const Footer = () => {
                 </p>
                 <div className='flex flex-col'>
                     <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white underline underline-offset-1 md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
-                    <a href='' target='_blank' className='text-white underline underline-offset-1 md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
+                    <a href={cv} target='_blank' className='text-white underline underline-offset-1 md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
                 </div>
             </div>
 
