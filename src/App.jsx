@@ -1,6 +1,5 @@
 import './App.css'
 import { Layout } from './components/Layout'
-import { Project } from './pages/Itear';
 import ScrollToTop from './components/ScrollToTop';
 
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
@@ -19,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
-      <RouterProvider router={router}/>
+      <Layout/>
     </div>
   )
 }
