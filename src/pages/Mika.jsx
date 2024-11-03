@@ -21,7 +21,7 @@ export const Mika = ({ coverImage }) => {
 
         <div>
             <Header />
-            <div className='container'>
+            <div className=''>
 
                 <div className='px-[50px] pt-[150px] md:pt-[100px] md:pb-[100px] xl:pb-[100px] grid grid-rows-[15vh_1fr] md:grid-rows-1 md:grid-cols-[40%_60%]'>
                     <h1 className='text-[25px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title	pb-[25px]'>
@@ -76,32 +76,32 @@ export const Mika = ({ coverImage }) => {
                 
 
                 <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-[50%_50%] gap-[25px] px-[50px] pb-[50px] md:pb-[100px]'>
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberZero} />
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberOne} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberZero} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberOne} />
                 </div>
 
 
                 <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-[50%_50%] gap-[25px] px-[50px] pb-[50px] md:pb-[100px]'>
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberTwo} />
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberThree} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberTwo} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberThree} />
                 </div>
 
 
                 <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-[50%_50%] gap-[25px] px-[50px] pb-[50px] md:pb-[100px]'>
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberFour} />
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberFive} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberFour} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberFive} />
                 </div>
 
 
                 <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-[50%_50%] gap-[25px] px-[50px] pb-[50px] md:pb-[100px]'>
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberSix} />
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberSeven} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberSix} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberSeven} />
                 </div>
 
 
                 <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-[50%_50%] gap-[25px] px-[50px] pb-[50px] md:pb-[100px]'>
-                    <img className="object-cover h-[350px] md:h-auto w-[600px] rounded-[20px]" src={numberEight} />
-                    <img className="object-cover h-[350px] md:h-auto  w-[600px] rounded-[20px]" src={numberNine} />
+                    <img className="object-cover h-[350px] md:h-auto w-auto rounded-[20px]" src={numberEight} />
+                    <img className="object-cover h-[350px] md:h-auto  w-auto rounded-[20px]" src={numberNine} />
                 </div>
 
             </div>

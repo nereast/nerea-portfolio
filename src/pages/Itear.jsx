@@ -13,7 +13,8 @@ import welding from "../assets/itear/welding.jpg";
 import brandingOne from "../assets/itear/branding-itear.jpg";
 import brandingTwo from "../assets/itear/branding-itear-two.jpg";
 import brandingThree from "../assets/itear/branding-itear-three.jpg";
-import websiteVideo from "../assets/itear/website-itear.jpg";
+import websiteDetail from "../assets/itear/website-detail.jpg";
+import websiteVideo from "../assets/itear/web-presentation.mov"
 
 export const Itear = ({ coverImage }) => {
 
@@ -21,7 +22,7 @@ export const Itear = ({ coverImage }) => {
 
         <div>
             <Header />
-            <div className='container'>
+            <div className=''>
 
                 <div className='px-[50px] pt-[150px] md:pt-[100px] md:pb-[100px] xl:pb-[100px] grid grid-rows-[15vh_1fr] md:grid-rows-1 md:grid-cols-[40%_60%]'>
                     <h1 className='text-[30px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title	md:pb-[25px]'>
@@ -52,7 +53,7 @@ export const Itear = ({ coverImage }) => {
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>PROJECT <br></br>OVERVIEW</h2>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-bold font-paragraph mb-[20px]'>
                         Itear is a small company located in Tolosa, Basque Country which since the 1980s has been dedicated to the manufacture and repair of industrial machinery.
-                        Its services include centrifugal pumps, whose function is to transform mechanical energy into hydraulic energy. For the company, it is important to maintain the quality, <br className='hidden md:block'></br> the essence and the functioning of the parts. In addition, it is a company that collaborates with different suppliers focused on metallurgy to carry out its work.
+                        Its services include centrifugal pumps, whose function is to transform mechanical energy into hydraulic energy. For the company, it is important to maintain the quality, the essence and the functioning of the parts. In addition, it is a company that collaborates with different suppliers focused on metallurgy to carry out its work.
                     </p>
                 </div>
 
@@ -125,19 +126,15 @@ export const Itear = ({ coverImage }) => {
                     <img className="object-cover w-screen h-[350px] md:h-[100vh] rounded-[20px]" src={brandingTwo} />
                 </div>
 
-
-
                 <div className='px-[50px] pb-[50px] md:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-auto rounded-[20px]" src={websiteVideo} />
+                    <video className='w-screen rounded-[20px]' src={websiteVideo} width="320" height="240" autoPlay></video>
                 </div> 
 
-                
-                
+                <div className='px-[50px] pb-[50px] md:pb-[100px]'>
+                    <img className="object-cover w-screen h-[350px] md:h-auto rounded-[20px]" src={websiteDetail} />
+                </div> 
 
-
-
-
-
+               
 
 
 

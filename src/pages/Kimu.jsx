@@ -25,7 +25,7 @@ export const Kimu = ({ coverImage }) => {
 
         <div>
             <Header />
-            <div className='container'>
+            <div className=''>
                 <div className='px-[50px] pt-[150px] md:pt-[100px] md:pb-[100px] xl:pb-[100px] grid grid-rows-[15vh_1fr] md:grid-rows-1 md:grid-cols-[40%_60%]'>
                     <h1 className='text-[30px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title	md:pb-[25px]'>
                         Kimu: <br></br> New identity <br className='block md:hidden'></br>and packaging.
