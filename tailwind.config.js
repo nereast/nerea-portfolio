@@ -16,10 +16,13 @@ export default {
       },
       colors: {
         white:'#fff',
+        beige: '#FEFBEC',
         black: '#000',
         gray: '#D9D9D9',
         green: '#3D9277',
-        yellow: '#F1D02D'
+        yellow: '#F1D02D',
+        orange: '#CB6354',
+        pink: '#CB6354',
       },
       fontSize: {
         sm: '15px',

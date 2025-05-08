@@ -1,0 +1,23 @@
+
+{
+    "translation": {
+      "errofest": {
+        "title": "Errofest: Creation of an identity and promotion of a local festival.",
+        "subtitle": "The project consisted of creating the identity and landing page to promote the festival in the best possible way.",
+        "branding": "Branding",
+        "ux/ui": "UX/UI",
+        "development": "Development",
+        "project-overview": "Project Overview",
+        "project-overview-text": "Errofest is a cultural festival that includes different activities, such as local gastronomy, music and painting. It has been held in Itsasondo, a village in Gipuzkoa, since 2019 and every year it generates more and more interest among the locals and people from other villages in the region. In 2025, the event will celebrate its fifth anniversary, so the organisers decided to improve its identity and landing page.",
+        "challange": "Challenge",
+        "challange-subtitle": "The project had two objectives: to create a new identity that reflected the local spirit of the festival and to design a simple landing page that briefly explained the aspects to be taken into account when attending the festival.",
+        "challenge-text": "The environment, the colours of the landscape and the local culture were the aspects that were taken into account when creating the new identity of the festival. In addition, an attempt was made to reflect the fusion between tradition and new cultural trends.",
+        "solution": "Solution",
+        "solution-subtitle": "The logo was handcrafted to show the curved, organic lines of nature itself.",
+        "solution-text": "Thanks to the colours reminiscent of nature, the images collected from other years when the festival was held and the exercise carried out on the needs of the new landing page, a new page was created.",
+        "view-project": "To see the final result, access the website here.",
+        "project-web": "https://errofest.vercel.app/en",
+        "next-project": "Next Project"
+      }
+    }
+}

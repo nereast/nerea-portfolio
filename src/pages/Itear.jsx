@@ -73,9 +73,9 @@ export const Itear = ({ coverImage }) => {
                 </div>
 
 
-                <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-[60%_40%] gap-[25px] px-[50px] pb-[50px] md:pb-[100px]'>
-                    <img className="object-cover h-[350px] w-auto md:h-auto md:w-[600px] rounded-[20px]" src={logos} />
-                    <img className="object-cover h-[350px] w-auto md:h-auto md:w-[450px] rounded-[20px]" src={icons} />
+                <div className='grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-[25px] px-[50px] pb-[50px] md:pb-[100px]'>
+                    <img className="object-cover h-[350px] w-auto md:h-auto md:w-full rounded-[20px]" src={logos} />
+                    <img className="object-cover h-[350px] w-auto md:h-auto md:w-full rounded-[20px]" src={icons} />
                 </div>
 
 
@@ -142,6 +142,7 @@ export const Itear = ({ coverImage }) => {
 
             <div className='p-[50px] flex justify-center'>
                 <Link to="/projects/descubre">
+                    <img src='' alt='' title=''/>
                     <p className='text-black font-bold text-[60px] leading-[62px] font-title'>Next Project</p>
                 </Link>
             </div>
