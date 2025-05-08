@@ -74,7 +74,7 @@ export const Layout = () => {
             <Card projectName="DESIGN SYSTEM" category="UX/UI Diseinua" coverImage={itearCoverImage} href="/projects/designsystem" width="480" height="480" color="green" />
           </div>
           <div className='w-full xl:w-8/12 mt-[20px] md:mt-0'>
-            <Card projectName="KIMU" category="Branding, Packaging eta UX/UI Diseinua" coverImage={kimuCoverImage} href="/projects/kimu" width="680" height="480" color="red" />
+            <Card projectName="ECHO" category="UX/UI Diseinua eta Garapena" coverImage={kimuCoverImage} href="/projects/kimu" width="680" height="480" color="red" />
           </div>
         </div>
         

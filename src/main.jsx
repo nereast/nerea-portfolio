@@ -19,6 +19,8 @@ import { Kimu } from "./pages/Kimu";
 import { Descubre } from "./pages/Descubre";
 import { Errofest } from "./pages/Errofest";
 import { DesignSystem } from "./pages/DesignSystem";
+import { Echo } from "./pages/Echo";
+
 
 import coverImage from "./assets/itear/itear-rodete-gray-image-of-cover.jpg";
 import kimuCoverImage from "./assets/kimu/market-tolosa.jpg";
@@ -49,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "/projects/designsystem",
     element: <DesignSystem coverImage={errofestCoverImage}/>,
+  },
+  {
+    path: "/projects/echo",
+    element: <Echo coverImage={errofestCoverImage}/>,
   },
 ]);
 
