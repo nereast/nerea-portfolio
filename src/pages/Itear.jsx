@@ -120,7 +120,7 @@ export const Itear = ({ coverImage }) => {
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto de Kimu' title='Imagen de Kimu' />
-                <Link className='flex items-center' to="/projects/itear">
+                <Link className='flex items-center' to="/projects/kimu">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>
             </div>

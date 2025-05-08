@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const Card = ({ projectName, category, coverImage, href, color }) => {
 
+    console.log(color)
+
     return (
         <Link to={href} className='group'>
             <section className="rounded-[20px] bg-cover h-[300px] md:h-[240px] xl:h-[480px] group-hover:bg-green flex items-end" style={{ backgroundRepeat: 'no-repeat', backgroundImage: `url(${coverImage})` }}>

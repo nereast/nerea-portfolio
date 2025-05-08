@@ -58,7 +58,7 @@ export const Layout = () => {
             <Card projectName="ITEAR" category="Branding eta UX/UI Diseinua" coverImage={itearCoverImage} href="/projects/itear" width="480" height="480" color="green" />
           </div>
           <div className='w-full xl:w-8/12 mt-[20px] md:mt-0'>
-            <Card projectName="KIMU" category="Branding, Packaging eta UX/UI Diseinua" coverImage={kimuCoverImage} href="/projects/kimu" width="680" height="480" color="pink" />
+            <Card projectName="KIMU" category="Branding, Packaging eta UX/UI Diseinua" coverImage={kimuCoverImage} href="/projects/kimu" width="680" height="480" color="red" />
           </div>
         </div>
         <div className='flex flex-col xl:flex-row mt-[50px]'>
@@ -69,14 +69,7 @@ export const Layout = () => {
             <Card projectName="ERROFEST" category="Branding, UX/UI Diseinua eta Garapanea" coverImage={errofestCoverImage} href="/projects/errofest" width="480" height="480" color="orange" />
           </div>
         </div>
-        <div className='flex flex-col xl:flex-row'>
-          <div className='w-full xl:w-5/12 pb-[50px] xl:pr-[20px]'>
-            <Card projectName="ERROFEST" category="Branding, UX/UI Design and Front-end Development" coverImage={itearCoverImage} href="/projects/errofest" width="480" height="480" />
-          </div>
-          <div className='w-full xl:w-8/12 mt-[20px] md:mt-0'>
-            <Card projectName="KIMU" category="Branding, Packaging and UX/UI Design" coverImage={kimuCoverImage} href="/projects/kimu" width="680" height="480" />
-          </div>
-        </div>
+        
       </div>
       <div id="contact">
         <Footer />

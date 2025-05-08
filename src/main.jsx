@@ -20,7 +20,7 @@ import { Descubre } from "./pages/Descubre";
 import { Errofest } from "./pages/Errofest";
 
 import coverImage from "./assets/itear/itear-rodete-gray-image-of-cover.jpg";
-import kimuCoverImage from "./assets/kimu/cover-image-kimu.jpg";
+import kimuCoverImage from "./assets/kimu/market-tolosa.jpg";
 import descubreCoverImage from "./assets/descubre/cover.jpg";
 import errofestCoverImage from "./assets/errofest/imagen-del-festival.jpg";
 

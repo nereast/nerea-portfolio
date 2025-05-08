@@ -21,8 +21,8 @@ export default {
         gray: '#D9D9D9',
         green: '#3D9277',
         yellow: '#F1D02D',
-        orange: '#CB6354',
-        pink: '#CB6354',
+        orange: '#CD683E',
+        red: '#CB6354'
       },
       fontSize: {
         sm: '15px',
