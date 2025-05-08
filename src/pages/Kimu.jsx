@@ -123,7 +123,7 @@ export const Kimu = ({ coverImage }) => {
                     <img className="object-cover h-full w-full rounded-[50px]" src={packagingTwo} alt="Imagen que muestra la parte trasera del packaging del frasco que se utiliza para vender los germinados de garbanzos" title="Imagen del frasco de los germinados"/>
                 </div>
             </div>
-            <div className='flex flex-col gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+            <div className='flex flex-col gap-[20px] md:gap-[25px] xl:gap-[50px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className="object-cover w-screen h-[350px] md:h-auto  rounded-[50px]" src={packagingFour} alt='Imagen que muestra la parte delantera del packaging del frasco que se utiliza para envasar las semillas de los germinados de alubias' title='Imagen del frasco de los germinados de alubias'/>
                 <img className="object-cover w-screen h-auto rounded-[50px]" src={webiste} alt='Imagen que muestra el diseño de varias páginas del tamaño desktop en un fondo naranja corporativo' title='Imagen que presenta diferentes páginas de la web de Kimu'/>
                 <img className="object-cover w-screen h-auto  rounded-[50px]" src={mobile} alt='Imagen que muestra el diseño de varias páginas del tamaño mobile en un fondo naranja corporativo ' title='Imagen que presenta diferentes páginas de la web de Kimu'/>
