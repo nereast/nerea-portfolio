@@ -27,6 +27,8 @@ import kimuCoverImage from "./assets/kimu/market-tolosa.jpg";
 import descubreCoverImage from "./assets/descubre/cover.jpg";
 import errofestCoverImage from "./assets/errofest/imagen-del-festival.jpg";
 
+
+
 const router = createBrowserRouter([
   {
     path: "/home",
@@ -50,11 +52,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/projects/designsystem",
-    element: <DesignSystem coverImage={errofestCoverImage}/>,
+    element: <DesignSystem/>,
   },
   {
     path: "/projects/echo",
-    element: <Echo coverImage={errofestCoverImage}/>,
+    element: <Echo/>,
   },
 ]);
 

@@ -1,6 +1,7 @@
-import React from 'react'
-import { Header } from '../components/Header'
-import { Footer } from '../components/Footer'
+import React from 'react';
+import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
+import { Button } from '../components/Button';
 import { Link } from 'react-router-dom';
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
@@ -94,7 +95,7 @@ export const Descubre = ({ coverImage }) => {
                 <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={layoutTwo} alt='Imagen que muestra la portada de unas de las secciones de la revista de Descubre' title='Imagen de una portada de las secciones'/>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>To see the final result, access to see the interactive magazine <a href='https://descubre-magazine.vercel.app/' target="_blank" className="relative after:absolute after:bottom-[10px] after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow after:transition-transform after:duration-150 after:ease-in-out hover:after:origin-bottom-right hover:after:scale-x-0">here</a>.</p>
+                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>To see the final result, access to see the interactive magazine <Button href='https://descubre-magazine.vercel.app/' text='here'/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto de Errofest' title='Imagen de Errofest' />

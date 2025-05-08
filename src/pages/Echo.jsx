@@ -4,13 +4,13 @@ import { Footer } from '../components/Footer'
 import { Link } from 'react-router-dom';
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
-import layout from "../assets/descubre/layout.jpg";
-import layoutTwo from "../assets/descubre/layout-two.jpg";
-import detail from "../assets/descubre/magazine-details.jpg";
-import collage from "../assets/descubre/collage.jpg";
+import coverImage from "../assets/echo/imagen-de-la-pantalla-principal-de-la-aplicacion.jpg";
+import artistPage from "../assets/echo/imagen-del-detalle-de-un-artista.jpg";
+import genresPage from "../assets/echo/imagen-de-la-pantalla-de-los-generos.jpg";
+import wireframes from "../assets/echo/imagen-que-muestra-los-wireframes.jpg";
+import screens from "../assets/echo/imagen-que-muestra-diferentes-pantallas.jpg";
 
-
-export const Echo = ({ coverImage }) => {
+export const Echo = () => {
 
     return (
 
@@ -39,9 +39,7 @@ export const Echo = ({ coverImage }) => {
 
                 </div>
             </div>
-
-            {/* <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt="Imagen que muestra la portada de la revista llamada Descubre" title="Imagen de la portada de la revista" /> */}
-
+            <img class="w-screen h-full object-cover px-[25px] md:px-[50px] md:pb-[50px] xl:pb-[100px]" src={coverImage} alt="Imagen que muestra la pantalla principal de la aplicación de música llamada Echo" title="Imagen de la aplicación Echo"/>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>PROJECT <br className='hidden xl:block'></br>OVERVIEW</h2>
@@ -57,7 +55,14 @@ export const Echo = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-
+            <div className='flex flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] gap-[20px]'>
+                <div className='w-8/12'>
+                    <img className='w-full' src={artistPage} alt='Imagen que muestra la pantalla del detalle del Artista de la aplicación de música de Echo' title='Imagen de la pantalla del artista de Echo'/>
+                </div>
+                <div className='w-4/12'>
+                    <img className='w-full' src={genresPage} alt='Imagen que muestra la pantalla de los Géneros de la aplicación de música de Echo' title='Imagen de la pantalla de los géneros de Echo'/>
+                </div>
+            </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>CHALLENGE</h2>
@@ -74,8 +79,7 @@ export const Echo = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-
-            
+            <img className='w-full px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]' src={wireframes} alt='Imagen que muestra todos los wireframes que se han realizado para visualizar todas las pantallas que va a tener la aplicación' title='Imagen de los wireframes de Echo'/>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>SOLUTION</h2>
@@ -90,10 +94,7 @@ export const Echo = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='px-[50px] pb-[50px] md:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={layoutTwo} alt='Imagen que muestra la portada de unas de las secciones de la revista de Descubre' title='Imagen de una portada de las secciones' />
-            </div>
-
+            <img className='w-full px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] rounded-[25px]' src={screens} alt='Imagen que muestra algunas de las pantallas que se han diseñado y que forman parte de la aplicación de música llamada Echo' title='Imagen de las pantallas de Echo'/>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>NEXT STEPS</h2>
@@ -106,7 +107,6 @@ export const Echo = ({ coverImage }) => {
                     </h3>
                 </div>
             </div>
-
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto de Itear' title='Imagen de Itear' />
                 <Link className='flex items-center' to="/projects/itear">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import { Button } from '../components/Button';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 
@@ -113,7 +114,7 @@ export const Errofest = ({ coverImage }) => {
                 <video className='w-full h-full rounded-[20px] md:rounded-[50px]'src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>To see the final result, access the website <a href='https://errofest.vercel.app/eu' target="_blank" className="relative after:absolute after:bottom-[10px] after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow after:transition-transform after:duration-150 after:ease-in-out hover:after:origin-bottom-right hover:after:scale-x-0">here</a>.</p>
+                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>To see the final result, access the website <Button href='https://errofest.vercel.app/eu' text='here'/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto del Design System' title='Imagen del Design System' />
