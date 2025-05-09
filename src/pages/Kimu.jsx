@@ -23,7 +23,6 @@ import mobile from "../assets/kimu/mobile-device.jpg";
 export const Kimu = ({ coverImage }) => {
 
     return (
-
         <div className='bg-beige'>
             <Header />
             <div className='px-[25px] md:px-[50px] pt-[200px] md:pb-[50px] xl:pt-[300px] xl:pb-[100px] flex flex-col xl:flex-row bg-cover bg-right xl:bg-top-left' style={{ backgroundImage: `url(${background})` }}>
@@ -61,12 +60,12 @@ export const Kimu = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+            <div className='flex flex-col md:flex-row gap-[25px] md:gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={logo} alt="Imagen que muestra el logotipo de Kimu blanco en fondo naranja" title="Imagen que muestra el logotipo de Kimu" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={logo} alt="Imagen que muestra el logotipo de Kimu blanco en fondo naranja" title="Imagen que muestra el logotipo de Kimu" />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={isotype} alt="Imagen que muestra el isotipo de Kimu negro en fondo blanco" title="Imagen que muestra el isotipo de Kimu" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={isotype} alt="Imagen que muestra el isotipo de Kimu negro en fondo blanco" title="Imagen que muestra el isotipo de Kimu" />
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -83,15 +82,15 @@ export const Kimu = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={marketOfTolosaTwo} alt='Imagen que muestra un detalle de una mano sosteniendo unas verduras' title='Imagen de una mano' />
+            <div className='px-[25px] pb-[25px] md:px-[50px]'>
+                <img className="object-cover w-screen h-[400px] md:h-[800px] rounded-[10px]" src={marketOfTolosaTwo} alt='Imagen que muestra un detalle de una mano sosteniendo unas verduras' title='Imagen de una mano' />
             </div>
-            <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+            <div className='flex flex-col md:flex-row gap-[25px] md:gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={icons} alt="Imagen de una ilustración de un puerro con un trazado blanco en fondo naranja" title="Imagen de una ilustración de un puerro" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={icons} alt="Imagen de una ilustración de un puerro con un trazado blanco en fondo naranja" title="Imagen de una ilustración de un puerro" />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={illustration} alt="Imagen de una ilustración de líneas orgánicas negras en fondo blanco" title="Imagen de una ilustración de líneas orgánicas" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={illustration} alt="Imagen de una ilustración de líneas orgánicas negras en fondo blanco" title="Imagen de una ilustración de líneas orgánicas" />
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -112,24 +111,24 @@ export const Kimu = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-auto rounded-[50px]" src={toteBag} alt='Imagen de una mano sosteniendo una tote bag corporativo de Kimu' title='Imagen de una tote bag'/>
+            <div className='px-[25px] pb-[25px] md:px-[50px]'>
+                <img className="object-cover w-screen h-[400px] md:h-full rounded-[10px]" src={toteBag} alt='Imagen de una mano sosteniendo una tote bag corporativo de Kimu' title='Imagen de una tote bag'/>
             </div>
-            <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+            <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[25px] md:px-[50px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={packaging} alt="Imagen que muestra la parte delantera del packaging del frasco que se utiliza para vender los germinados de garbanzos" title="Imagen del frasco de los germinados"/>
+                    <img className="object-cover h-[400px] md:h-full w-full rounded-[10px]" src={packaging} alt="Imagen que muestra la parte delantera del packaging del frasco que se utiliza para vender los germinados de garbanzos" title="Imagen del frasco de los germinados"/>
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={packagingTwo} alt="Imagen que muestra la parte trasera del packaging del frasco que se utiliza para vender los germinados de garbanzos" title="Imagen del frasco de los germinados"/>
+                    <img className="object-cover h-[400px] md:h-full w-full rounded-[10px]" src={packagingTwo} alt="Imagen que muestra la parte trasera del packaging del frasco que se utiliza para vender los germinados de garbanzos" title="Imagen del frasco de los germinados"/>
                 </div>
             </div>
-            <div className='flex flex-col gap-[20px] md:gap-[25px] xl:gap-[50px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-auto  rounded-[50px]" src={packagingFour} alt='Imagen que muestra la parte delantera del packaging del frasco que se utiliza para envasar las semillas de los germinados de alubias' title='Imagen del frasco de los germinados de alubias'/>
-                <img className="object-cover w-screen h-auto rounded-[50px]" src={webiste} alt='Imagen que muestra el diseño de varias páginas del tamaño desktop en un fondo naranja corporativo' title='Imagen que presenta diferentes páginas de la web de Kimu'/>
-                <img className="object-cover w-screen h-auto  rounded-[50px]" src={mobile} alt='Imagen que muestra el diseño de varias páginas del tamaño mobile en un fondo naranja corporativo ' title='Imagen que presenta diferentes páginas de la web de Kimu'/>
+            <div className='flex flex-col gap-[20px] md:gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+                <img className="object-cover w-screen h-[400px] md:h-full  rounded-[10px]" src={packagingFour} alt='Imagen que muestra la parte delantera del packaging del frasco que se utiliza para envasar las semillas de los germinados de alubias' title='Imagen del frasco de los germinados de alubias'/>
+                <img className="object-cover w-screen h-auto rounded-[10px]" src={webiste} alt='Imagen que muestra el diseño de varias páginas del tamaño desktop en un fondo naranja corporativo' title='Imagen que presenta diferentes páginas de la web de Kimu'/>
+                <img className="object-cover w-screen h-auto  rounded-[10px]" src={mobile} alt='Imagen que muestra el diseño de varias páginas del tamaño mobile en un fondo naranja corporativo ' title='Imagen que presenta diferentes páginas de la web de Kimu'/>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto de Descubre' title='Imagen de Descubre' />
+                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Descubre' title='Imagen de Descubre' />
                 <Link className='flex items-center' to="/projects/descubre">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>

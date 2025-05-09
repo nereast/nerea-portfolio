@@ -54,10 +54,10 @@ export const Descubre = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={detail} alt="Imagen que muestra una de las páginas de la revista maquetada en fondo gris" title="Imagen de una de las páginas de la revista" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={detail} alt="Imagen que muestra una de las páginas de la revista maquetada en fondo gris" title="Imagen de una de las páginas de la revista" />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={collage} alt="Imagen de un collage que se utiliza en una de las páginas de la revista" title="Imagen de un collage" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={collage} alt="Imagen de un collage que se utiliza en una de las páginas de la revista" title="Imagen de un collage" />
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -75,7 +75,7 @@ export const Descubre = ({ coverImage }) => {
                 </div>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={layout} alt='Imagen que presenta varias páginas de la misma revista en una perspectiva diagonal' title='Imagen que presenta la revista'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={layout} alt='Imagen que presenta varias páginas de la misma revista en una perspectiva diagonal' title='Imagen que presenta la revista'/>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
@@ -91,14 +91,14 @@ export const Descubre = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='px-[50px] pb-[50px] md:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={layoutTwo} alt='Imagen que muestra la portada de unas de las secciones de la revista de Descubre' title='Imagen de una portada de las secciones'/>
+            <div className='px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={layoutTwo} alt='Imagen que muestra la portada de unas de las secciones de la revista de Descubre' title='Imagen de una portada de las secciones'/>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>To see the final result, access to see the interactive magazine <Button href='https://descubre-magazine.vercel.app/' text='here'/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto de Errofest' title='Imagen de Errofest' />
+                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Errofest' title='Imagen de Errofest' />
                 <Link className='flex items-center' to="/projects/kimu">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>

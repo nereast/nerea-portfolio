@@ -33,7 +33,7 @@ export const Layout = () => {
         <div className='flex md:items-start xl:items-start justify-center flex-col md:flex-row gap-[25px] md:gap-[20px]'>
           <div className='xl:w-1/12'></div>
           <div className='w-full md:w-6/12 xl:w-4/12'>
-            <img className="rounded-[50px] w-screen h-full object-cover" src={Nerea} alt='Imagen de una mujer con gafas sonriendo a la cámara' title='Imagen de una mujer sonriente' />
+            <img className="rounded-[10px] w-screen h-full object-cover" src={Nerea} alt='Imagen de una mujer con gafas sonriendo a la cámara' title='Imagen de una mujer sonriente' />
           </div>
           <div className='w-full md:w-6/12'>
             <h3 className='text-[20px] leading-[22px] md:text-[25px] md:leading-[27px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title mb-[20px]'>

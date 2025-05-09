@@ -65,10 +65,10 @@ export const Errofest = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'> 
-                    <img className="w-full h-full object-cover rounded-[50px]" src={logo} alt="Imagen de un paisaje con una montaña al fondo" title="Imagen con una montaña" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={logo} alt="Imagen de un paisaje con una montaña al fondo" title="Imagen con una montaña" />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="w-full h-full object-cover rounded-[50px]" src={illustrations} alt="Imagen que muestra diferentes ilustraciones que tienen relación con el evento" title="Imagen con ilustraciones" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={illustrations} alt="Imagen que muestra diferentes ilustraciones que tienen relación con el evento" title="Imagen con ilustraciones" />
                 </div>
             </div>
             <div className='flex flex-col md:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -89,10 +89,10 @@ export const Errofest = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="w-full h-full object-cover rounded-[50px]" src={womanSmiling} alt="Imagen de una mujer sonriendo que está en un concierto" title="Imagen de una mujer sonriendo" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={womanSmiling} alt="Imagen de una mujer sonriendo que está en un concierto" title="Imagen de una mujer sonriendo" />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="w-full h-full object-cover rounded-[50px]" src={festival} alt="Imagen de uno de los conciertos del año pasado" title="Imagen de uno de los conciertos" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={festival} alt="Imagen de uno de los conciertos del año pasado" title="Imagen de uno de los conciertos" />
                 </div>
             </div>
             <div className='flex flex-col md:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -110,14 +110,14 @@ export const Errofest = ({ coverImage }) => {
                 </div>
             </div>
             <div className='flex flex-col gap-[20px] md:gap-[25px] xl:gap-[50px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="w-full h-full object-cover rounded-[20px] md:rounded-[50px]" src={layoutPresentation} alt="Imagen en fondo verde que muestra el diseño de la página web en diferentes formatos" title="Imagen en fondo verde" />
-                <video className='w-full h-full rounded-[20px] md:rounded-[50px]'src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
+                <img className="w-full h-full object-cover rounded-[10px]" src={layoutPresentation} alt="Imagen en fondo verde que muestra el diseño de la página web en diferentes formatos" title="Imagen en fondo verde" />
+                <video className='w-full h-full rounded-[10px]'src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>To see the final result, access the website <Button href='https://errofest.vercel.app/eu' text='here'/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto del Design System' title='Imagen del Design System' />
+                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto del Design System' title='Imagen del Design System' />
                 <Link className='flex items-center' to="/projects/itear">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>

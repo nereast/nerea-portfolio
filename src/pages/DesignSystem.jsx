@@ -32,7 +32,7 @@ export const DesignSystem = () => {
                     <p className='text-start text-[15px] md:text-[25px] md:leading-[30px] xl:text-[30px] xl:leading-[34px] text-black font-normal font-paragraph xl:mb-[25px]'>
                        The project consisted of designing the system to be used in the new music platform called Echo.
                     </p>
-                    <div className="flex flex-row gap-[10px] md:gap-[20px] my-[50px] md:my-0 flex-wrap justify-start mt-[20px] md:mt-[30px] xl:mt-[60px]">
+                    <div className="flex flex-row gap-[10px] md:gap-[20px] mt-[50px] md:my-0 flex-wrap justify-start mt-[20px] md:mt-[30px] xl:mt-[60px]">
                         {["UX/UI", "Documentation", "Development"].map((text) => (
                             <div key={text} className="rounded-[20px] border-green border-[2px] flex justify-center items-center p-[15px]">
                                 <p className="text-green font-paragraph font-medium text-[15px] md:text-[20px]">
@@ -123,10 +123,10 @@ export const DesignSystem = () => {
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex flex-col md:flex-row gap-[20px]'>
                 <div className='xl:w-6/12'>
-                   <img className='w-full h-auto object-cover rounded-[25px]' src={icon} alt='Imagen que muestra un icono de un CD que se ha diseñado para formar parte del Sistema de Diseño' title='Icono del Sistema de Diseño'/>
+                   <img className='w-full h-[400px] md:h-auto object-cover rounded-[10px]' src={icon} alt='Imagen que muestra un icono de un CD que se ha diseñado para formar parte del Sistema de Diseño' title='Icono del Sistema de Diseño'/>
                 </div>
                 <div className='xl:w-6/12'>
-                  <img className='w-full h-auto object-cover rounded-[25px]' src={icons} alt='Imagen que muestra los iconos que forman parte del Sistema de Diseño' title='Iconos del Sistema de Diseño'/>
+                  <img className='w-full h-[400px] md:h-auto object-cover rounded-[10px]' src={icons} alt='Imagen que muestra los iconos que forman parte del Sistema de Diseño' title='Iconos del Sistema de Diseño'/>
                 </div>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
@@ -148,8 +148,8 @@ export const DesignSystem = () => {
                     </p>
                 </div>
             </div>
-            <div className='px-[50px] pb-[50px] md:pb-[100px]'>
-                <img className="object-cover w-screen h-full rounded-[25px]" src={presentation} alt='Imagen que muestra diferentes tipos componentes que forman parte del Sistema de Diseño' title='Imagen de los componentes del Sistema de Diseño'/>
+            <div className='px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
+                <img className="object-cover w-screen h-full rounded-[10px]" src={presentation} alt='Imagen que muestra diferentes tipos componentes que forman parte del Sistema de Diseño' title='Imagen de los componentes del Sistema de Diseño'/>
             </div>
 
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -165,7 +165,7 @@ export const DesignSystem = () => {
                 </div>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto de Echo' title='Imagen de Echo' />
+                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Echo' title='Imagen de Echo' />
                 <Link className='flex items-center' to="/projects/echo">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>

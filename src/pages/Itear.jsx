@@ -60,20 +60,20 @@ export const Itear = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+            <div className='flex flex-col md:flex-row gap-[25px] md:gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'> 
-                    <img className="object-cover h-full w-full rounded-[50px]" src={logos} alt="Imagen que muestra las variaciones que puede tener un logo de Itear" title="Imagen que muestra el logo de Itear"/>
+                    <img className="object-cover h-full w-full rounded-[10px]" src={logos} alt="Imagen que muestra las variaciones que puede tener un logo de Itear" title="Imagen que muestra el logo de Itear"/>
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={icons} alt="Imagen que muestra uno de los iconos del branding de Itear" title="Imagen de un icono"/>
+                    <img className="object-cover h-full w-full rounded-[10px]" src={icons} alt="Imagen que muestra uno de los iconos del branding de Itear" title="Imagen de un icono"/>
                 </div>
             </div>
-            <div className='flex flex-col md:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <div className='lg:w-4/12'>
+            <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+                <div className='w-full lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>CHALLENGE</h2>
                 </div>
-                <div className='lg:w-1/12'></div>
-                <div className='lg:w-8/12'>
+                <div className='w-full lg:w-1/12'></div>
+                <div className='w-full lg:w-8/12'>
                     <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-green font-bold font-title pb-[25px]'>
                         The aim of the project was to generate a solid content network where an industrial entity was identified. Within the content network, the visual identity of the company and the website.
                     </h3>
@@ -83,16 +83,16 @@ export const Itear = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='flex flex-col gap-[20px] md:gap-[25px] xl:gap-[50px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={pieceOne} alt='Imagen de un detalle de una pieza de Itear en un fondo blanco' title='Imagen del detalle de una pieza'/>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={welding} alt='Imagen del detalle de una mano soldando y mejorando una pieza' title='Imagen de una mano soldando'/>
+            <div className='flex flex-col gap-[25px] px-[25px] md:px-[50px]'>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={pieceOne} alt='Imagen de un detalle de una pieza de Itear en un fondo blanco' title='Imagen del detalle de una pieza'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={welding} alt='Imagen del detalle de una mano soldando y mejorando una pieza' title='Imagen de una mano soldando'/>
             </div>
-            <div className='flex flex-col md:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <div className='lg:w-4/12'>
+            <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
+                <div className='w-full lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>SOLUTION</h2>
                 </div>
-                <div className='lg:w-1/12'></div>
-                <div className='lg:w-8/12'>
+                <div className='w-full lg:w-1/12'></div>
+                <div className='w-full lg:w-8/12'>
                     <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-green font-bold font-title pb-[25px]'>
                         Sinter as a typeface in its Demi version, with the purpose of showing tradition and modernisation in the industrial sector.
                     </h3>
@@ -101,25 +101,25 @@ export const Itear = ({ coverImage }) => {
                     </p>
                 </div>
             </div>
-            <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
+            <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[25px] md:px-[50px]'>
                 <div className='w-full md:w-6/12'> 
-                    <img className="object-cover h-full w-full rounded-[50px]" src={pieceFour} alt="Imagen de una pieza con fondo blanco que tiene un filtro azul" title="Imagen de una pieza de Itear" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={pieceFour} alt="Imagen de una pieza con fondo blanco que tiene un filtro azul" title="Imagen de una pieza de Itear" />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[50px]" src={pieceFive} alt="Imagen de una pieza de Itear con fondo blanco" title="Imagen de una pieza de Itear" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={pieceFive} alt="Imagen de una pieza de Itear con fondo blanco" title="Imagen de una pieza de Itear" />
                 </div>
             </div>
-            <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={brandingThree} alt='Imagen que muestra la papelería corporativa de la empresa Itear' title='Imagen de la papelería corporativa de Itear'/>
+            <div className='px-[25px] pb-[25px] md:px-[50px]'>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingThree} alt='Imagen que muestra la papelería corporativa de la empresa Itear' title='Imagen de la papelería corporativa de Itear'/>
             </div>
-            <div className='flex flex-col gap-[20px] md:gap-[25px] xl:gap-[50px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={brandingOne} alt='Imagen de un detalle de una pieza de Itear en un fondo blanco' title='Imagen del detalle de una pieza'/>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[50px]" src={brandingTwo} alt='Imagen del detalle de una mano soldando y mejorando una pieza' title='Imagen de una mano soldando'/>
-                <video className='w-screen rounded-[50px]' src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
-                <img className="object-cover w-screen h-[350px] md:h-auto rounded-[50px]" src={websiteDetail} alt='Imagen que presenta el diseño de la nueva web corporativa de Itear' title='Imagen presentando la web de Itear'/>
+            <div className='flex flex-col gap-[25px] px-[25px] md:px-[50px]'>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingOne} alt='Imagen de un detalle de una pieza de Itear en un fondo blanco' title='Imagen del detalle de una pieza'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingTwo} alt='Imagen del detalle de una mano soldando y mejorando una pieza' title='Imagen de una mano soldando'/>
+                <video className='w-screen rounded-[10px]' src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
+                <img className="object-cover w-screen h-auto rounded-[10px]" src={websiteDetail} alt='Imagen que presenta el diseño de la nueva web corporativa de Itear' title='Imagen presentando la web de Itear'/>
             </div>
-            <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[25px]' src='' alt='Imagen que hace referencia al proyecto de Kimu' title='Imagen de Kimu' />
+            <div className='flex justify-start md:justify-center gap-[25px] px-[25px] md:px-[50px] py-[50px] xl:py-[100px]'>
+                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Kimu' title='Imagen de Kimu' />
                 <Link className='flex items-center' to="/projects/kimu">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>
