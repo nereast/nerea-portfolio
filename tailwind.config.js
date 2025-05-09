@@ -22,7 +22,7 @@ export default {
         green: '#3D9277',
         yellow: '#F1D02D',
         orange: '#CD683E',
-        red: '#CB6354'
+        red: '#CB6354',
       },
       fontSize: {
         sm: '15px',

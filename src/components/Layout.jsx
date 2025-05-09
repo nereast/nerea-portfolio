@@ -17,10 +17,10 @@ export const Layout = () => {
     <div className='bg-beige'>
       <Header />
       <div id="home" className="relative flex flex-col md:flex-row px-[25px] md:px-[50px] items-center justify-center h-screen">
-        <div className='absolute w-full h-screen'>
+        <div className='absolute w-full h-screen overflow-hidden'>
           <div className="absolute w-[500px] h-[500px] right-[-300px] top-[-250px] bg-[linear-gradient(0deg,_#3D9277,_#3D9277)] filter blur-[100px] z-0"></div>
         </div>
-        <div className="w-full xl:w-10/12 absolute z-10 px-[25px] md:px-[50px]">
+        <div className="w-full xl:w-10/12 absolute z-[1] px-[25px] md:px-[50px]">
           <h1 className="text-[40px] md:text-[60px] xl:text-[80px] leading-[42px] md:leading-[62px] xl:leading-[82px] text-black font-bold font-title text-center">
             Kaixo! Nerea Sarasola naiz, Front-end garatzailea, eta UX/UI Diseinatzailea.
           </h1>
@@ -29,8 +29,6 @@ export const Layout = () => {
           <div className="absolute w-[200px] h-[200px] left-[-100px] top-[521px] bg-[#F1D02D] filter blur-[100px] z-0"></div>
         </div>
       </div>
-
-
       <div id="about" className='flex flex-col px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
         <h2 className='text-[30px] md:text-[40px] xl:text-[60px] text-black font-title font-bold mb-[50px] text-center'>Niri buruz</h2>
         <div className='md:flex md:items-start xl:items-start justify-center flex-row gap-[20px]'>
@@ -53,15 +51,14 @@ export const Layout = () => {
           </div>
         </div>
       </div>
-
-
-      <div id="projects" className='px-[50px] py-[50px] md:pb-[100px] xl:pb-[150px]'>
+      <div id="projects" className='px-[25px] md:px-[50px] py-[50px] md:pb-[100px] xl:pb-[150px]'>
         <h2 className='text-[30px] md:text-[40px] xl:text-[60px] md:leading-[42px] xl:leading-[62px] text-black font-title font-bold mb-[50px] text-center'>Proiektuak</h2>
         <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
           <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
             <Card projectName="ITEAR" category="Branding eta UX/UI Diseinua" coverImage={itearCoverImage} href="/projects/itear" width="480" height="480" color="green" />
           </div>
           <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
+
             <Card projectName="KIMU" category="Branding, Packaging eta UX/UI Diseinua" coverImage={kimuCoverImage} href="/projects/kimu" width="680" height="480" color="red" />
           </div>
         </div>
@@ -81,7 +78,6 @@ export const Layout = () => {
             <Card projectName="ECHO" category="UX/UI Diseinua eta Garapena" coverImage={kimuCoverImage} href="/projects/echo" width="680" height="480" color="red" />
           </div>
         </div>
-
       </div>
       <div id="contact">
         <Footer />
