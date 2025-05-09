@@ -3,8 +3,7 @@ import { Header } from './Header'
 import { Footer } from './Footer'
 import { Card } from './Card';
 
-import background from "../assets/imagen-de-fondo-de-la-pagina-principal.png";
-import Nerea from '../assets/nereasarasola.jpg';
+import Nerea from '../assets/mujer-sonriendo.jpg';
 import itearCoverImage from '../assets/itear/itear-rodete-gray-image-of-cover.jpg';
 import kimuCoverImage from "../assets/kimu/market-tolosa.jpg";
 import descubreCoverImage from "../assets/descubre/cover.jpg";
@@ -31,9 +30,10 @@ export const Layout = () => {
       </div>
       <div id="about" className='flex flex-col px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
         <h2 className='text-[30px] md:text-[40px] xl:text-[60px] text-black font-title font-bold mb-[50px] text-center'>Niri buruz</h2>
-        <div className='md:flex md:items-start xl:items-start justify-center flex-row gap-[20px]'>
-          <div className='w-full md:w-6/12 xl:w-4/12 mb-[50px] xl:mb-0'>
-            <img className="rounded-[50px] w-screen h-[430px] md:h-[380px] xl:h-[450px] object-cover" src={Nerea} alt='Imagen de una mujer con gafas sonriendo a la cámara' title='Imagen de una mujer sonriente' />
+        <div className='flex md:items-start xl:items-start justify-center flex-col md:flex-row gap-[25px] md:gap-[20px]'>
+          <div className='xl:w-1/12'></div>
+          <div className='w-full md:w-6/12 xl:w-4/12'>
+            <img className="rounded-[50px] w-screen h-full object-cover" src={Nerea} alt='Imagen de una mujer con gafas sonriendo a la cámara' title='Imagen de una mujer sonriente' />
           </div>
           <div className='w-full md:w-6/12'>
             <h3 className='text-[20px] leading-[22px] md:text-[25px] md:leading-[27px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title mb-[20px]'>
@@ -49,6 +49,7 @@ export const Layout = () => {
               Nitaz gehiago jakin nahi baduzu, nire <a href='' className='font-bold'>curriculum vitaea</a> kontsulta dezakezu.
             </p>
           </div>
+          <div className='xl:w-1/12'></div>
         </div>
       </div>
       <div id="projects" className='px-[25px] md:px-[50px] py-[50px] md:pb-[100px] xl:pb-[150px]'>
