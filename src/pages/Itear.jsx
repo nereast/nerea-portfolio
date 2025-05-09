@@ -16,7 +16,8 @@ import brandingOne from "../assets/itear/branding-itear.jpg";
 import brandingTwo from "../assets/itear/branding-itear-two.jpg";
 import brandingThree from "../assets/itear/branding-itear-three.jpg";
 import websiteDetail from "../assets/itear/website-detail.jpg";
-import websiteVideo from "../assets/itear/web-presentation.mov"
+import websiteVideo from "../assets/itear/web-presentation.mov";
+import kimuCoverImage from "../assets/kimu/market-tolosa.jpg";
 
 export const Itear = ({ coverImage }) => {
 
@@ -119,7 +120,7 @@ export const Itear = ({ coverImage }) => {
                 <img className="object-cover w-screen h-auto rounded-[10px]" src={websiteDetail} alt='Imagen que presenta el diseño de la nueva web corporativa de Itear' title='Imagen presentando la web de Itear'/>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] md:px-[50px] py-[50px] xl:py-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Kimu' title='Imagen de Kimu' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={kimuCoverImage} alt='Imagen que hace referencia al proyecto de Kimu' title='Imagen de Kimu' />
                 <Link className='flex items-center' to="/projects/kimu">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>

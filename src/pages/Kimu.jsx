@@ -17,6 +17,8 @@ import packagingTwo from "../assets/kimu/packaging-two.jpg";
 import packagingFour from "../assets/kimu/packaging-four.jpg";
 import webiste from "../assets/kimu/website.jpg"
 import mobile from "../assets/kimu/mobile-device.jpg";
+import descubreCoverImage from "../assets/descubre/cover.jpg";
+
 
 
 
@@ -128,7 +130,7 @@ export const Kimu = ({ coverImage }) => {
                 <img className="object-cover w-screen h-auto  rounded-[10px]" src={mobile} alt='Imagen que muestra el diseño de varias páginas del tamaño mobile en un fondo naranja corporativo ' title='Imagen que presenta diferentes páginas de la web de Kimu'/>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Descubre' title='Imagen de Descubre' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={descubreCoverImage} alt='Imagen que hace referencia al proyecto de Descubre' title='Imagen de Descubre' />
                 <Link className='flex items-center' to="/projects/descubre">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>

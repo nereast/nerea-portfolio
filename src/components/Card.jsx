@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const Card = ({ projectName, category, coverImage, href, color }) => {
 
+    console.log(color)
+
 
     return (
         <Link to={href} className='group'>

@@ -14,6 +14,7 @@ import colours from "../assets/designsystem/imagen-de-los-colores.png";
 import icon from "../assets/designsystem/imagen-de-un-icono-en-fondo-amarillo.jpg";
 import icons from "../assets/designsystem/imagen-de-varios-iconos-en-fondo-morado.jpg";
 import presentation from "../assets/designsystem/imagen-que-muestra-diferentes-categorias-de-componentes.jpg";
+import echoCoverImage from "../assets/echo/imagen-de-la-pantalla-principal-en-miniatura.jpg";
 
 export const DesignSystem = () => {
 
@@ -165,7 +166,7 @@ export const DesignSystem = () => {
                 </div>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Echo' title='Imagen de Echo' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={echoCoverImage} alt='Imagen que hace referencia al proyecto de Echo' title='Imagen de Echo' />
                 <Link className='flex items-center' to="/projects/echo">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>

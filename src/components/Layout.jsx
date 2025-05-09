@@ -8,7 +8,8 @@ import itearCoverImage from '../assets/itear/itear-rodete-gray-image-of-cover.jp
 import kimuCoverImage from "../assets/kimu/market-tolosa.jpg";
 import descubreCoverImage from "../assets/descubre/cover.jpg";
 import errofestCoverImage from "../assets/errofest/imagen-de-montana-que-hace-referencia-a-errofest.jpg";
-
+import designSystemCoverImage from "../assets/designsystem/imagen-de-portada-del-design-system.jpg";
+import echoCoverImage from "../assets/echo/imagen-de-la-pantalla-principal-en-miniatura.jpg";
 
 
 export const Layout = () => {
@@ -73,10 +74,10 @@ export const Layout = () => {
         </div>
         <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
           <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
-            <Card projectName="DESIGN SYSTEM" category="UX/UI Diseinua" coverImage={itearCoverImage} href="/projects/designsystem" width="480" height="480" color="green" />
+            <Card projectName="DESIGN SYSTEM" category="UX/UI Diseinua" coverImage={designSystemCoverImage} href="/projects/designsystem" width="480" height="480" color="green" />
           </div>
           <div className='w-full xl:w-8/12'>
-            <Card projectName="ECHO" category="UX/UI Diseinua eta Garapena" coverImage={kimuCoverImage} href="/projects/echo" width="680" height="480" color="red" />
+            <Card projectName="ECHO" category="UX/UI Diseinua eta Garapena" coverImage={echoCoverImage} href="/projects/echo" width="680" height="480" color="red" />
           </div>
         </div>
       </div>

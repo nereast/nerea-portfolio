@@ -9,6 +9,7 @@ import layout from "../assets/descubre/layout.jpg";
 import layoutTwo from "../assets/descubre/layout-two.jpg";
 import detail from "../assets/descubre/magazine-details.jpg";
 import collage from "../assets/descubre/collage.jpg";
+import errofestCoverImage from "../assets/errofest/imagen-de-montana-que-hace-referencia-a-errofest.jpg";
 
 
 export const Descubre = ({ coverImage }) => {
@@ -98,8 +99,8 @@ export const Descubre = ({ coverImage }) => {
                 <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>To see the final result, access to see the interactive magazine <Button href='https://descubre-magazine.vercel.app/' text='here'/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='bg-orange w-[111px] md:w-[200px] h-[100px] rounded-[10px]' src='' alt='Imagen que hace referencia al proyecto de Errofest' title='Imagen de Errofest' />
-                <Link className='flex items-center' to="/projects/kimu">
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={errofestCoverImage} alt='Imagen que hace referencia al proyecto de Errofest' title='Imagen de Errofest' />
+                <Link className='flex items-center' to="/projects/errofest">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
                 </Link>
             </div>
