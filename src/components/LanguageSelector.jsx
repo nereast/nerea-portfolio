@@ -1,57 +1,46 @@
-
-
-
 import { useEffect, useState } from "react";
-import ReactFlagsSelect from "react-flags-select";
+import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 
-function LanguageSelector() {
-    const { i18n } = useTranslation();
-    const [lang, setLang] = useState("EN");
 
-    const getUserBrowserLanguage = () => {
-        const lang = window.navigator.language;
+const languageOptions = [
+  { language: "EU", code: "eu" },
+  { language: "ES", code: "es" },
+  { language: "EN", code: "en" },
 
-        if (lang.includes("es")) return "es";
-        if (lang.includes("en")) return "en";
+];
 
-        return "en";
-    };
+const LanguageSelector = () => {
+  // Set the initial language from i18next's detected or default language
+  const [language, setLanguage] = useState(i18next.language);
 
-    const countryCodeToLangCode = (countryCode) => {
-        const country = countryCode.toLowerCase();
+  const { i18n } = useTranslation();
 
-        if (country.includes("us")) return "en";
-        if (country.includes("es")) return "es";
+  const handleLanguageChange = (e) => {
+    const selectedLanguage = e.target.value;
+    setLanguage(selectedLanguage);
+    i18next.changeLanguage(selectedLanguage); // Update language in i18next
+  };
 
-        return "en";
-    };
+  useEffect(() => {
+    document.body.dir = i18n.dir(); //sets the body to ltr or rtl
+  }, [i18n, i18n.language]);
 
-    const handleLangSelect = (countryCode) => {
-        const currentLang = countryCodeToLangCode(countryCode);
-        i18n.changeLanguage(currentLang);
-
-        setLang(countryCode);
-    };
-
-    useEffect(() => {
-        const userBrowserLang = getUserBrowserLanguage();
-
-        i18n.changeLanguage(userBrowserLang);
-        setLang(userBrowserLang);
-    }, []);
-
-    return (
-        <ReactFlagsSelect
-            countries={["US", "ES"]}
-            customLabels={{ US: "EN", ES: "ES" }}
-            selected={lang.toUpperCase()}
-            onSelect={handleLangSelect}
-        />
-    );
-}
+  return (
+    <select
+      id="language"
+      value={language}
+      onChange={handleLanguageChange}
+      className="p-2 border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring focus:ring-indigo-200 focus:ring-opacity-50
+        dark:bg-gray-800 dark:border-gray-600 dark:text-gray-200 dark:focus:border-indigo-400 dark:focus:ring-indigo-700 dark:focus:ring-opacity-50"
+    >
+      {languageOptions.map(({ language, code }, key) => (
+        <option value={code} key={key}>
+          {language}
+        </option>
+      ))}
+    </select>
+  );
+};
 
 export default LanguageSelector;
-
-
-

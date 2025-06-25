@@ -1,7 +1,66 @@
 
 {
     "translation": {
+      "header": {
+        "about_me": "About me",
+        "projects": "Projects",
+        "contact": "Contact",
+        "menu": "Menu"
+      },
+      "home": {
+        "welcome": "Hello! I'm Nerea Sarasola, Front-end developer and UX/UI designer.",
+        "about_me": {
+          "title": "About me",
+          "subtitle": "I am 26 years old and so far I have been working as a graphic designer at the social cooperative Bizzart in Vicenza.",
+          "text": "So far, using Wordpress, I have had the opportunity to manage and layout websites. In addition, I have been doing part of the front-end in different development projects. <br><br> My main goal these days is to keep training myself in new technologies and that's why I spend part of my free time watching articles, videos or tutorials. <br><br> If you want to know more about the appointment, you can check my <strong>CV.</strong>"
+        },
+        "projects": "Projects"
+      },
+      "itear": {
+        "card": {
+          "subtitle": "Branding and UX/UI Design"
+        },
+        "project": {
+          "title": "Itear: New identity for small and family businesses.",
+          "subtitle": "The project consisted of creating a new identity, updating the corporate stationery and adding value to the company through a new website.",
+          "project_overview": "Project <br className='hidden xl:block'> overview",
+          "project_overview_text": "Itear is a small company located in Tolosa, (Gipuzkoa) which since the 1980s has been dedicated to the manufacture and repair of industrial machinery. Its services include centrifugal pumps, whose function is to transform mechanical energy into hydraulic energy. For the company, it is important to maintain the quality, the essence and the functioning of the parts. In addition, it is a company that collaborates with different suppliers focused on metallurgy to carry out its work.",
+          "challenge": "Challenge",
+          "challenge_subtitle": "The aim of the project was to generate a solid content network where an industrial entity was identified. Within the content network, the visual identity of the company and the website.",
+          "challenge_text": "Within these means, the work process followed in the company, the services offered and the values that characterise the entity were studied in depth. Within the project, it was taken into account that the work was carried out within the values of sustainability and circular economy.",
+          "solution": "Solution",
+          "solution_subtitle": "Sinter as a typeface in its Demi version, with the purpose of showing tradition and modernisation in the industrial sector.",
+          "solution_text": "Precisely thanks to the art direction of the images of the pieces and the new identity, the company's new universe was born.",
+          "next_project": "Next Project"
+        }
+      },
+      "kimu": {
+        "card": {
+          "subtitle": "Branding, Packaging and UX/UI Design"
+        },
+        "project": {
+          "title": "Kimu: New identity and packaging.",
+          "subtitle": "The project consisted of creating a new corporate identity, creating a new packaging design and promoting and guaranteeing the company's values through a website.",
+          "project_overview": "Project <br className='hiddem xl:block'> overview",
+          "project_overview_text": "Germinados Kimuak, located in a small village in Bizkaia, is the only local company specialised in growing and marketing sprouts in the Basque Country and sells its products in small shops. Kimu differentiates itself from other entities by the wide variety of products it offers to local people. Not only does it sell fresh, ready-to-eat sprouts, but it also sells seeds so that people can produce the sprouts in their own homes.",
+          "challenge": "Challenge",
+          "challenge_subtitle": "The aim of the project was to create a new brand and generate packaging in line with the principles of sustainability and reuse.",
+          "challenge_text": "In this way, the terms that define the brand are on the one hand that it is a transparent entity, it is enriching and that it is approachable and finally, it is a brand that focuses on the concept of DIY.",
+          "solution": "Solution",
+          "solution_subtitle": "Mark based on a single variation. It follows a simple structure, which is created through the distance between the letters of the mark itself.",
+          "solution_text": "To create the identity and the packaging, a design in relation and coherence with the three elements was proposed, which were the typography, always using Franklin Gothic, in different sizes or hierarchies, on the other hand, the colours and the illustration, which was done taking as a reference the orchards of the farmhouses.",
+          "next_project": "Next Project"
+        }
+      },
+      "descubre": {
+        "card": {
+          "subtitle": "Editorial design"
+        }
+      },
       "errofest": {
+        "card": {
+          "subtitle": "Branding, UX/UI Design and Developing"
+        },
         "title": "Errofest: Creation of an identity and promotion of a local festival.",
         "subtitle": "The project consisted of creating the identity and landing page to promote the festival in the best possible way.",
         "branding": "Branding",
@@ -18,6 +77,20 @@
         "view-project": "To see the final result, access the website here.",
         "project-web": "https://errofest.vercel.app/en",
         "next-project": "Next Project"
+      },
+      "design_system": {
+        "card": {
+          "subtitle": "UX/UI Design"
+        }
+      },
+      "echo": {
+        "card": {
+          "subtitle": "UX/UI Design"
+        }
+      },
+      "footer": {
+        "title": "Feel free to contact me!",
+        "social_networks": "Social media"
       }
     }
 }

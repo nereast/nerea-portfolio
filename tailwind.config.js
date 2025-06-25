@@ -16,8 +16,8 @@ export default {
       },
       colors: {
         white:'#fff',
-        beige: '#FEFBEC',
         black: '#000',
+        beige: '#FEFBEC',
         gray: '#D9D9D9',
         green: '#3D9277',
         yellow: '#F1D02D',

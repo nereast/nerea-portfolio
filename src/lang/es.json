@@ -1,11 +1,96 @@
 
 {
     "translation": {
-      "home": {
-        "welcome": "Bienvenido a este tutorial"
+      "header": {
+        "about_me": "Sobre mí",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "menu": "Menu"
       },
-      "blog": {
-        "description": "Este post te será de mucha ayuda"
+      "home": {
+        "welcome": "¡Hola! Soy Nerea Sarasola, Desarrolladora Front-end y Diseñadora UX/UI.",
+        "about_me": {
+          "title": "Sobre mí",
+          "subtitle": "Tengo 26 años y hasta ahora he trabajado como diseñadora gráfica en la cooperativa social Bizzart de Vicenza.",
+          "text": "Hasta ahora, utilizando Wordpress, he tenido la oportunidad de gestionar y maquetar páginas web. Además, he estado haciendo parte del front-end en diferentes proyectos de desarrollo. <br><br> Mi principal objetivo en estos días es seguir formándome en nuevas tecnologías y por eso lo paso viendo una parte de mi tiempo libre, artículos, vídeos o tutoriales. <br><br> Si quieres saber más sobre la cita, puedes consultar mi <strong>currículum vitae.</strong>"
+        },
+        "projects": "Proyectos"
+      },
+      "itear": {
+        "card": {
+          "subtitle": "Branding y Diseño UX/UI"
+        },
+        "project": {
+          "title": "Itear: Nueva identidad para pequeñas empresas y empresas familiares.",
+          "subtitle": "El proyecto consistió en crear una nueva identidad, actualizar la papelería corporativa y añadir valor a la empresa a través de un nuevo sitio web.",
+          "project_overview": "Visión general <br className='hidden xl:block'> del proyecto",
+          "project_overview_text": "Itear es una pequeña empresa ubicada en Tolosa, (Gipuzkoa) que desde los años 80 se dedica a la fabricación y reparación de maquinaria industrial. Entre sus servicios destacan las bombas centrífugas, cuya función es transformar la energía mecánica en energía hidráulica. Para la empresa, es importante mantener la calidad, la esencia y el funcionamiento de las piezas. Además, es una empresa que colabora con diferentes proveedores centrados en la metalurgia para llevar a cabo su trabajo.",
+          "challenge": "Desafío",
+          "challenge_subtitle": "El objetivo del proyecto era generar una sólida red de contenidos en la que se identificara una entidad industrial. Dentro de la red de contenidos, la identidad visual de la empresa y el sitio web.",
+          "challenge_text": "Dentro de estos medios, se profundizó en el proceso de trabajo seguido en la empresa, los servicios ofrecidos y los valores que caracterizan a la entidad. Dentro del proyecto, se tuvo en cuenta que el trabajo se realizara dentro de los valores de sostenibilidad y economía circular.",
+          "solution": "Solución",
+          "solution_subtitle": "Sinter como tipo de letra en su versión Demi, con el fin de mostrar la tradición y la modernización en el sector industrial.",
+          "solution_text": "Precisamente gracias a la dirección artística de las imágenes de las piezas y a la nueva identidad, nació el nuevo universo de la empresa.",
+          "next_project": "Próximo Proyecto"
+        }
+      },
+      "kimu": {
+        "card": {
+          "subtitle": "Branding, Packaging y Diseño UX/UI"
+        },
+        "project": {
+          "title": "Kimu: Nueva identidad y packaging.",
+          "subtitle": "El proyecto consistió en crear una nueva identidad corporativa, realizar un nuevo diseño de envase y promocionar y garantizar los valores de la empresa a través de un sitio web.",
+          "project_overview": "Visión general <br className='hiddem xl:block'> del proyecto",
+          "project_overview_text": "Germinados Kimuak, situada en un pequeño pueblo de Bizkaia, es la única empresa local especializada en el cultivo y comercialización de germinados en el País Vasco y vende sus productos en pequeñas tiendas. Kimu se diferencia de otras entidades por la gran variedad de productos que ofrece a la población local. No sólo vende germinados frescos y listos para consumir, sino que también vende semillas para que la gente pueda producir los germinados en sus propias casas.",
+          "challenge": "Desafío",
+          "challenge_subtitle": "El objetivo del proyecto era crear una nueva marca y generar envases acordes con los principios de sostenibilidad y reutilización.",
+          "challenge_text": "De este modo, los términos que definen la marca son, por un lado, que es una entidad transparente, que es enriquecedora y que es accesible y, por último, que es una marca que se centra en el concepto de DIY.",
+          "solution": "Solución",
+          "solution_subtitle": "Marca basada en una única variación. Sigue una estructura sencilla, que se crea a través de la distancia entre las letras de la propia marca.",
+          "solution_text": "Para crear la identidad y el envase, se propuso un diseño en relación y coherencia con los tres elementos, que eran la tipografía, utilizando siempre Franklin Gothic, en diferentes tamaños o jerarquías, por otro lado, los colores y la ilustración, que se realizó tomando como referencia los huertos de los caseríos.",
+          "next_project": "Próximo Proyecto"
+        }
+      },
+      "descubre": {
+        "card": {
+          "subtitle": "Diseño editorial"
+        }
+      },
+      "errofest": {
+        "card": {
+          "subtitle": "Branding, Diseño UX/UI y Desarrollo"
+        },
+        "title": "Errofest: Creation of an identity and promotion of a local festival.",
+        "subtitle": "The project consisted of creating the identity and landing page to promote the festival in the best possible way.",
+        "branding": "Branding",
+        "ux/ui": "UX/UI",
+        "development": "Development",
+        "project-overview": "Project Overview",
+        "project-overview-text": "Errofest is a cultural festival that includes different activities, such as local gastronomy, music and painting. It has been held in Itsasondo, a village in Gipuzkoa, since 2019 and every year it generates more and more interest among the locals and people from other villages in the region. In 2025, the event will celebrate its fifth anniversary, so the organisers decided to improve its identity and landing page.",
+        "challange": "Challenge",
+        "challange-subtitle": "The project had two objectives: to create a new identity that reflected the local spirit of the festival and to design a simple landing page that briefly explained the aspects to be taken into account when attending the festival.",
+        "challenge-text": "The environment, the colours of the landscape and the local culture were the aspects that were taken into account when creating the new identity of the festival. In addition, an attempt was made to reflect the fusion between tradition and new cultural trends.",
+        "solution": "Solution",
+        "solution-subtitle": "The logo was handcrafted to show the curved, organic lines of nature itself.",
+        "solution-text": "Thanks to the colours reminiscent of nature, the images collected from other years when the festival was held and the exercise carried out on the needs of the new landing page, a new page was created.",
+        "view-project": "To see the final result, access the website here.",
+        "project-web": "https://errofest.vercel.app/en",
+        "next-project": "Next Project"
+      },
+      "design_system": {
+        "card": {
+          "subtitle": "Diseño UX/UI"
+        }
+      },
+      "echo": {
+        "card": {
+          "subtitle": "Diseño UX/UI"
+        }
+      },
+      "footer": {
+        "title": "¡No dudes en ponerte en contacto conmigo!",
+        "social_networks": "Redes sociales"
       }
     }
-  }
+}

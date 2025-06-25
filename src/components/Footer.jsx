@@ -1,18 +1,23 @@
 import React from 'react'
 import cv from "../assets/CV_NereaSarasola.pdf";
+import { useTranslation } from "react-i18next";
+
 
 export const Footer = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className='bg-black flex flex-col md:flex-row px-[25px] md:px-[50px] py-[50px] md:py-[100px] rounded-[25px_25px_0_0] md:rounded-[50px_50px_0_0]'>
             <div className='flex flex-col items-center md:hidden'>
                 <div className='grid justify-items-start w-full'>
-                    <h2 className='text-white mb-[20px] text-[25px] leading-[27px] font-title font-bold'>Ez izan zalantzarik nirekin kontaktuan jartzeko!</h2>
+                    <h2 className='text-white mb-[20px] text-[25px] leading-[27px] font-title font-bold'>{t("footer.title")}</h2>
                     <p className='text-white underline underline-offset-1 mb-[50px] text-[15px] font-bold'>
                         <a href='mailto:nereas14@gmail.com'>nereas14@gmail.com</a>
                     </p>
                     <div className='flex flex-row w-full'>
                         <div className='w-3/6'>
-                            <h2 className='text-white font-bold font-title mb-[10px] text-[20px] text-start'>Sare sozialak</h2>
+                            <h2 className='text-white font-bold font-title mb-[10px] text-[20px] text-start'>{t("footer.social_networks")}</h2>
                             <div className='flex flex-col'>
                                 <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
                                 <a href='' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
@@ -30,7 +35,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className='hidden md:block md:w-7/12 xl:w-5/12'>
-                <h2 className='text-white pb-[25px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] font-title font-bold'>Ez izan zalantzarik nirekin <br></br> kontaktuan jartzeko!</h2>
+                <h2 className='text-white pb-[25px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] font-title font-bold'>{t("footer.title")}</h2>
                 <h3 className='text-white md:text-[20px] md:text-[22px] xl:text-[30px] xl:leading-[32px] font-title font-bold underline underline-offset-1'>
                     <a href='mailto:nereas14@gmail.com'>nereas14@gmail.com</a>
                 </h3>
@@ -38,7 +43,7 @@ export const Footer = () => {
             <div className='hidden xl:block w-1/12'></div>
             <div className='hidden md:block md:w-3/12 xl:w-2/12'>
                 <h3 className='text-white md:pb-[30px] xl:pb-[50px] text-[20px] md:text-[25px] xl:text-[30px] xl:leading-[32px] font-title font-bold'>
-                    Sare sozialak
+                    {t("footer.social_networks")}
                 </h3>
                 <div className='flex flex-col'>
                     <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>

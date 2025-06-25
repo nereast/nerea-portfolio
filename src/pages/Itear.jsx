@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
 import logos from "../assets/itear/itear-branding.jpg";
@@ -21,6 +22,8 @@ import kimuCoverImage from "../assets/kimu/market-tolosa.jpg";
 
 export const Itear = ({ coverImage }) => {
 
+    const { t } = useTranslation();
+
     return (
 
         <div className='bg-beige'>
@@ -28,13 +31,13 @@ export const Itear = ({ coverImage }) => {
             <div className='px-[25px] md:px-[50px] pt-[200px] md:pb-[50px] xl:pt-[300px] xl:pb-[100px] flex flex-col xl:flex-row bg-cover bg-right xl:bg-top-left' style={{ backgroundImage: `url(${background})` }}>
                 <div className='xl:w-6/12'>
                     <h1 className='text-[25px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title mb-[20px] md:mb-[30px]'>
-                        Itear: New identity for small and family businesses.
+                        {t("itear.project.title")}
                     </h1>
                 </div>
                 <div className='xl:w-1/12'></div>
                 <div className='xl:w-5/12'>
                     <p className='text-start text-[15px] md:text-[25px] md:leading-[30px] xl:text-[30px] xl:leading-[34px] text-black font-normal font-paragraph xl:mb-[25px]'>
-                        The project consisted of creating a new identity, updating the corporate stationery and adding value to the company through a new website.
+                        {t("itear.project.subtitle")}
                     </p>
                     <div className="flex flex-row gap-[10px] md:gap-[20px] my-[50px] md:my-0 flex-wrap justify-start mt-[20px] md:mt-[30px] xl:mt-[60px]">
                         {["Branding", "UX/UI"].map((text) => (
@@ -51,13 +54,12 @@ export const Itear = ({ coverImage }) => {
             <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt="Imagen de una pieza de Itear en un fondo blanco" title="Imagen de una pieza de Itear"/>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>PROJECT <br className='hidden xl:block'></br>OVERVIEW</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("itear.project.project_overview") }}/>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
                     <p className='text-start text-[15px] md:text-[20px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                        Itear is a small company located in Tolosa, Basque Country which since the 1980s has been dedicated to the manufacture and repair of industrial machinery.
-                        Its services include centrifugal pumps, whose function is to transform mechanical energy into hydraulic energy. For the company, it is important to maintain the quality, the essence and the functioning of the parts. In addition, it is a company that collaborates with different suppliers focused on metallurgy to carry out its work.
+                        {t("itear.project.project_overview_text")}
                     </p>
                 </div>
             </div>
@@ -71,16 +73,15 @@ export const Itear = ({ coverImage }) => {
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>CHALLENGE</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("itear.project.challenge")}</h2>
                 </div>
                 <div className='w-full lg:w-1/12'></div>
                 <div className='w-full lg:w-8/12'>
                     <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-green font-bold font-title pb-[25px]'>
-                        The aim of the project was to generate a solid content network where an industrial entity was identified. Within the content network, the visual identity of the company and the website.
+                        {t("itear.project.challenge_subtitle")}
                     </h3>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                    Within these means, the work process followed in the company, the services offered and the values that characterise the entity were studied in depth.
-                    Within the project, it was taken into account that the work was carried out within the values of sustainability and circular economy.
+                        {t("itear.project.challenge_text")}
                     </p>
                 </div>
             </div>
@@ -90,15 +91,15 @@ export const Itear = ({ coverImage }) => {
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='w-full lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>SOLUTION</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("itear.project.solution")}</h2>
                 </div>
                 <div className='w-full lg:w-1/12'></div>
                 <div className='w-full lg:w-8/12'>
                     <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-green font-bold font-title pb-[25px]'>
-                        Sinter as a typeface in its Demi version, with the purpose of showing tradition and modernisation in the industrial sector.
+                        {t("itear.project.solution_subtitle")}
                     </h3>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                        Precisely thanks to the art direction of the images of the pieces and the new identity, the company's new universe was born.
+                        {t("itear.project.solution_text")}
                     </p>
                 </div>
             </div>
@@ -122,7 +123,7 @@ export const Itear = ({ coverImage }) => {
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] md:px-[50px] py-[50px] xl:py-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={kimuCoverImage} alt='Imagen que hace referencia al proyecto de Kimu' title='Imagen de Kimu' />
                 <Link className='flex items-center' to="/projects/kimu">
-                    <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
+                    <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("itear.project.next_project")}</p>
                 </Link>
             </div>
             <Footer/>

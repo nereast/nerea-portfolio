@@ -1,11 +1,96 @@
 
 {
     "translation": {
-      "home": {
-        "welcome": "Bienvenido a este tutorial"
+      "header": {
+        "about_me": "Niri buruz",
+        "projects": "Proiektuak",
+        "contact": "Kontaktua",
+        "menu": "Menua"
       },
-      "blog": {
-        "description": "Este post te será de mucha ayuda"
+      "home": {
+        "welcome": "Kaixo! Nerea Sarasola naiz, Front-end garatzailea eta UX/UI Diseinatzailea.",
+        "about_me": {
+          "title": "Niri buruz",
+          "subtitle": "26 urte dauzkat eta orain arte diseinatzaile grafiko modura egin dut lan Vicenzako Bizzart kooperatiba sozialean.",
+          "text": "Orain arte, Wordpress erabiliz, web orriak kudeatzeko eta horiek maketatzeko aukera izan dut. Gainera, garapeneko proiektu ezberdinetan, front-end-eko zatia egiten ere egon naiz. <br><br>  Nire helburu nagusiena egun hauetan, teknologia berrietan formatzen jarraitzea da eta horregatik, nire aisialdiaren zati bati, artikuluak, bideoak edo tutorialak ikusten pasatzen dut. <br><br> Nitaz gehiago jakin nahi baduzu, nire <strong>curriculum vitaea</strong> kontsulta dezakezu."
+        },
+        "projects": "Proiektuak"
+      },
+      "itear": {
+        "card": {
+          "subtitle": "Branding eta UX/UI Diseinua"
+        },
+        "project": {
+          "title": "Itear: Enpresa txiki eta familiarrentzako identitate berria.",
+          "subtitle": "Nortasun berri bat sortu, paper korporatiboa eguneratu eta webgune berri baten bidez enpresari balio erantsi bat ezartzea zer proiektuaren helburua.",
+          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi orokorra",
+          "project_overview_text": "Itear, Tolosan (Gipuzkoan) dagoen enpresa txiki bat da, eta 80ko hamarkadatik makina industrialak fabrikatzen eta konpontzen ditu. Bere zerbitzuen artean, ponpa zentrifugoak nabarmentzen dira, hauen funtzioa energia mekanikoa energia hidrauliko bihurtzea delarik. Enpresarentzat, garrantzitsua da piezen kalitateari, funtsari eta funtzionamenduari eustea. Horrez gain, metalurgian zentratutako hainbat hornitzailerekin elkarlanean aritzen den enpresa da, bere lana aurrera eramateko.",
+          "challenge": "Erronka",
+          "challenge_subtitle": "Proiektuaren helburua eduki sare sendo bat sortzea zen, non entitate industrial bat identifikatuko zen. Edukien sarearen barruan, enpresaren ikusizko identitatea eta webgunea.",
+          "challenge_text": "Baliabide horien barruan, sakondu egin zen enpresan jarraitutako lan-prozesuan, eskainitako zerbitzuetan eta erakundearen ezaugarri diren balioetan. Proiektuaren barruan, lana jasangarritasun eta ekonomia zirkularraren balioen barruan egitea hartu zen kontutan.",
+          "solution": "Soluzioa",
+          "solution_subtitle": "Sinter letra-tipo gisa Demi bertsioan, industria-sektoreko tradizioa eta modernizazioa erakusteko.",
+          "solution_text": "Hain zuzen ere, piezen irudien zuzendaritza artistikoari eta nortasun berriari esker sortu zen enpresaren unibertso berria.",
+          "next_project": "Hurrengo Proiektua"
+        }
+      },
+      "kimu": {
+        "card": {
+          "subtitle": "Branding, Packaging eta UX/UI Diseinua"
+        },
+        "project": {
+          "title": "Kimu: Nortasun berria <br className='hidden xl:block'> eta packaging-a.",
+          "subtitle": "Nortasun korporatibo berria sortzea, ontzi-diseinu berria egitea eta enpresaren balioak webgune baten bidez sustatzea eta bermatzea izan ziren proiektuaren helburuak.",
+          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi berria",
+          "project_overview_text": "Bizkaiko herri txiki batean dago Kimu Germinatuak, eta Euskal Herrian germinatuen laborantzan eta merkaturatzean espezializatutako tokiko enpresa bakarra da, eta denda txikietan saltzen ditu bere produktuak. Kimu beste erakunde batzuetatik bereizten da bertako biztanleei produktu ugari eskaintzen dizkielako. Ernamuin freskoak eta kontsumitzeko prest daudenak saltzeaz gain, haziak ere saltzen ditu jendeak bere etxeetan bertan ernamuinak ekoitzi ahal izateko.",
+          "challenge": "Erronka",
+          "challenge_subtitle": "Proiektuaren helburua zen marka berri bat sortzea eta iraunkortasun eta berrerabilpen printzipioekin bat zetozen ontziak sortzea.",
+          "challenge_text": "Horrela, marka definitzen duten terminoak dira, alde batetik, entitate gardena dela, aberasgarria eta eskuragarria dela, eta, bestetik, DIY kontzeptuan zentratzen den marka dela.",
+          "solution": "Soluzioa",
+          "solution_subtitle": "Bariazio bakar batean oinarritutako marka. Egitura sinple bat jarraitzen du, markaren beraren letren arteko distantziaren bidez sortzen dena.",
+          "solution_text": "Identitatea eta ontzia sortzeko, hiru elementuekin –tipografia, alegia– lotura eta koherentzia duen diseinu bat proposatu zen, beti Franklin Gothic erabiliz, tamaina edo hierarkia ezberdinetan; bestetik, koloreak eta ilustrazioa, baserrien baratzeak erreferentziatzat hartuta egin zena.",
+          "next_project": "Hurrengo Proiektua"
+        }
+      },
+      "descubre": {
+        "card": {
+          "subtitle": "Diseinu editoriala"
+        }
+      },
+      "errofest": {
+        "card": {
+          "subtitle": "Branding, UX/UI Diseinua eta Garapanea"
+        },
+        "title": "Errofest: Creation of an identity and promotion of a local festival.",
+        "subtitle": "The project consisted of creating the identity and landing page to promote the festival in the best possible way.",
+        "branding": "Branding",
+        "ux/ui": "UX/UI",
+        "development": "Development",
+        "project-overview": "Project Overview",
+        "project-overview-text": "Errofest is a cultural festival that includes different activities, such as local gastronomy, music and painting. It has been held in Itsasondo, a village in Gipuzkoa, since 2019 and every year it generates more and more interest among the locals and people from other villages in the region. In 2025, the event will celebrate its fifth anniversary, so the organisers decided to improve its identity and landing page.",
+        "challange": "Challenge",
+        "challange-subtitle": "The project had two objectives: to create a new identity that reflected the local spirit of the festival and to design a simple landing page that briefly explained the aspects to be taken into account when attending the festival.",
+        "challenge-text": "The environment, the colours of the landscape and the local culture were the aspects that were taken into account when creating the new identity of the festival. In addition, an attempt was made to reflect the fusion between tradition and new cultural trends.",
+        "solution": "Solution",
+        "solution-subtitle": "The logo was handcrafted to show the curved, organic lines of nature itself.",
+        "solution-text": "Thanks to the colours reminiscent of nature, the images collected from other years when the festival was held and the exercise carried out on the needs of the new landing page, a new page was created.",
+        "view-project": "To see the final result, access the website here.",
+        "project-web": "https://errofest.vercel.app/en",
+        "next-project": "Next Project"
+      },
+      "design_system": {
+        "card": {
+          "subtitle": "UX/UI Diseinua"
+        }
+      },
+      "echo": {
+        "card": {
+          "subtitle": "UX/UI Diseinua"
+        }
+      },
+      "footer": {
+        "title": "Ez izan zalantzarik nirekin kontaktuan jartzeko!",
+        "social_networks": "Sare sozialak"
       }
     }
   }

@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
 import marketOfTolosaTwo from "../assets/kimu/market-tolosa-two.jpg";
@@ -24,19 +25,19 @@ import descubreCoverImage from "../assets/descubre/cover.jpg";
 
 export const Kimu = ({ coverImage }) => {
 
+    const { t } = useTranslation();
+
     return (
         <div className='bg-beige'>
             <Header />
             <div className='px-[25px] md:px-[50px] pt-[200px] md:pb-[50px] xl:pt-[300px] xl:pb-[100px] flex flex-col xl:flex-row bg-cover bg-right xl:bg-top-left' style={{ backgroundImage: `url(${background})` }}>
                 <div className='xl:w-6/12'>
-                    <h1 className='text-[25px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title mb-[20px] md:mb-[30px]'>
-                        Kimu: New identity and packaging.
-                    </h1>
+                    <h1 className='text-[25px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title mb-[20px] md:mb-[30px]' dangerouslySetInnerHTML={{ __html: t("kimu.project.title") }}/>
                 </div>
                 <div className='xl:w-1/12'></div>
                 <div className='xl:w-5/12'>
                     <p className='text-start text-[15px] md:text-[25px] md:leading-[30px] xl:text-[30px] xl:leading-[34px] text-black font-normal font-paragraph xl:mb-[25px]'>
-                        The project consisted of creating a new corporate identity, creating a new packaging design and promoting and guaranteeing the company's values through a website.
+                        {t("kimu.project.subtitle")}
                     </p>
                     <div className="flex flex-row gap-[10px] md:gap-[20px] my-[50px] md:my-0 flex-wrap justify-start mt-[20px] md:mt-[30px] xl:mt-[60px]">
                         {["Branding", "Packaging", "UX/UI"].map((text) => (
@@ -52,13 +53,12 @@ export const Kimu = ({ coverImage }) => {
             <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt="Imagen de una persona mayor hablando con una pareja en el mercado de Tolosa" title="Imagen del mercado de Tolosa" />
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>PROJECT <br className='hidden xl:block'></br>OVERVIEW</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("kimu.project.project_overview") }}/>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
                     <p className='text-start text-[15px] md:text-[20px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                        Germinados Kimuak, located in a small village in Bizkaia, is the only local company specialised in growing and marketing sprouts in the Basque Country and sells its products in small shops.
-                        Kimu differentiates itself from other entities by the wide variety of products it offers to local people. Not only does it sell fresh, ready-to-eat sprouts, but it also sells seeds so that people can produce the sprouts in their own homes.
+                        {t("kimu.project.project_overview_text")}
                     </p>
                 </div>
             </div>
@@ -72,15 +72,15 @@ export const Kimu = ({ coverImage }) => {
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>CHALLENGE</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("kimu.project.challenge")}</h2>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
                     <h3 className='text-[25px] md:text-[30px] xl:text-[35px] leading-[37px] text-green font-bold font-title pb-[25px]'>
-                        The aim of the project was to create a new brand and generate packaging in line with the principles <br></br>of sustainability and reuse.
+                        {t("kimu.project.challenge_subtitle")}
                     </h3>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-bold font-paragraph mb-[20px]'>
-                        In this way, the terms that define the brand are on the one hand that it is a transparent entity, it is enriching and that it is approachable and finally, it is a brand that focuses on the concept of DIY.
+                        {t("kimu.project.challenge_text")}
                     </p>
                 </div>
             </div>
@@ -97,19 +97,15 @@ export const Kimu = ({ coverImage }) => {
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>SOLUTION</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("kimu.project.solution")}</h2>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
                     <h3 className='text-[25px] md:text-[30px] xl:text-[35px] leading-[37px] text-green font-bold font-title pb-[25px]'>
-                        Mark based on a single variation.
-                        It follows a simple structure, which is created through the distance between the letters of the mark itself.
+                        {t("kimu.project.solution_subtitle")}
                     </h3>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-bold font-paragraph mb-[20px]'>
-                        To create the identity and the packaging, a design in relation and coherence with the three elements was proposed,
-                        which were the typography, always using Franklin Gothic,
-                        in different sizes or hierarchies, on the other hand, the colours and the illustration,
-                        which was done taking as a reference the orchards of the farmhouses.
+                        {t("kimu.project.solution_text")}
                     </p>
                 </div>
             </div>
@@ -132,7 +128,7 @@ export const Kimu = ({ coverImage }) => {
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={descubreCoverImage} alt='Imagen que hace referencia al proyecto de Descubre' title='Imagen de Descubre' />
                 <Link className='flex items-center' to="/projects/descubre">
-                    <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
+                    <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("kimu.project.next_project")}</p>
                 </Link>
             </div>
             <Footer/>

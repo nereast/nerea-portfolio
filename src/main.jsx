@@ -7,11 +7,11 @@ import {
 import "./index.css";
 
 import i18n from "i18next";
+import "./i18n.jsx";  //Import here
 import { initReactI18next } from "react-i18next";
 import basqueContent from "./lang/eu.json";
 import spanishContent from "./lang/es.json";
 import englishContent from "./lang/en.json";
-import italianContent from "./lang/it.json";
 
 import { Layout } from "./components/Layout";
 import { Itear } from "./pages/Itear";
@@ -65,7 +65,6 @@ i18n.use(initReactI18next).init({
       eu: basqueContent,
       es: spanishContent,
       en: englishContent,
-      it: italianContent,
   },
 
   fallbackLng: "eu",
