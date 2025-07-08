@@ -3,6 +3,7 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
+import { useTranslation } from "react-i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
 import coverImage from "../assets/designsystem/imagen-que-muestra-los-componentes.png";
@@ -18,6 +19,8 @@ import echoCoverImage from "../assets/echo/imagen-de-la-pantalla-principal-en-mi
 
 export const DesignSystem = () => {
 
+    const { t } = useTranslation();
+
     return (
 
         <div className='bg-beige'>
@@ -25,13 +28,13 @@ export const DesignSystem = () => {
             <div className='px-[25px] md:px-[50px] pt-[200px] md:pb-[50px] xl:pt-[300px] xl:pb-[100px] flex flex-col xl:flex-row bg-cover bg-right xl:bg-top-left' style={{ backgroundImage: `url(${background})` }}>
                 <div className='xl:w-6/12'>
                     <h1 className='text-[25px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title mb-[20px] md:mb-[30px]'>
-                        Creation of a design system adapted to a music application.
+                        {t("design_system.project.title")}
                     </h1>
                 </div>
                 <div className='xl:w-1/12'></div>
                 <div className='xl:w-5/12'>
                     <p className='text-start text-[15px] md:text-[25px] md:leading-[30px] xl:text-[30px] xl:leading-[34px] text-black font-normal font-paragraph xl:mb-[25px]'>
-                       The project consisted of designing the system to be used in the new music platform called Echo.
+                        {t("design_system.project.subtitle")}
                     </p>
                     <div className="flex flex-row gap-[10px] md:gap-[20px] mt-[50px] md:my-0 flex-wrap justify-start mt-[20px] md:mt-[30px] xl:mt-[60px]">
                         {["UX/UI", "Documentation", "Development"].map((text) => (
@@ -50,13 +53,12 @@ export const DesignSystem = () => {
             <img class="w-screen h-auto object-cover block md:hidden px-[25px] py-[50px]" src={coverImageMobile} alt="Imagen que muestra las variaciones de los botones y las listas que se han diseñado para el Sistema de Diseño" title="Imagen de los botones y las listas del Sistema de Diseño"/>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>PROJECT <br className='hidden xl:block'></br>OVERVIEW</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("design_system.project.project_overview") }}/>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                      The Echo app aims to provide an intuitive and convenient user experience for easy listening to music. 
-                      Therefore, the starting point was arrived at after listing the functionalities that the app would have, which allowed the principles, functions and components to be better developed.
+                        {t("design_system.project.project_overview_text")}
                     </p>
                 </div>
             </div>
@@ -65,15 +67,15 @@ export const DesignSystem = () => {
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>CHALLENGE</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("design_system.project.challenge")}</h2>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
                     <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-green font-bold font-title pb-[25px]'>
-                       After thinking about the complete list of elements that would complement the design system, development began on the main elements.
+                        {t("design_system.project.challenge_subtitle")}
                     </h3>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                       The first elements to be developed were typefaces, colours, graphic elements, iconography and structure.
+                        {t("design_system.project.challenge_text")}
                     </p>
                 </div>
             </div>
@@ -84,9 +86,9 @@ export const DesignSystem = () => {
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
                 <div className='xl:w-8/12 text-center'>
-                   <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>TYPEFACES</h2>
+                   <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("design_system.project.typefaces")}</h2>
                    <p className='text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                     The IBM Plex Mono typeface is used for headings and the Inter typeface for texts. The scales of the typefaces have been defined for use on different device sizes,which change and follow the order established according to the size of the devices.
+                        {t("design_system.project.typefaces_text")}
                    </p>
                 </div>
             </div>
@@ -100,9 +102,9 @@ export const DesignSystem = () => {
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
                 <div className='xl:w-8/12 text-center'>
-                   <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>COLOURS</h2>
+                   <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("design_system.project.colours")}</h2>
                    <p className='text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                   The colour palette has been established with a total of five secondary colours, which together with the main colours (black and white) help to combine colours to generate different compositions. On the other hand, there are the semantic colours, which have been chosen to inform the user. Different types of colour transparency will also be used to create new compositions.
+                        {t("design_system.project.colours_text")}
                    </p>
                 </div>
             </div>
@@ -116,9 +118,9 @@ export const DesignSystem = () => {
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
                 <div className='xl:w-8/12 text-center'>
-                   <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>ICONOGRAPHY</h2>
+                   <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("design_system.project.iconography")}</h2>
                    <p className='text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                   Icon sizes have been set following the same logic as column sizes and page layouts. 
+                        {t("design_system.project.iconography_text")}
                    </p>
                 </div>
             </div>
@@ -137,15 +139,15 @@ export const DesignSystem = () => {
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>SOLUTION</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("design_system.project.solution")}</h2>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
                     <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-green font-bold font-title pb-[25px]'>
-                    After fine-tuning the principles of the design system, it was time to create the components.
+                        {t("design_system.project.solution_subtitle")}
                     </h3>
                     <p className='text-start text-[15px] xl:text-[25px] text-black font-normal font-paragraph mb-[20px]'>
-                    The library components were created with the idea that they would be used on different device and screen sizes. In addition, a clear and simple design was used to create them, in order to make the execution of the design and layout of the screens more effective.
+                        {t("design_system.project.title")}
                     </p>
                 </div>
             </div>
@@ -155,20 +157,17 @@ export const DesignSystem = () => {
 
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
-                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] text-black font-bold font-title pb-[25px]'>NEXT STEPS</h2>
+                    <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("design_system.project.next_steps")}</h2>
                 </div>
                 <div className='lg:w-1/12'></div>
                 <div className='lg:w-8/12'>
-                    <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-black font-bold font-title pb-[25px]'>
-                    After all the work process, the next step was 
-                    to think about the screens that the Echo app would have. If you want to know more about this, you can check it out through this project <Button href='https://www.figma.com/design/DviDdC0Vn7GTRyGWuMsVjX/Echo?node-id=0-1&p=f&t=7dHt3xV2X6vmvCCC-0' text='link'/>.
-                    </h3>
+                    <h3 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[35px] xl:leading-[37px] text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("design_system.project.next_steps_text") }}/>
                 </div>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={echoCoverImage} alt='Imagen que hace referencia al proyecto de Echo' title='Imagen de Echo' />
                 <Link className='flex items-center' to="/projects/echo">
-                    <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>Next Project</p>
+                    <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("design_system.project.next_project")}</p>
                 </Link>
             </div>
             <Footer/>

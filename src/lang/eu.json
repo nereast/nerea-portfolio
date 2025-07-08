@@ -41,7 +41,7 @@
         "project": {
           "title": "Kimu: Nortasun berria <br className='hidden xl:block'> eta packaging-a.",
           "subtitle": "Nortasun korporatibo berria sortzea, ontzi-diseinu berria egitea eta enpresaren balioak webgune baten bidez sustatzea eta bermatzea izan ziren proiektuaren helburuak.",
-          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi berria",
+          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi orokorra",
           "project_overview_text": "Bizkaiko herri txiki batean dago Kimu Germinatuak, eta Euskal Herrian germinatuen laborantzan eta merkaturatzean espezializatutako tokiko enpresa bakarra da, eta denda txikietan saltzen ditu bere produktuak. Kimu beste erakunde batzuetatik bereizten da bertako biztanleei produktu ugari eskaintzen dizkielako. Ernamuin freskoak eta kontsumitzeko prest daudenak saltzeaz gain, haziak ere saltzen ditu jendeak bere etxeetan bertan ernamuinak ekoitzi ahal izateko.",
           "challenge": "Erronka",
           "challenge_subtitle": "Proiektuaren helburua zen marka berri bat sortzea eta iraunkortasun eta berrerabilpen printzipioekin bat zetozen ontziak sortzea.",
@@ -55,32 +55,68 @@
       "descubre": {
         "card": {
           "subtitle": "Diseinu editoriala"
+        },
+        "project": {
+          "title": "Descubre: Aldizkari bat sortu.",
+          "subtitle": "Aldizkari baterako diseinu berri bat sortzea zen proiektuaren funtsa.",
+          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi orokorra",
+          "project_overview_text": "Mundu osoko kulturen tapiz aberatsa arakatzen diharduen hilabetekaria da Descubre. Descubre-ren zenbaki bakoitzak herrialde desberdin bat du ardatz, eta irakurleei haren historia, tradizioak, gaurkotasuna eta ohitura bereziak sakon aztertzeko aukera ematen die.Antzinako zibilizazioak ezagutzera ematetik gaur egungo garapenak argitzera, Deskargak gure komunitate globala eratzen duten bizimodu askotarikoak hezi eta horiekiko jakin-mina piztu nahi du. Artikulu bikain onduekin, argazki txundigarriekin eta istorio erakargarriekin, nazio bakoitzaren bihotzera eta arimara sartzeko leiho gisa balio du, munduko txoko guztietako kulturen ulermena eta estimua sustatuz.",
+          "challenge": "Erronka",
+          "challenge_subtitle": "Descubre proiektuaren helburua informatzeaz gain irakurleak liluratuko dituen aldizkari bat diseinatzea eta sortzea zen, eduki hausnartuen eta diseinu estetikoki erakargarriaren arteko nahasketa baten bidez.",
+          "challenge_text": "Testuak, ilustrazioak eta irudiak maketatzeko, proiektuaren beharren araberako lauki-sare bat diseinatu zen, informazio guztia ondo ahokatu zedin.",
+          "solution": "Soluzioa",
+          "solution_subtitle": "Diseinu prozesua sareta gida gisa hartuta hasi zen, eta hortik aurrera orriak sortu ziren emaitza egokia lortu arte.",
+          "solution_text": "Descubre-ren ale bakoitzak elementu interaktiboak eta bisualki estimulagarriak integratzen ditu, hala nola ilustrazio pertsonalizatuak eta kalitate handiko argazkilaritza, elkarrekin lan egiten dutenak irakurketa-esperientzia hobetzeko. Argitalpen- eta diseinu-egitura kohesionatu bati sendo atxikiz, proiektuaren emaitza aldizkari bat izan zen, ezagutza-iturri gisa ez ezik, kultura globalen edertasuna eta aniztasuna islatzen duen arte-pieza gisa ere balio duena.",
+          "view_project": "Azken emaitza ikusteko, aldizkari interaktiboa ikusteko sarbidea",
+          "view_project_here": "hemen",
+          "next_project": "Hurrengo Proiektua"
         }
       },
       "errofest": {
         "card": {
           "subtitle": "Branding, UX/UI Diseinua eta Garapanea"
         },
-        "title": "Errofest: Creation of an identity and promotion of a local festival.",
-        "subtitle": "The project consisted of creating the identity and landing page to promote the festival in the best possible way.",
-        "branding": "Branding",
-        "ux/ui": "UX/UI",
-        "development": "Development",
-        "project-overview": "Project Overview",
-        "project-overview-text": "Errofest is a cultural festival that includes different activities, such as local gastronomy, music and painting. It has been held in Itsasondo, a village in Gipuzkoa, since 2019 and every year it generates more and more interest among the locals and people from other villages in the region. In 2025, the event will celebrate its fifth anniversary, so the organisers decided to improve its identity and landing page.",
-        "challange": "Challenge",
-        "challange-subtitle": "The project had two objectives: to create a new identity that reflected the local spirit of the festival and to design a simple landing page that briefly explained the aspects to be taken into account when attending the festival.",
-        "challenge-text": "The environment, the colours of the landscape and the local culture were the aspects that were taken into account when creating the new identity of the festival. In addition, an attempt was made to reflect the fusion between tradition and new cultural trends.",
-        "solution": "Solution",
-        "solution-subtitle": "The logo was handcrafted to show the curved, organic lines of nature itself.",
-        "solution-text": "Thanks to the colours reminiscent of nature, the images collected from other years when the festival was held and the exercise carried out on the needs of the new landing page, a new page was created.",
-        "view-project": "To see the final result, access the website here.",
-        "project-web": "https://errofest.vercel.app/en",
-        "next-project": "Next Project"
+        "project": {
+          "title": "Errofest: Identitate baten sorrera eta tokiko jaialdi baten promozioa.",
+          "subtitle": "Identitatea eta lurreratze orria sortzea izan zen proiektuaren funtsa, jaialdia ahalik eta ondoen sustatzeko.",
+          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi orokorra",
+          "project_overview_text": "Errofest jaialdi kulturala da, eta hainbat jarduera biltzen ditu, besteak beste, bertako gastronomia, musika eta pintura. Itsasondon, Gipuzkoako herri batean, egiten da 2019tik eta urtetik urtera interes handiagoa sortzen du bertakoen eta eskualdeko beste herrietako jendearen artean. <br><br> 2025ean, ekitaldiak bosgarren urteurrena ospatuko du. Hori dela eta, antolatzaileek haien nortasuna eta lurreratze-orria hobetzea erabaki zuten.",
+          "challenge": "Erronka",
+          "challenge_subtitle": "Proiektuak bi helburu zituen: jaialdiaren espiritu lokala islatuko zuen identitate berri bat sortzea eta jaialdira joateko orduan kontuan hartu beharreko alderdiak laburki azalduko zituen lurreratze orrialde xume bat diseinatzea.",
+          "challenge_text": "Ingurua, paisaiaren koloreak eta tokiko kultura izan ziren kontuan jaialdiaren nortasun berria sortzerakoan. Horrez gain, tradizioaren eta joera kultural berrien arteko uztarketa islatzen saiatu ziren.",
+          "solution": "Soluzioa",
+          "solution_subtitle": "Logotipoa eskuz egin zuten, naturaren beraren marra kurbatuak eta organikoak erakusteko.",
+          "solution_text": "Natura gogorarazten duten koloreei esker, jaialdia ospatu zen beste urteetatik bildutako irudiei esker eta lurreratze orrialde berriaren beharrei buruz egindako ariketari esker, orrialde berri bat sortu zen.",
+          "view_project": "Azken emaitza ikusteko, sartu web gunera",
+          "view_project_here": "hemen",
+          "project_web": "https://errofest.vercel.app/eu",
+          "next_project": "Hurrengo Proiektua"
+        }
       },
       "design_system": {
         "card": {
           "subtitle": "UX/UI Diseinua"
+        },
+        "project": {
+          "title": "Musika-aplikazio bati egokitutako diseinu-sistema bat sortzea.",
+          "subtitle": "Echo izeneko musika plataforma berrian erabiliko zen sistema diseinatzea zen proiektuaren helburua.",
+          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi orokorra",
+          "project_overview_text": "Echo aplikazioak erabiltzailearen esperientzia intuitiboa eta erosoa eskaini nahi du, musika erraz entzuteko. Beraz, aplikazioak izango zituen funtzionalitateak zerrendatu ondoren iritsi zen abiapuntura, eta horri esker, printzipioak, funtzioak eta osagaiak hobeto garatu ahal izan ziren.",
+          "challenge": "Erronka",
+          "challenge_subtitle": "Diseinu sistema osatuko luketen elementuen zerrenda osoaren inguruan hausnartu ondoren, elementu nagusien garapena hasi zuen.",
+          "challenge_text": "Garatu ziren lehen elementuak letra motak, koloreak, elementu grafikoak, ikonografia eta egitura izan ziren.",
+          "typefaces": "Tipografiak",
+          "typefaces_text": "IBM Plex Mono letra-tipoa izenburuetarako erabiltzen da eta Inter letra-tipoa testuetarako. Letra-moten eskalak gailuaren hainbat tamainatan erabiltzeko definitu dira. Tamaina horiek aldatu egiten dira, eta gailuen tamainaren arabera ezarritako ordenari jarraitzen diote.",
+          "colours": "Koloreak",
+          "colours_text": "Kolore-paleta bost kolore sekundarioekin ezarri da, eta nagusiekin batera (zuria eta beltza), koloreak konbinatzen laguntzen dute, hainbat konposizio sortzeko. Bestetik, kolore semantikoak daude, erabiltzaileari informazioa emateko aukeratu direnak. Konposizio berriak sortzeko gardentasun kromatikoko mota ezberdinak ere erabiliko dira.",
+          "iconography": "Ikonografia",
+          "iconography_text": "Ikonoen tamainak zutabeen tamainen eta orrialdeen diseinuen logika berari jarraituz ezarri dira.",
+          "solution": "Soluzioa",
+          "solution_subtitle": "Diseinu-sistemaren printzipioak findu ondoren, osagaiak sortzeko unea iritsi zen.",
+          "solution_text": "Hainbat gailu eta pantaila tamainatan erabiliko zirelakoan sortu ziren liburutegiko osagaiak. Gainera, horiek sortzeko diseinu argi eta erraza erabili zen, diseinua gauzatzea eta pantailen kokapena eraginkorragoak izan zitezen.",
+          "next_steps": "Hurrengo pausoak",
+          "next_steps_text": "Lan prozesu osoa egin ondoren, hurrengo pausoa Echo aplikazioak izango zituen pantailetan pentsatzea izan zen. Honi buruz gehiago jakin nahi baduzu, proiektuaren <a href=https://www.figma.com/design/DviDdC0Vn7GTRyGWuMsVjX/Echo?node-id=0-1&p=f&t=7dHt3xV2X6vmvCCC-0' target='_blank' class='relative after:absolute after:bottom-[10px] after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow after:transition-transform after:duration-150 after:ease-in-out hover:after:origin-bottom-right hover:after:scale-x-0'>esteka </a> honen bitartez kontsulta dezakezu.",
+          "next_project": "Hurrengo Proiektua"
         }
       },
       "echo": {

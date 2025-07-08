@@ -55,32 +55,69 @@
       "descubre": {
         "card": {
           "subtitle": "Editorial design"
+        },
+        "project": {
+          "title": "Descubre: Creation of a magazine.",
+          "subtitle": "The project consisted of creating a new layout for a magazine.",
+          "project_overview": "Project <br className='hiddem xl:block'> Overview",
+          "project_overview_text": "Descubre is a monthly publication dedicated to exploring the rich tapestry of cultures around the world. Each issue of Descubre focuses on a different country, offering readers an in-depth look at its history, traditions, current events, and unique customs. From uncovering ancient civilizations to shedding light on modern-day developments, Descubre aims to educate and inspire curiosity about the diverse ways of life that shape our global community. With beautifully curated articles, stunning photography, and engaging stories, it serves as a window into the heart and soul of each nation, fostering understanding and appreciation of cultures from every corner of the world.",
+          "challenge": "Challenge",
+          "challenge_subtitle": "The goal of the Descubre project was to design and create a magazine that not only informs but captivates readers through a blend of thoughtful content and aesthetically appealing design.",
+          "challenge_text": "For the layout of the texts, illustrations and images, a grid was designed according to the needs of the project so that all the information would fit together well.",
+          "solution": "Solution",
+          "solution_subtitle": "The design process started with the grid as a guide, and from there the pages were created until a satisfactory result was achieved.",
+          "solution_text": "Each issue of Descubre integrates interactive and visually stimulating elements like custom illustrations, and high-quality photography, which work together to enhance the reading experience. By consistently adhering to a cohesive editorial and design structure, the project resulted in a magazine that not only serves as a source of knowledge but also as a piece of art that reflects the beauty and diversity of global cultures.",
+          "view_project": "To see the final result, access to see the interactive magazine",
+          "view_project_here": "here",
+          "next_project": "Next Project"
         }
       },
       "errofest": {
         "card": {
           "subtitle": "Branding, UX/UI Design and Developing"
         },
-        "title": "Errofest: Creation of an identity and promotion of a local festival.",
-        "subtitle": "The project consisted of creating the identity and landing page to promote the festival in the best possible way.",
-        "branding": "Branding",
-        "ux/ui": "UX/UI",
-        "development": "Development",
-        "project-overview": "Project Overview",
-        "project-overview-text": "Errofest is a cultural festival that includes different activities, such as local gastronomy, music and painting. It has been held in Itsasondo, a village in Gipuzkoa, since 2019 and every year it generates more and more interest among the locals and people from other villages in the region. In 2025, the event will celebrate its fifth anniversary, so the organisers decided to improve its identity and landing page.",
-        "challange": "Challenge",
-        "challange-subtitle": "The project had two objectives: to create a new identity that reflected the local spirit of the festival and to design a simple landing page that briefly explained the aspects to be taken into account when attending the festival.",
-        "challenge-text": "The environment, the colours of the landscape and the local culture were the aspects that were taken into account when creating the new identity of the festival. In addition, an attempt was made to reflect the fusion between tradition and new cultural trends.",
-        "solution": "Solution",
-        "solution-subtitle": "The logo was handcrafted to show the curved, organic lines of nature itself.",
-        "solution-text": "Thanks to the colours reminiscent of nature, the images collected from other years when the festival was held and the exercise carried out on the needs of the new landing page, a new page was created.",
-        "view-project": "To see the final result, access the website here.",
-        "project-web": "https://errofest.vercel.app/en",
-        "next-project": "Next Project"
+        "project": {
+          "title": "Errofest: Creation of an identity and promotion of a local festival.",
+          "subtitle": "The project consisted of creating the identity and landing page to promote the festival in the best possible way.",
+          "project_overview": "Project <br className='hiddem xl:block'> Overview",
+          "project_overview_text": "Errofest is a cultural festival that includes different activities, such as local gastronomy, music and painting. It has been held in Itsasondo, a village in Gipuzkoa, since 2019 and every year it generates more and more interest among the locals and people from other villages in the region. In 2025, the event will celebrate its fifth anniversary, so the organisers decided to improve its identity and landing page.",
+          "challenge": "Challenge",
+          "challenge_subtitle": "The project had two objectives: to create a new identity that reflected the local spirit of the festival and to design a simple landing page that briefly explained the aspects to be taken into account when attending the festival.",
+          "challenge_text": "The environment, the colours of the landscape and the local culture were the aspects that were taken into account when creating the new identity of the festival. In addition, an attempt was made to reflect the fusion between tradition and new cultural trends.",
+          "solution": "Solution",
+          "solution_subtitle": "The logo was handcrafted to show the curved, organic lines of nature itself.",
+          "solution_text": "Thanks to the colours reminiscent of nature, the images collected from other years when the festival was held and the exercise carried out on the needs of the new landing page, a new page was created.",
+          "view_project": "To see the final result, access the website",
+          "view_project_here": "here",
+          "project_web": "https://errofest.vercel.app/en",
+          "next_project": "Next Project"
+        }
       },
       "design_system": {
         "card": {
           "subtitle": "UX/UI Design"
+        },
+        "project": {
+          "title": "Creation of a design system adapted to a music application.",
+          "subtitle": "The project consisted of designing the system to be used in the new music platform called Echo.",
+          "project_overview": "Project <br className='hiddem xl:block'> Overview",
+          "project_overview_text": "The Echo app aims to provide an intuitive and convenient user experience for easy listening to music. Therefore, the starting point was arrived at after listing the functionalities that the app would have, which allowed the principles, functions and components to be better developed.",
+          "challenge": "Challenge",
+          "challenge_subtitle": "After thinking about the complete list of elements that would complement the design system, development began on the main elements.",
+          "challenge_text": "The first elements to be developed were typefaces, colours, graphic elements, iconography and structure.",
+          "typefaces": "Typefaces",
+          "typefaces_text": "The IBM Plex Mono typeface is used for headings and the Inter typeface for texts. The scales of the typefaces have been defined for use on different device sizes,which change and follow the order established according to the size of the devices.",
+          "colours": "Colours",
+          "colours_text": "The colour palette has been established with a total of five secondary colours, which together with the main colours (black and white) help to combine colours to generate different compositions. On the other hand, there are the semantic colours, which have been chosen to inform the user. Different types of colour transparency will also be used to create new compositions.",
+          "iconography": "Iconography",
+          "iconography_text": "Icon sizes have been set following the same logic as column sizes and page layouts.",
+          "solution": "Solution",
+          "solution_subtitle": "After fine-tuning the principles of the design system, it was time to create the components.",
+          "solution_text": "The library components were created with the idea that they would be used on different device and screen sizes. In addition, a clear and simple design was used to create them, in order to make the execution of the design and layout of the screens more effective.",
+          "next_steps": "Next Steps",
+          "next_steps_text": "After all the work process, the next step was to think about the screens that the Echo app would have. If you want to know more about this, you can check it out through <a href=https://www.figma.com/design/DviDdC0Vn7GTRyGWuMsVjX/Echo?node-id=0-1&p=f&t=7dHt3xV2X6vmvCCC-0' target='_blank' class='relative after:absolute after:bottom-[10px] after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow after:transition-transform after:duration-150 after:ease-in-out hover:after:origin-bottom-right hover:after:scale-x-0'>this project </a>.",
+          "next_steps_here": "here",
+          "next_project": "Next Project"
         }
       },
       "echo": {
