@@ -12,7 +12,11 @@
         "about_me": {
           "title": "Niri buruz",
           "subtitle": "26 urte dauzkat eta orain arte diseinatzaile grafiko modura egin dut lan Vicenzako Bizzart kooperatiba sozialean.",
-          "text": "Orain arte, Wordpress erabiliz, web orriak kudeatzeko eta horiek maketatzeko aukera izan dut. Gainera, garapeneko proiektu ezberdinetan, front-end-eko zatia egiten ere egon naiz. <br><br>  Nire helburu nagusiena egun hauetan, teknologia berrietan formatzen jarraitzea da eta horregatik, nire aisialdiaren zati bati, artikuluak, bideoak edo tutorialak ikusten pasatzen dut. <br><br> Nitaz gehiago jakin nahi baduzu, nire <strong>curriculum vitaea</strong> kontsulta dezakezu."
+          "text": "Orain arte, Wordpress erabiliz, web orriak kudeatzeko eta horiek maketatzeko aukera izan dut. Gainera, garapeneko proiektu ezberdinetan, front-end-eko zatia egiten ere egon naiz. <br><br>  Nire helburu nagusiena egun hauetan, teknologia berrietan formatzen jarraitzea da eta horregatik, nire aisialdiaren zati bati, artikuluak, bideoak edo tutorialak ikusten pasatzen dut. <br><br> Nitaz gehiago jakin nahi baduzu, nire <strong>curriculum vitaea</strong> kontsulta dezakezu.",
+          "image": {
+            "alt": "Kamerari irribarre egiten ari den emakume betaurrekodun baten irudia",
+            "title": "Emakume irribarretsu baten irudia"
+          }
         },
         "projects": "Proiektuak"
       },

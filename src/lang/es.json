@@ -12,7 +12,11 @@
         "about_me": {
           "title": "Sobre mí",
           "subtitle": "Tengo 26 años y hasta ahora he trabajado como diseñadora gráfica en la cooperativa social Bizzart de Vicenza.",
-          "text": "Hasta ahora, utilizando Wordpress, he tenido la oportunidad de gestionar y maquetar páginas web. Además, he estado haciendo parte del front-end en diferentes proyectos de desarrollo. <br><br> Mi principal objetivo en estos días es seguir formándome en nuevas tecnologías y por eso lo paso viendo una parte de mi tiempo libre, artículos, vídeos o tutoriales. <br><br> Si quieres saber más sobre la cita, puedes consultar mi <strong>currículum vitae.</strong>"
+          "text": "Hasta ahora, utilizando Wordpress, he tenido la oportunidad de gestionar y maquetar páginas web. Además, he estado haciendo parte del front-end en diferentes proyectos de desarrollo. <br><br> Mi principal objetivo en estos días es seguir formándome en nuevas tecnologías y por eso lo paso viendo una parte de mi tiempo libre, artículos, vídeos o tutoriales. <br><br> Si quieres saber más sobre la cita, puedes consultar mi <strong>currículum vitae.</strong>",
+          "image": {
+            "alt": "Imagen de una mujer con gafas sonriendo a la cámara",
+            "title": "Imagen de una mujer sonriente"
+          }
         },
         "projects": "Proyectos"
       },

@@ -12,7 +12,11 @@
         "about_me": {
           "title": "About me",
           "subtitle": "I am 26 years old and so far I have been working as a graphic designer at the social cooperative Bizzart in Vicenza.",
-          "text": "So far, using Wordpress, I have had the opportunity to manage and layout websites. In addition, I have been doing part of the front-end in different development projects. <br><br> My main goal these days is to keep training myself in new technologies and that's why I spend part of my free time watching articles, videos or tutorials. <br><br> If you want to know more about the appointment, you can check my <strong>CV.</strong>"
+          "text": "So far, using Wordpress, I have had the opportunity to manage and layout websites. In addition, I have been doing part of the front-end in different development projects. <br><br> My main goal these days is to keep training myself in new technologies and that's why I spend part of my free time watching articles, videos or tutorials. <br><br> If you want to know more about the appointment, you can check my <strong>CV.</strong>",
+          "image": {
+            "alt": "Image of a woman with glasses smiling at the camera",
+            "title": "Image of a smiling woman"
+          }
         },
         "projects": "Projects"
       },
