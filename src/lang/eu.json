@@ -122,6 +122,20 @@
       "echo": {
         "card": {
           "subtitle": "UX/UI Diseinua"
+        },
+        "project": {
+          "title": "Echo: musika streaming bidez entzuteko aplikazio bat.",
+          "subtitle": "Proiektuaren ardatza erabiltzailearen esperientzia (UX) eta aplikazioaren erabiltzaile-interfazearen diseinua (UI) izan ziren.",
+          "project_overview": "Proiektuaren <br className='hiddem xl:block'> ikuspegi orokorra",
+          "project_overview_text": "Echo musika-streaming plataforma bat da, erabiltzaile-esperientzia erraz eta eraginkorra eskaini nahi duena, eta, horretarako, interfaze intuitibo eta erabilerraza du. Hasieratik, aplikazioa lehen erabileratik intuitiboa izateko diseinatu zen. Gainera, iradokitako musikak bat etorri behar zuen erabiltzailearen gustuekin, eta interfazeak gozamen eta erosotasun sentsazioa transmititu behar zuen.",
+          "challenge": "Erronka",
+          "challenge_subtitle": "Helburuak zehaztu eta sistema diseinatu eta dokumentatu ondoren, orrialdeen diseinua planifikatu zen eta aplikazioaren orrialde guztietarako wireframeak egin ziren.",
+          "challenge_text": "Wireframeak maketatzeko, 16 px-ko lauki bati jarraitu zitzaion, aldez aurretik diseinatutako osagai guztiak sortzen eta lotzen laguntzeko. ",
+          "solution": "Soluzioa",
+          "solution_subtitle": "Txantiloi guztiak sortu ondoren, irudiak eta koloreak gehitzeko unea iritsi zen, plataformaren prototipoa amaitzeko.",
+          "solution_text": "Gainera, asko nabarmendu zen app hau musika-streamingeko beste plataforma batzuetatik bereizten duen ezaugarria: aurrez definitutako erreprodukzio-zerrendak soilik eskaini beharrean, erabiltzaile bakoitzaren gustu musikaletara egokituko da galdera praktikoen bidez. Horrela, erreprodukzio-zerrenda pertsonalizatuak eta erabiltzaile bakoitzaren musika-interesetara egokituak sortuko dira.",
+          "next_project": "Hurrengo Proiektua"
+
         }
       },
       "footer": {
