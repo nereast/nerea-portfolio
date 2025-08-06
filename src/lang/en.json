@@ -167,7 +167,17 @@
           "next_steps": "Next Steps",
           "next_steps_text": "After all the work process, the next step was to think about the screens that the Echo app would have. If you want to know more about this, you can check it out through <a href=https://www.figma.com/design/DviDdC0Vn7GTRyGWuMsVjX/Echo?node-id=0-1&p=f&t=7dHt3xV2X6vmvCCC-0' target='_blank' class='relative after:absolute after:bottom-[10px] after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow after:transition-transform after:duration-150 after:ease-in-out hover:after:origin-bottom-right hover:after:scale-x-0'>this project </a>.",
           "next_steps_here": "here",
-          "next_project": "Next Project"
+          "next_project": "Next Project",
+          "images": {
+            "cover": {"alt": "Image showing the variations of the buttons and lists that have been designed for the Design System", "title": "Image of the Design System buttons and lists"},
+            "variation_one": {"alt": "Image showing colours and different components that are part of the Design System", "title": "Image of the components of the Design System"},
+            "variation_two": {"alt": "Image showing the two typefaces used within the Design System", "title": "Typefaces of the Design System"},
+            "variation_three": {"alt": "Image showing the chromatic range of colours used for the Design System", "title": "Design System Colours"},
+            "variation_four": {"alt": "Image showing a CD icon that has been designed to be part of the Design System", "title": "Design System Icon"},
+            "variation_five": {"alt": "Image showing the icons that are part of the Design System", "title": "Design System icons"},
+            "variation_six": {"alt": "Image showing different types of components that are part of the Design System", "title": "Design System components image"},
+            "next_project": {"alt": "Image referring to Echo's project", "title": "Echo's image"}
+          }
         }
       },
       "echo": {

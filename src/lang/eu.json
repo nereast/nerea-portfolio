@@ -166,7 +166,17 @@
           "solution_text": "Hainbat gailu eta pantaila tamainatan erabiliko zirelakoan sortu ziren liburutegiko osagaiak. Gainera, horiek sortzeko diseinu argi eta erraza erabili zen, diseinua gauzatzea eta pantailen kokapena eraginkorragoak izan zitezen.",
           "next_steps": "Hurrengo pausoak",
           "next_steps_text": "Lan prozesu osoa egin ondoren, hurrengo pausoa Echo aplikazioak izango zituen pantailetan pentsatzea izan zen. Honi buruz gehiago jakin nahi baduzu, proiektuaren <a href=https://www.figma.com/design/DviDdC0Vn7GTRyGWuMsVjX/Echo?node-id=0-1&p=f&t=7dHt3xV2X6vmvCCC-0' target='_blank' class='relative after:absolute after:bottom-[10px] after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow after:transition-transform after:duration-150 after:ease-in-out hover:after:origin-bottom-right hover:after:scale-x-0'>esteka </a> honen bitartez kontsulta dezakezu.",
-          "next_project": "Hurrengo Proiektua"
+          "next_project": "Hurrengo Proiektua",
+          "images": {
+            "cover": {"alt": "Diseinu Sistemarako diseinatu diren botoien eta zerrenden aldaketak erakusten dituen irudia", "title": "Irudia: Diseinu Sistemako botoiak eta zerrendak"},
+            "variation_one": {"alt": "Diseinu Sistemaren parte diren koloreak eta osagaiak erakusten dituen irudia", "title": "Diseinu Sistemaren osagaien irudia"},
+            "variation_two": {"alt": "Diseinu Sisteman erabiltzen diren bi tipografiak erakusten dituen irudia", "title": "Diseinu-sistemaren tipografiak"},
+            "variation_three": {"alt": "Diseinu Sistemarako erabiltzen den kolore-sorta kromatikoa erakusten duen irudia", "title": "Diseinu Sistemaren koloreak"},
+            "variation_four": {"alt": "Diseinu Sisteman parte hartzeko diseinatu den CD baten ikonoa erakusten duen irudia", "title": "Diseinu-sistemaren ikonoa"},
+            "variation_five": {"alt": "Diseinu Sistema osatzen duten ikonoak erakusten dituen irudia", "title": "Diseinu-sistemaren ikonoak"},
+            "variation_six": {"alt": "Diseinu Sistema osatzen duten osagai motak erakusten dituen irudia", "title": "Diseinu Sistemaren osagaien irudia"},
+            "next_project": {"alt": "Echo proiektuari erreferentzia egiten dion irudia", "title": "Echo-ren irudia"}
+          }
         }
       },
       "echo": {

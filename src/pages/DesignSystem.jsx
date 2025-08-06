@@ -48,9 +48,9 @@ export const DesignSystem = () => {
 
                 </div>
             </div>
-            <img class="w-screen h-auto object-cover hidden xl:block px-[50px] xl:py-[100px]" src={coverImage} alt="Imagen que muestra las variaciones de los botones y las listas que se han diseñado para el Sistema de Diseño" title="Imagen de los botones y las listas del Sistema de Diseño"/>
-            <img class="w-screen h-auto object-cover hidden md:block xl:hidden p-[50px]" src={coverImageTablet} alt="Imagen que muestra las variaciones de los botones y las listas que se han diseñado para el Sistema de Diseño" title="Imagen de los botones y las listas del Sistema de Diseño"/>
-            <img class="w-screen h-auto object-cover block md:hidden px-[25px] py-[50px]" src={coverImageMobile} alt="Imagen que muestra las variaciones de los botones y las listas que se han diseñado para el Sistema de Diseño" title="Imagen de los botones y las listas del Sistema de Diseño"/>
+            <img class="w-screen h-auto object-cover hidden xl:block px-[50px] xl:py-[100px]" src={coverImage} alt={t("design_system.project.images.cover.alt")} title={t("design_system.project.images.cover.title")}/>
+            <img class="w-screen h-auto object-cover hidden md:block xl:hidden p-[50px]" src={coverImageTablet} alt={t("design_system.project.images.cover.alt")} title={t("design_system.project.images.cover.title")}/>
+            <img class="w-screen h-auto object-cover block md:hidden px-[25px] py-[50px]" src={coverImageMobile} alt={t("design_system.project.images.cover.alt")} title={t("design_system.project.images.cover.title")}/>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("design_system.project.project_overview") }}/>
@@ -63,7 +63,7 @@ export const DesignSystem = () => {
                 </div>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img class="w-screen h-auto object-cover" src={components} alt="Imagen que muestra colores y diferentes componentes que forman parte del Sistema de Diseño" title="Imagen de los componentes del Sistema de Diseño"/>
+                <img class="w-screen h-auto object-cover" src={components} alt={t("design_system.project.images.variation_one.alt")} title={t("design_system.project.images.variation_one.title")}/>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
@@ -93,7 +93,7 @@ export const DesignSystem = () => {
                 </div>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
-                <img className='w-auto h-auto object-cover' src={typographies} alt='Imagen que muestra las dos tipografías que se utilizan dentro del Sistema de Diseño' title='Tipografías del Sistema de Diseño'/>
+                <img className='w-auto h-auto object-cover' src={typographies} alt={t("design_system.project.images.variation_two.alt")} title={t("design_system.project.images.variation_two.title")}/>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
                 <div className='w-8/12'>
@@ -109,7 +109,7 @@ export const DesignSystem = () => {
                 </div>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='w-auto h-auto object-cover' src={colours} alt='Imagen que muestra la gama crómatica de colores que se usa para el Sistema de Diseño' title='Colores del Sistema de Diseño'/>
+                <img className='w-auto h-auto object-cover' src={colours} alt={t("design_system.project.images.variation_three.alt")} title={t("design_system.project.images.variation_three.title")}/>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
                 <div className='w-8/12'>
@@ -126,10 +126,10 @@ export const DesignSystem = () => {
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex flex-col md:flex-row gap-[20px]'>
                 <div className='xl:w-6/12'>
-                   <img className='w-full h-[400px] md:h-auto object-cover rounded-[10px]' src={icon} alt='Imagen que muestra un icono de un CD que se ha diseñado para formar parte del Sistema de Diseño' title='Icono del Sistema de Diseño'/>
+                   <img className='w-full h-[400px] md:h-auto object-cover rounded-[10px]' src={icon} alt={t("design_system.project.images.variation_four.alt")} title={t("design_system.project.images.variation_four.title")}/>
                 </div>
                 <div className='xl:w-6/12'>
-                  <img className='w-full h-[400px] md:h-auto object-cover rounded-[10px]' src={icons} alt='Imagen que muestra los iconos que forman parte del Sistema de Diseño' title='Iconos del Sistema de Diseño'/>
+                  <img className='w-full h-[400px] md:h-auto object-cover rounded-[10px]' src={icons} alt={t("design_system.project.images.variation_five.alt")} title={t("design_system.project.images.variation_five.title")}/>
                 </div>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] flex justify-center'>
@@ -152,7 +152,7 @@ export const DesignSystem = () => {
                 </div>
             </div>
             <div className='px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
-                <img className="object-cover w-screen h-full rounded-[10px]" src={presentation} alt='Imagen que muestra diferentes tipos componentes que forman parte del Sistema de Diseño' title='Imagen de los componentes del Sistema de Diseño'/>
+                <img className="object-cover w-screen h-full rounded-[10px]" src={presentation} alt={t("design_system.project.images.variation_six.alt")} title={t("design_system.project.images.variation_six.title")}/>
             </div>
 
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -165,7 +165,7 @@ export const DesignSystem = () => {
                 </div>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={echoCoverImage} alt='Imagen que hace referencia al proyecto de Echo' title='Imagen de Echo' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={echoCoverImage} alt={t("design_system.project.images.next_project.alt")} title={t("design_system.project.images.next_project.title")}/>
                 <Link className='flex items-center' to="/projects/echo">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("design_system.project.next_project")}</p>
                 </Link>

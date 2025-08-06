@@ -166,7 +166,17 @@
           "solution_text": "Los componentes de la biblioteca se crearon con la idea de que se utilizarían en distintos dispositivos y tamaños de pantalla. Además, para crearlos se utilizó un diseño claro y sencillo, con el fin de que la ejecución del diseño y la disposición de las pantallas fueran más eficaces.",
           "next_steps": "Siguientes pasos",
           "next_steps_text": "Después de todo el proceso de trabajo, el siguiente paso fue pensar en las pantallas que tendría la aplicación Echo. Si quieres saber más sobre esto, puedes consultarlo a través de este <a href=https://www.figma.com/design/DviDdC0Vn7GTRyGWuMsVjX/Echo?node-id=0-1&p=f&t=7dHt3xV2X6vmvCCC-0' target='_blank' class='relative after:absolute after:bottom-[10px] after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow after:transition-transform after:duration-150 after:ease-in-out hover:after:origin-bottom-right hover:after:scale-x-0'>enlace </a> del proyecto.",
-          "next_project": "Siguiente Proyecto"
+          "next_project": "Siguiente Proyecto",
+          "images": {
+            "cover": {"alt": "Imagen que muestra las variaciones de los botones y las listas que se han diseñado para el Sistema de Diseño", "title": "Imagen de los botones y las listas del Sistema de Diseño"},
+            "variation_one": {"alt": "Imagen que muestra colores y diferentes componentes que forman parte del Sistema de Diseño", "title": "Imagen de los componentes del Sistema de Diseño"},
+            "variation_two": {"alt": "Imagen que muestra las dos tipografías que se utilizan dentro del Sistema de Diseño", "title": "Tipografías del Sistema de Diseño"},
+            "variation_three": {"alt": "Imagen que muestra la gama cromáica de colores que se usa para el Sistema de Diseño", "title": "Colores del Sistema de Diseño"},
+            "variation_four": {"alt": "Imagen que muestra un icono de un CD que se ha diseñado para formar parte del Sistema de Diseño", "title": "Icono del Sistema de Diseño"},
+            "variation_five": {"alt": "Imagen que muestra los iconos que forman parte del Sistema de Diseño", "title": "Iconos del Sistema de Diseño"},
+            "variation_six": {"alt": "Imagen que muestra diferentes tipos componentes que forman parte del Sistema de Diseño", "title": "Imagen de los componentes del Sistema de Diseño"},
+            "next_project": {"alt": "Imagen que hace referencia al proyecto de Echo", "title": "Imagen de Echo"}
+          }
         }
       },
       "echo": {
