@@ -44,7 +44,7 @@ export const Echo = () => {
 
                 </div>
             </div>
-            <img class="w-screen h-full object-cover md:pb-[50px] xl:pb-[100px]" src={coverImage} alt="Imagen que muestra la pantalla principal de la aplicación de música llamada Echo" title="Imagen de la aplicación Echo"/>
+            <img class="w-screen h-full object-cover md:pb-[50px] xl:pb-[100px]" src={coverImage} alt={t("echo.project.images.cover.alt")} title={t("echo.project.images.cover.title")}/>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("design_system.project.project_overview") }}/>
@@ -58,10 +58,10 @@ export const Echo = () => {
             </div>
             <div className='flex flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] gap-[20px]'>
                 <div className='w-8/12'>
-                    <img className='w-full rounded-[10px]' src={artistPage} alt='Imagen que muestra la pantalla del detalle del Artista de la aplicación de música de Echo' title='Imagen de la pantalla del artista de Echo'/>
+                    <img className='w-full rounded-[10px]' src={artistPage} alt={t("echo.project.images.variation_one.alt")} title={t("echo.project.images.variation_one.title")}/>
                 </div>
                 <div className='w-4/12'>
-                    <img className='w-full rounded-[10px]' src={genresPage} alt='Imagen que muestra la pantalla de los Géneros de la aplicación de música de Echo' title='Imagen de la pantalla de los géneros de Echo'/>
+                    <img className='w-full rounded-[10px]' src={genresPage} alt={t("echo.project.images.variation_two.alt")} title={t("echo.project.images.variation_two.title")}/>
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -78,7 +78,7 @@ export const Echo = () => {
                     </p>
                 </div>
             </div>
-            <img className='w-full px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] rounded-[10px]' src={wireframes} alt='Imagen que muestra todos los wireframes que se han realizado para visualizar todas las pantallas que va a tener la aplicación' title='Imagen de los wireframes de Echo'/>
+            <img className='w-full px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] rounded-[10px]' src={wireframes} alt={t("echo.project.images.variation_three.alt")} title={t("echo.project.images.variation_three.title")}/>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]'>{t("echo.project.solution")}</h2>
@@ -93,9 +93,9 @@ export const Echo = () => {
                     </p>
                 </div>
             </div>
-            <img className='w-full px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] rounded-[10px]' src={screens} alt='Imagen que muestra algunas de las pantallas que se han diseñado y que forman parte de la aplicación de música llamada Echo' title='Imagen de las pantallas de Echo'/>
+            <img className='w-full px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] rounded-[10px]' src={screens} alt={t("echo.project.images.variation_four.alt")} title={t("echo.project.images.variation_four.title")}/>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={itearCoverImage} alt='Imagen que hace referencia al proyecto de Itear' title='Imagen de Itear' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={itearCoverImage} alt={t("echo.project.images.next_project.alt")} title={t("echo.project.images.next_project.title")}/>
                 <Link className='flex items-center' to="/projects/itear">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("echo.project.next_project")}</p>
                 </Link>

@@ -194,7 +194,15 @@
           "solution": "Soluzioa",
           "solution_subtitle": "Txantiloi guztiak sortu ondoren, irudiak eta koloreak gehitzeko unea iritsi zen, plataformaren prototipoa amaitzeko.",
           "solution_text": "Gainera, asko nabarmendu zen app hau musika-streamingeko beste plataforma batzuetatik bereizten duen ezaugarria: aurrez definitutako erreprodukzio-zerrendak soilik eskaini beharrean, erabiltzaile bakoitzaren gustu musikaletara egokituko da galdera praktikoen bidez. Horrela, erreprodukzio-zerrenda pertsonalizatuak eta erabiltzaile bakoitzaren musika-interesetara egokituak sortuko dira.",
-          "next_project": "Hurrengo Proiektua"
+          "next_project": "Hurrengo Proiektua",
+          "images": {
+            "cover": {"alt": "Echo izeneko musika-aplikazioaren pantaila nagusia erakusten duen irudia", "title": "Echo aplikazioaren irudia"},
+            "variation_one": {"alt": "Echo musika-aplikazioaren Artistaren xehetasunen pantaila erakusten duen irudia", "title": "Echo artistaren pantailaren irudia"},
+            "variation_two": {"alt": "Echo musika-aplikazioaren Generoen pantaila erakusten duen irudia", "title": "Echo generoen pantailako irudia"},
+            "variation_three": {"alt": "Aplikazioak izango dituen pantaila guztiak bistaratzeko egin diren wireframes guztiak erakusten dituen irudia", "title": "Echo wireframeen irudia"},
+            "variation_four": {"alt": "Echo izeneko musika-aplikazioaren barruan diseinatu diren pantailetako batzuk erakusten dituen irudia.", "title": "Echo pantailen irudia"},
+            "next_project": {"alt": "Itear proiektuari erreferentzia egiten dion irudia", "title": "Itear-en irudia"}
+          }
 
         }
       },

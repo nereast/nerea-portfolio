@@ -194,7 +194,15 @@
           "solution": "Solución",
           "solution_subtitle": "Tras crear todas las plantillas, llegó el momento de añadir las imágenes y los colores para finalizar el prototipado de la plataforma.",
           "solution_text": "Además, se hizo mucho hincapié en la característica que diferencia a esta app de otras plataformas de streaming musical: en lugar de ofrecer simplemente listas de reproducción predefinidas, se adaptará a los gustos musicales de cada usuario mediante preguntas prácticas. De este modo, se crearán listas de reproducción personalizadas y adaptadas a los intereses musicales de cada usuario.",
-          "next_project": "Siguiente Proyecto"
+          "next_project": "Siguiente Proyecto",
+          "images": {
+            "cover": {"alt": "Imagen que muestra la pantalla principal de la aplicación de música llamada Echo", "title": "Imagen de la aplicación Echo"},
+            "variation_one": {"alt": "Imagen que muestra la pantalla del detalle del Artista de la aplicación de música de Echo", "title": "Imagen de la pantalla del artista de Echo"},
+            "variation_two": {"alt": "Imagen que muestra la pantalla de los Géneros de la aplicación de música de Echo", "title": "Imagen de la pantalla de los géneros de Echo"},
+            "variation_three": {"alt": "Imagen que muestra todos los wireframes que se han realizado para visualizar todas las pantallas que va a tener la aplicación", "title": "Imagen de los wireframes de Echo"},
+            "variation_four": {"alt": "Imagen que muestra algunas de las pantallas que se han diseñado y que forman parte de la aplicación de música llamada Echo", "title": "Imagen de las pantallas de Echo"},
+            "next_project": {"alt": "Imagen que hace referencia al proyecto de Itear", "title": "Imagen de Itear"}
+          }
         }
       },
       "footer": {

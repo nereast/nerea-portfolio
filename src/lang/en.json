@@ -195,7 +195,15 @@
           "solution": "Solution",
           "solution_subtitle": "After creating all the templates, it was time to add the images and colours to finalise the prototyping of the platform.",
           "solution_text": "In addition, much emphasis was placed on the feature that sets this app apart from other music streaming platforms: instead of simply offering predefined playlists, it will adapt to the musical tastes of each user by means of practical questions. In this way, personalised playlists tailored to the musical interests of each user will be created.",
-          "next_project": "Next Project"
+          "next_project": "Next Project",
+          "images": {
+            "cover": {"alt": "Image showing the main screen of the music app called Echo", "title": "Echo app image"},
+            "variation_one": {"alt": "Image showing the Artist detail screen of the Echo music app", "title": "Echo artist detail screen image"},
+            "variation_two": {"alt": "Image showing the Echo music app's Genres screen", "title": "Echo genres detail screen image"},
+            "variation_three": {"alt": "Image showing all the wireframes that have been made to visualise all the screens that the app is going to have.", "title": "Image of the Echo wireframes"},
+            "variation_four": {"alt": "Image showing some of the screens that have been designed and that are part of the music application called Echo", "title": "Image of the Echo screens"},
+            "next_project": {"alt": "Image referring to the Itear project", "title": "Image of Itear"}
+          }
         }
       },
       "footer": {
