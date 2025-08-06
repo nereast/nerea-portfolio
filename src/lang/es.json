@@ -67,7 +67,22 @@
           "solution": "Solución",
           "solution_subtitle": "Marca basada en una única variación. Sigue una estructura sencilla, que se crea a través de la distancia entre las letras de la propia marca.",
           "solution_text": "Para crear la identidad y el envase, se propuso un diseño en relación y coherencia con los tres elementos, que eran la tipografía, utilizando siempre Franklin Gothic, en diferentes tamaños o jerarquías, por otro lado, los colores y la ilustración, que se realizó tomando como referencia los huertos de los caseríos.",
-          "next_project": "Próximo Proyecto"
+          "next_project": "Próximo Proyecto",
+          "images": {
+            "cover": {"alt": "Imagen de una persona mayor hablando con una pareja en el mercado de Tolosa", "title": "Imagen del mercado de Tolosa"},
+            "variation_one": {"alt": "Imagen que muestra el logotipo de Kimu blanco en fondo naranja", "title": "Imagen que muestra el logotipo de Kimu"},
+            "variation_two": {"alt": "Imagen que muestra el isotipo de Kimu negro en fondo blanco", "title": "Imagen que muestra el isotipo de Kimu"},
+            "variation_three": {"alt": "Imagen que muestra un detalle de una mano sosteniendo unas verduras", "title": "Imagen de una mano"},
+            "variation_four": {"alt": "Imagen de una ilustración de un puerro con un trazado blanco en fondo naranja", "title": "Imagen de una ilustración de un puerro"},
+            "variation_five": {"alt": "Imagen de una ilustración de líneas orgánicas negras en fondo blanco", "title": "Imagen de una ilustración de líneas orgánicas"},
+            "variation_six": {"alt": "Imagen de una mano sosteniendo una tote bag corporativo de Kimu", "title": "Imagen de una tote bag"},
+            "variation_seven": {"alt": "Imagen que muestra la parte delantera del packaging del frasco que se utiliza para vender los germinados de garbanzos", "title": "Imagen del frasco de los germinados"},
+            "variation_eight": {"alt": "Imagen que muestra la parte trasera del packaging del frasco que se utiliza para vender los germinados de garbanzos", "title": "Imagen del frasco de los germinados"},
+            "variation_nine": {"alt": "Imagen que muestra la parte delantera del packaging del frasco que se utiliza para envasar las semillas de los germinados de alubias", "title": "Imagen del frasco de los germinados de alubias"},
+            "variation_ten": {"alt": "Imagen que muestra el diseño de varias páginas del tamaño desktop en un fondo naranja corporativo", "title": "Imagen que presenta diferentes páginas de la web de Kimu"},
+            "variation_eleven": {"alt": "Imagen que muestra el diseño de varias páginas del tamaño mobile en un fondo naranja corporativo", "title": "Imagen que presenta diferentes páginas de la web de Kimu"},
+            "next_project": {"alt": "Imagen que hace referencia al proyecto de Descubre", "title": "Imagen de Descubre"}
+          }
         }
       },
       "descubre": {

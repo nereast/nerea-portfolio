@@ -67,7 +67,22 @@
           "solution": "Soluzioa",
           "solution_subtitle": "Bariazio bakar batean oinarritutako marka. Egitura sinple bat jarraitzen du, markaren beraren letren arteko distantziaren bidez sortzen dena.",
           "solution_text": "Identitatea eta ontzia sortzeko, hiru elementuekin –tipografia, alegia– lotura eta koherentzia duen diseinu bat proposatu zen, beti Franklin Gothic erabiliz, tamaina edo hierarkia ezberdinetan; bestetik, koloreak eta ilustrazioa, baserrien baratzeak erreferentziatzat hartuta egin zena.",
-          "next_project": "Hurrengo Proiektua"
+          "next_project": "Hurrengo Proiektua",
+          "images": {
+            "cover": {"alt": "Adineko pertsona bat bikote batekin hizketan, Tolosako merkatuan", "title": "Tolosako azokaren irudia"},
+            "variation_one": {"alt": "Kimu zuriaren logotipoa hondo laranjan erakusten duen irudia", "title": "Kimuren logotipoa erakusten duen irudia"},
+            "variation_two": {"alt": "Kimu beltzaren isotipoa hondo zurian erakusten duen irudia", "title": "Kimuren isotipoa erakusten duen irudia"},
+            "variation_three": {"alt": "Barazki batzuk eusten dituen esku baten xehetasuna erakusten duen irudia", "title": "Esku baten irudia"},
+            "variation_four": {"alt": "Hondo laranjan trazadura zuria duen porru baten irudia", "title": "Porru baten irudia"},
+            "variation_five": {"alt": "Hondo zurian dauden lerro organiko beltzen irudi baten irudia", "title": "Lerro organikoen irudi baten irudia"},
+            "variation_six": {"alt": "Kimuren tote bag korporatibo bati eusten dion esku baten irudia", "title": "Tote bag baten irudia"},
+            "variation_seven": {"alt": "Garbantzu ernamuinak saltzeko erabiltzen den ontziko packagingaren aurreko aldea erakusten duen irudia", "title": "Hozituen flaskoaren irudia"},
+            "variation_eight": {"alt": "Garbantzu ernamuinak saltzeko erabiltzen den ontziko packagingaren atzealdea erakusten duen irudia", "title": "Hozituen flaskoaren irudia"},
+            "variation_nine": {"alt": "Babarrun hozituen haziak ontziratzeko erabiltzen den flaskoko packagingaren aurreko aldea erakusten duen irudia", "title": "Babarrun hozituen flaskoaren irudia"},
+            "variation_ten": {"alt": "Hondo laranja korporatibo batean desktop tamainako zenbait orriren diseinua erakusten duen irudia", "title": "Kimuren webguneko orrialde ezberdinak aurkezten dituen irudia"},
+            "variation_eleven": {"alt": "Hondo laranja korporatibo batean mobile tamainako zenbait orriren diseinua erakusten duen irudia", "title": "Kimuren webguneko orrialde ezberdinak aurkezten dituen irudia"},
+            "next_project": {"alt": "Ezagutu proiektuari erreferentzia egiten dion irudia", "title": "Descubre-ren irudia"}
+          }
         }
       },
       "descubre": {

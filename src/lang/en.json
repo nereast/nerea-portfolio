@@ -67,7 +67,22 @@
           "solution": "Solution",
           "solution_subtitle": "Mark based on a single variation. It follows a simple structure, which is created through the distance between the letters of the mark itself.",
           "solution_text": "To create the identity and the packaging, a design in relation and coherence with the three elements was proposed, which were the typography, always using Franklin Gothic, in different sizes or hierarchies, on the other hand, the colours and the illustration, which was done taking as a reference the orchards of the farmhouses.",
-          "next_project": "Next Project"
+          "next_project": "Next Project",
+          "images": {
+            "cover": {"alt": "Image of an elderly person talking to a couple at the market in Tolosa", "title": "Image of the Tolosa market"},
+            "variation_one": {"alt": "Image showing white Kimu logo on orange background", "title": "Image showing the Kimu logo"},
+            "variation_two": {"alt": "Image showing the black Kimu isotype on a white background", "title": "Image showing the Kimu isotype"},
+            "variation_three": {"alt": "Image showing a detail of a hand holding vegetables.", "title": "Image of a hand"},
+            "variation_four": {"alt": "Image of an illustration of a leek with a white outline on an orange background", "title": "Image of a leek illustration"},
+            "variation_five": {"alt": "Image of an illustration of black organic lines on a white background", "title": "Image of an illustration of organic lines"},
+            "variation_six": {"alt": "Image of a hand holding a Kimu corporate tote bag", "title": "Image of a tote bag"},
+            "variation_seven": {"alt": "Image showing the front of the packaging of the jar used to sell chickpea sprouts", "title": "Image of the sprout jar"},
+            "variation_eight": {"alt": "Image showing the back of the packaging of the jar used to sell chickpea sprouts", "title": "Image of the sprout jar"},
+            "variation_nine": {"alt": "Image showing the front of the packaging of the jar used to package the bean sprouts", "title": "Image of the bean sprout jar"},
+            "variation_ten": {"alt": "Image showing the layout of several desktop-sized pages on a corporate orange background.", "title": "Image presenting different pages of Kimu's web site"},
+            "variation_eleven": {"alt": "Image showing the layout of several mobile-sized pages on a corporate orange background", "title": "Image presenting different pages of Kimu's web site"},
+            "next_project": {"alt": "Image referring to the Descubre project", "title": "Image from Descubre"}
+          }
         }
       },
       "descubre": {
