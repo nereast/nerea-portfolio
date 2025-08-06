@@ -44,7 +44,7 @@ export const Descubre = ({ coverImage }) => {
 
                 </div>
             </div>
-            <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt="Imagen que muestra la portada de la revista llamada Descubre" title="Imagen de la portada de la revista" />
+            <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage}  alt={t("descubre.project.images.cover.alt")} title={t("descubre.project.images.cover.title")}/>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("descubre.project.project_overview") }} />
@@ -58,10 +58,10 @@ export const Descubre = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[10px]" src={detail} alt="Imagen que muestra una de las páginas de la revista maquetada en fondo gris" title="Imagen de una de las páginas de la revista" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={detail} alt={t("descubre.project.images.variation_one.alt")} title={t("descubre.project.images.variation_one.title")} />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[10px]" src={collage} alt="Imagen de un collage que se utiliza en una de las páginas de la revista" title="Imagen de un collage" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={collage} alt={t("descubre.project.images.variation_two.alt")} title={t("descubre.project.images.variation_two.title")}/>
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -79,7 +79,7 @@ export const Descubre = ({ coverImage }) => {
                 </div>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={layout} alt='Imagen que presenta varias páginas de la misma revista en una perspectiva diagonal' title='Imagen que presenta la revista'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={layout} alt={t("descubre.project.images.variation_three.alt")} title={t("descubre.project.images.variation_three.title")}/>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='lg:w-4/12'>
@@ -96,13 +96,13 @@ export const Descubre = ({ coverImage }) => {
                 </div>
             </div>
             <div className='px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={layoutTwo} alt='Imagen que muestra la portada de unas de las secciones de la revista de Descubre' title='Imagen de una portada de las secciones'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={layoutTwo} alt={t("descubre.project.images.variation_four.alt")} title={t("descubre.project.images.variation_four.title")}/>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>{t("descubre.project.view_project")} <Button href='https://descubre-magazine.vercel.app/' text={t("descubre.project.view_project_here")}/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={errofestCoverImage} alt='Imagen que hace referencia al proyecto de Errofest' title='Imagen de Errofest' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={errofestCoverImage} alt={t("descubre.project.images.next_project.alt")} title={t("descubre.project.images.next_project.title")}/>
                 <Link className='flex items-center' to="/projects/errofest">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("descubre.project.next_project")}</p>
                 </Link>

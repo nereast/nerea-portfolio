@@ -102,7 +102,15 @@
           "solution_text": "Each issue of Descubre integrates interactive and visually stimulating elements like custom illustrations, and high-quality photography, which work together to enhance the reading experience. By consistently adhering to a cohesive editorial and design structure, the project resulted in a magazine that not only serves as a source of knowledge but also as a piece of art that reflects the beauty and diversity of global cultures.",
           "view_project": "To see the final result, access to see the interactive magazine",
           "view_project_here": "here",
-          "next_project": "Next Project"
+          "next_project": "Next Project",
+          "images": {
+            "cover": {"alt": "Image showing the cover of the magazine called Descubre", "title": "Image of the cover of the magazine"},
+            "variation_one": {"alt": "Image showing one of the pages of the magazine laid out on a grey background", "title": "Image of one of the pages of the magazine"},
+            "variation_two": {"alt": "Image of a collage used on one of the pages of the magazine", "title": "Image of a collage"},
+            "variation_three": {"alt": "Image presenting several pages of the same magazine in a diagonal perspective", "title": "Image presenting the magazine"},
+            "variation_four": {"alt": "Image showing the cover of one of the sections of the Descubre magazine", "title": "Image of a cover of the sections"},
+            "next_project": {"alt": "Image referring to the Errofest project", "title": "Image of Errofest"}
+          }
         }
       },
       "errofest": {

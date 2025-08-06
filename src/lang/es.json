@@ -102,7 +102,15 @@
           "solution_text": "Cada número de Descubre integra elementos interactivos y visualmente estimulantes, como ilustraciones personalizadas y fotografías de alta calidad, que contribuyen a mejorar la experiencia de lectura. Gracias a la coherencia de la estructura editorial y de diseño, el proyecto dio como resultado una revista que no solo sirve como fuente de conocimiento, sino también como obra de arte que refleja la belleza y la diversidad de las culturas del mundo.",
           "view_project": "Para ver el resultado final, acceda a ver la revista interactiva",
           "view_project_here": "aquí",
-          "next_project": "Siguiente Proyecto"
+          "next_project": "Siguiente Proyecto",
+          "images": {
+            "cover": {"alt": "Imagen que muestra la portada de la revista llamada Descubre", "title": "Imagen de la portada de la revista"},
+            "variation_one": {"alt": "Imagen que muestra una de las páginas de la revista maquetada en fondo gris", "title": "Imagen de una de las páginas de la revista"},
+            "variation_two": {"alt": "Imagen de un collage que se utiliza en una de las páginas de la revista", "title": "Imagen de un collage"},
+            "variation_three": {"alt": "Imagen que presenta varias páginas de la misma revista en una perspectiva diagonal", "title": "Imagen que presenta la revista"},
+            "variation_four": {"alt": "Imagen que muestra la portada de unas de las secciones de la revista de Descubre", "title": "Imagen de una portada de las secciones"},
+            "next_project": {"alt": "Imagen que hace referencia al proyecto de Errofest", "title": "Imagen de Errofest"}
+          }
         }
       },
       "errofest": {

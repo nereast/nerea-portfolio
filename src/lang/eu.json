@@ -102,7 +102,15 @@
           "solution_text": "Descubre-ren ale bakoitzak elementu interaktiboak eta bisualki estimulagarriak integratzen ditu, hala nola ilustrazio pertsonalizatuak eta kalitate handiko argazkilaritza, elkarrekin lan egiten dutenak irakurketa-esperientzia hobetzeko. Argitalpen- eta diseinu-egitura kohesionatu bati sendo atxikiz, proiektuaren emaitza aldizkari bat izan zen, ezagutza-iturri gisa ez ezik, kultura globalen edertasuna eta aniztasuna islatzen duen arte-pieza gisa ere balio duena.",
           "view_project": "Azken emaitza ikusteko, aldizkari interaktiboa ikusteko sarbidea",
           "view_project_here": "hemen",
-          "next_project": "Hurrengo Proiektua"
+          "next_project": "Hurrengo Proiektua",
+          "images": {
+            "cover": {"alt": "Ezagutu izeneko aldizkariaren azalak erakusten duen irudia", "title": "Aldizkariaren azalaren irudia"},
+            "variation_one": {"alt": "Aldizkariaren orrialdeetako bat hondo grisean maketatuta erakusten duen irudia", "title": "Aldizkariaren orrietako baten irudia"},
+            "variation_two": {"alt": "Aldizkariko orrietako batean erabiltzen den collage baten irudia", "title": "Imagen de un collage"},
+            "variation_three": {"alt": "Aldizkari beraren hainbat orrialde ikuspegi diagonal batean aurkezten dituen irudia", "title": "Aldizkariak aurkezten duen irudia"},
+            "variation_four": {"alt": "Deskubritu aldizkariko atal batzuen azala erakusten duen irudia", "title": "Atalen azal baten irudia"},
+            "next_project": {"alt": "Errofesteko proiektuari erreferentzia egiten dion irudia", "title": "Errofesteko irudia"}
+          }
         }
       },
       "errofest": {
