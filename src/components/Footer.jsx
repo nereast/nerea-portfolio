@@ -13,7 +13,7 @@ export const Footer = () => {
                 <div className='grid justify-items-start w-full'>
                     <h2 className='text-white mb-[20px] text-[25px] leading-[27px] font-title font-bold'>{t("footer.title")}</h2>
                     <p className='text-white underline underline-offset-1 mb-[50px] text-[15px] font-bold'>
-                        <a href='mailto:nereas14@gmail.com'>nereas14@gmail.com</a>
+                        <a href='mailto:nereasarasolatome@gmail.com'>nereasarasolatome@gmail.com</a>
                     </p>
                     <div className='flex flex-row w-full'>
                         <div className='w-3/6'>
@@ -37,7 +37,7 @@ export const Footer = () => {
             <div className='hidden md:block md:w-7/12 xl:w-5/12'>
                 <h2 className='text-white pb-[25px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] font-title font-bold'>{t("footer.title")}</h2>
                 <h3 className='text-white md:text-[20px] md:text-[22px] xl:text-[30px] xl:leading-[32px] font-title font-bold underline underline-offset-1'>
-                    <a href='mailto:nereas14@gmail.com'>nereas14@gmail.com</a>
+                    <a href='mailto:nereasarasolatome@gmail.com'>nereasarasolatome@gmail.com</a>
                 </h3>
             </div>
             <div className='hidden xl:block w-1/12'></div>
