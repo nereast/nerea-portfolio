@@ -131,7 +131,16 @@
           "view_project": "To see the final result, access the website",
           "view_project_here": "here",
           "project_web": "https://errofest.vercel.app/en",
-          "next_project": "Next Project"
+          "next_project": "Next Project",
+          "images": {
+            "cover": {"alt": "Image showing a brass band playing in a natural setting", "title": "Image of a brass band"},
+            "variation_one": {"alt": "Image of a landscape with a mountain in the background", "title": "Image with a mountain"},
+            "variation_two": {"alt": "Image showing different illustrations that relate to the event", "title": "Image with illustrations"},
+            "variation_three": {"alt": "Image of a smiling woman who is at a concert", "title": "Image of a smiling woman"},
+            "variation_four": {"alt": "Image of one of last year's concerts", "title": "Image of one of the concerts"},
+            "variation_five": {"alt": "Image on green background showing the design of the website in different formats", "title": "Image on green background"},
+            "next_project": {"alt": "Image referring to the Design System project", "title": "Image of the Design System"}
+          }
         }
       },
       "design_system": {

@@ -44,7 +44,7 @@ export const Descubre = ({ coverImage }) => {
 
                 </div>
             </div>
-            <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage}  alt={t("descubre.project.images.cover.alt")} title={t("descubre.project.images.cover.title")}/>
+            <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt={t("descubre.project.images.cover.alt")} title={t("descubre.project.images.cover.title")}/>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("descubre.project.project_overview") }} />

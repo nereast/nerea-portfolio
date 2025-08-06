@@ -44,7 +44,7 @@ export const Errofest = ({ coverImage }) => {
 
                 </div>
             </div>
-            <img className="w-screen h-[400px] md:h-[600px] xl:h-[800px] object-cover" src={coverImage} alt="Cover of the project" title="Cover image" />
+            <img className="w-screen h-[400px] md:h-[600px] xl:h-[800px] object-cover" src={coverImage} alt={t("errofest.project.images.cover.alt")} title={t("errofest.project.images.cover.title")}/>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("errofest.project.project_overview") }}/>
@@ -57,10 +57,10 @@ export const Errofest = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={logo} alt="Imagen de un paisaje con una montaña al fondo" title="Imagen con una montaña" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={logo} alt={t("errofest.project.images.variation_one.alt")} title={t("errofest.project.images.variation_one.title")} />
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={illustrations} alt="Imagen que muestra diferentes ilustraciones que tienen relación con el evento" title="Imagen con ilustraciones" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={illustrations} alt={t("errofest.project.images.variation_two.alt")} title={t("errofest.project.images.variation_two.title")}/>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -79,10 +79,10 @@ export const Errofest = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'>
-                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={womanSmiling} alt="Imagen de una mujer sonriendo que está en un concierto" title="Imagen de una mujer sonriendo" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={womanSmiling} alt={t("errofest.project.images.variation_three.alt")} title={t("errofest.project.images.variation_three.title")}/>
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={festival} alt="Imagen de uno de los conciertos del año pasado" title="Imagen de uno de los conciertos" />
+                    <img className="w-full h-[400px] md:h-full object-cover rounded-[10px]" src={festival} alt={t("errofest.project.images.variation_four.alt")} title={t("errofest.project.images.variation_four.title")}/>
                 </div>
             </div>
             <div className='flex flex-col md:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -100,14 +100,14 @@ export const Errofest = ({ coverImage }) => {
                 </div>
             </div>
             <div className='flex flex-col gap-[20px] md:gap-[25px] xl:gap-[50px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className="w-full h-full object-cover rounded-[10px]" src={layoutPresentation} alt="Imagen en fondo verde que muestra el diseño de la página web en diferentes formatos" title="Imagen en fondo verde" />
+                <img className="w-full h-full object-cover rounded-[10px]" src={layoutPresentation} alt={t("errofest.project.images.variation_five.alt")} title={t("errofest.project.images.variation_five.title")}/>
                 <video className='w-full h-full rounded-[10px]' src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>{t("errofest.project.view_project")} <Button href={t("errofest.project.project_web")} text={t("errofest.project.view_project_here")} />.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={designSystemCoverImage} alt='Imagen que hace referencia al proyecto del Design System' title='Imagen del Design System' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={designSystemCoverImage} alt={t("errofest.project.images.next_project.alt")} title={t("errofest.project.images.next_project.title")}/>
                 <Link className='flex items-center' to="/projects/designsystem">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("errofest.project.next_project")}</p>
                 </Link>

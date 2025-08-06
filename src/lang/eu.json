@@ -131,7 +131,16 @@
           "view_project": "Azken emaitza ikusteko, sartu web gunera",
           "view_project_here": "hemen",
           "project_web": "https://errofest.vercel.app/eu",
-          "next_project": "Hurrengo Proiektua"
+          "next_project": "Hurrengo Proiektua",
+          "images": {
+            "cover": {"alt": "Musika-banda bat ingurune natural batean jotzen erakusten duen irudia", "title": "Musika banda baten irudia"},
+            "variation_one": {"alt": "Atzean mendi bat duen paisaiaren irudia", "title": "Irudia mendi batekin"},
+            "variation_two": {"alt": "Ekitaldiarekin zerikusia duten hainbat irudi erakusten dituen irudia", "title": "Irudia ilustrazioekin"},
+            "variation_three": {"alt": "Kontzertu batean dagoen emakume baten irudia, irribarrez", "title": "Irribarrez dagoen emakume baten irudia"},
+            "variation_four": {"alt": "Iazko kontzertuetako baten irudia", "title": "Kontzertu baten irudia"},
+            "variation_five": {"alt": "Web orriaren diseinua hainbat formatutan erakusten duen irudi berdea", "title": "Hondo berdeko irudia"},
+            "next_project": {"alt": "Design System proiektuari buruzko irudia", "title": "Design System-aren irudia"}
+          }
         }
       },
       "design_system": {
