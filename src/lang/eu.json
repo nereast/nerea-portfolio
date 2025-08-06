@@ -35,7 +35,21 @@
           "solution": "Soluzioa",
           "solution_subtitle": "Sinter letra-tipo gisa Demi bertsioan, industria-sektoreko tradizioa eta modernizazioa erakusteko.",
           "solution_text": "Hain zuzen ere, piezen irudien zuzendaritza artistikoari eta nortasun berriari esker sortu zen enpresaren unibertso berria.",
-          "next_project": "Hurrengo Proiektua"
+          "next_project": "Hurrengo Proiektua",
+          "images": {
+            "cover": {"alt": "Itearko pieza baten argazkia fondo txuri batean", "title": "Itearko pieza baten argazkia"},
+            "variation_one": {"alt": "Itear-en logo batek izan ditzakeen aldaerak erakusten dituen irudia", "title": "Itear-en logoa erakusten duen irudia"},
+            "variation_two": {"alt": "Itearreko brandingaren ikonoetako bat erakusten duen irudia", "title": "Ikono baten irudia"},
+            "variation_three": {"alt": "Itear-en pieza baten xehetasuna hondo zuri batean", "title": "Pieza baten xehetasunaren irudia"},
+            "variation_four": {"alt": "Esku baten xehetasuna, pieza bat soldatzen eta hobetzen", "title": "Esku bat soldatzen"},
+            "variation_five": {"alt": "Iragazki urdina duen hondo zuriko pieza baten irudia", "title": "Itearreko pieza baten irudia"},
+            "variation_six": {"alt": "Hondo zuria duen Itear pieza baten irudia", "title": "Itearreko pieza baten irudia"},
+            "variation_seven": {"alt": "Itear enpresaren paper korporatiboa erakusten duen irudia", "title": "Itear-en paper korporatiboaren irudia"},
+            "variation_eight": {"alt": "Itear enpresaren paper korporatiboaren bisita-txartela erakusten duen irudia", "title": "Itear-en paper korporatiboaren irudia"},
+            "variation_nine": {"alt": "Itear enpresaren paper korporatiboaren karpeta korporatiboa erakusten duen irudia", "title": "Itear-en paper korporatiboaren irudia"},
+            "variation_ten": {"alt": "Itear-en webgune korporatibo berriaren diseinua aurkezten duen irudia", "title": "Itearren webgunea aurkezten duen irudia"},
+            "next_project": {"alt": "Kimuren proiektuari erreferentzia egiten dion irudia", "title": "Kimuren argazkia"}
+          }
         }
       },
       "kimu": {

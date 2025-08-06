@@ -35,7 +35,21 @@
           "solution": "Solución",
           "solution_subtitle": "Sinter como tipo de letra en su versión Demi, con el fin de mostrar la tradición y la modernización en el sector industrial.",
           "solution_text": "Precisamente gracias a la dirección artística de las imágenes de las piezas y a la nueva identidad, nació el nuevo universo de la empresa.",
-          "next_project": "Próximo Proyecto"
+          "next_project": "Próximo Proyecto",
+          "images": {
+            "cover": {"alt": "Imagen de una pieza de Itear en un fondo blanco", "title": "Imagen de una pieza de Itear"},
+            "variation_one": {"alt": "Imagen que muestra las variaciones que puede tener un logo de Itear", "title": "Imagen que muestra el logo de Itear"},
+            "variation_two": {"alt": "Imagen que muestra uno de los iconos del branding de Itear", "title": "Imagen de un icono"},
+            "variation_three": {"alt": "Imagen de un detalle de una pieza de Itear en un fondo blanco", "title": "Imagen del detalle de una pieza"},
+            "variation_four": {"alt": "Imagen del detalle de una mano soldando y mejorando una pieza", "title": "Imagen de una mano soldando"},
+            "variation_five": {"alt": "Imagen de una pieza con fondo blanco que tiene un filtro azul", "title": "Imagen de una pieza de Itear"},
+            "variation_six": {"alt": "Imagen de una pieza de Itear con fondo blanco", "title": "Imagen de una pieza de Itear"},
+            "variation_seven": {"alt": "Imagen que muestra la papelería corporativa de la empresa Itear", "title": "Imagen de la papelería corporativa de Itear"},
+            "variation_eight": {"alt": "Imagen que muestra la tarjeta de visita de la papelería corporativa de la empresa de Itear", "title": "Imagen de la papelería corporativa de Itear"},
+            "variation_nine": {"alt": "Imagen que muestra la carpeta corporativa de la papelería corporativa de la empresa de Itear", "title": "Imagen de la papelería corporativa de Itear"},
+            "variation_ten": {"alt": "Imagen que presenta el diseño de la nueva web corporativa de Itear", "title": "Imagen presentando la web de Itear"},
+            "next_project": {"alt": "Imagen que hace referencia al proyecto de Kimu", "title": "Imagen de Kimu"}
+          }
         }
       },
       "kimu": {

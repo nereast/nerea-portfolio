@@ -51,7 +51,7 @@ export const Itear = ({ coverImage }) => {
 
                 </div>
             </div>
-            <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt="Imagen de una pieza de Itear en un fondo blanco" title="Imagen de una pieza de Itear"/>
+            <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt={t("itear.project.images.cover.alt")} title={t("itear.project.images.cover.title")} />
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("itear.project.project_overview") }}/>
@@ -65,10 +65,10 @@ export const Itear = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[25px] md:gap-[20px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <div className='w-full md:w-6/12'> 
-                    <img className="object-cover h-full w-full rounded-[10px]" src={logos} alt="Imagen que muestra las variaciones que puede tener un logo de Itear" title="Imagen que muestra el logo de Itear"/>
+                    <img className="object-cover h-full w-full rounded-[10px]" src={logos} alt={t("itear.project.images.variation_one.alt")} title={t("itear.project.images.variation_one.title")}/>
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[10px]" src={icons} alt="Imagen que muestra uno de los iconos del branding de Itear" title="Imagen de un icono"/>
+                    <img className="object-cover h-full w-full rounded-[10px]" src={icons} alt={t("itear.project.images.variation_two.alt")}  title={t("itear.project.images.variation_two.title")} />
                 </div>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
@@ -86,8 +86,8 @@ export const Itear = ({ coverImage }) => {
                 </div>
             </div>
             <div className='flex flex-col gap-[25px] px-[25px] md:px-[50px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={pieceOne} alt='Imagen de un detalle de una pieza de Itear en un fondo blanco' title='Imagen del detalle de una pieza'/>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={welding} alt='Imagen del detalle de una mano soldando y mejorando una pieza' title='Imagen de una mano soldando'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={pieceOne} alt={t("itear.project.images.variation_three.alt")} title={t("itear.project.images.variation_three.title")}/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={welding} alt={t("itear.project.images.variation_four.alt")} title={t("itear.project.images.variation_four.title")}/>
             </div>
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='w-full lg:w-4/12'>
@@ -105,23 +105,23 @@ export const Itear = ({ coverImage }) => {
             </div>
             <div className='flex flex-col md:flex-row gap-[20px] px-[25px] pb-[25px] md:px-[50px]'>
                 <div className='w-full md:w-6/12'> 
-                    <img className="object-cover h-full w-full rounded-[10px]" src={pieceFour} alt="Imagen de una pieza con fondo blanco que tiene un filtro azul" title="Imagen de una pieza de Itear" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={pieceFour} alt={t("itear.project.images.variation_five.alt")} title={t("itear.project.images.variation_five.title")}/>
                 </div>
                 <div className='w-full md:w-6/12'>
-                    <img className="object-cover h-full w-full rounded-[10px]" src={pieceFive} alt="Imagen de una pieza de Itear con fondo blanco" title="Imagen de una pieza de Itear" />
+                    <img className="object-cover h-full w-full rounded-[10px]" src={pieceFive} alt={t("itear.project.images.variation_six.alt")} title={t("itear.project.images.variation_six.title")}/>
                 </div>
             </div>
             <div className='px-[25px] pb-[25px] md:px-[50px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingThree} alt='Imagen que muestra la papelería corporativa de la empresa Itear' title='Imagen de la papelería corporativa de Itear'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingThree} alt={t("itear.project.images.variation_seven.alt")} title={t("itear.project.images.variation_seven.title")}/>
             </div>
             <div className='flex flex-col gap-[25px] px-[25px] md:px-[50px]'>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingOne} alt='Imagen de un detalle de una pieza de Itear en un fondo blanco' title='Imagen del detalle de una pieza'/>
-                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingTwo} alt='Imagen del detalle de una mano soldando y mejorando una pieza' title='Imagen de una mano soldando'/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingOne} alt={t("itear.project.images.variation_eight.alt")} title={t("itear.project.images.variation_eight.title")}/>
+                <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={brandingTwo} alt={t("itear.project.images.variation_nine.alt")} title={t("itear.project.images.variation_nine.title")}/>
                 <video className='w-screen rounded-[10px]' src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
-                <img className="object-cover w-screen h-auto rounded-[10px]" src={websiteDetail} alt='Imagen que presenta el diseño de la nueva web corporativa de Itear' title='Imagen presentando la web de Itear'/>
+                <img className="object-cover w-screen h-auto rounded-[10px]" src={websiteDetail} alt={t("itear.project.images.variation_ten.alt")} title={t("itear.project.images.variation_ten.title")}/>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] md:px-[50px] py-[50px] xl:py-[100px]'>
-                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={kimuCoverImage} alt='Imagen que hace referencia al proyecto de Kimu' title='Imagen de Kimu' />
+                <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={kimuCoverImage} alt={t("itear.project.images.next_project.alt")} title={t("itear.project.images.next_project.title")} />
                 <Link className='flex items-center' to="/projects/kimu">
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("itear.project.next_project")}</p>
                 </Link>

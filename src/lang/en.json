@@ -35,7 +35,21 @@
           "solution": "Solution",
           "solution_subtitle": "Sinter as a typeface in its Demi version, with the purpose of showing tradition and modernisation in the industrial sector.",
           "solution_text": "Precisely thanks to the art direction of the images of the pieces and the new identity, the company's new universe was born.",
-          "next_project": "Next Project"
+          "next_project": "Next Project",
+          "images": {
+            "cover": {"alt": "Image of a piece of Itear on a white background", "title": "Image of a piece of Itear"},
+            "variation_one": {"alt": "Image showing the variations that an Itear logo can have", "title": "Image showing the Itear logo"},
+            "variation_two": {"alt": "Imagen que muestra uno de los iconos del branding de Itear", "title": "Imagen de un icono"},
+            "variation_three": {"alt": "Image of a detail of an Itear part on a white background", "title": "Image of a detail of a part"},
+            "variation_four": {"alt": "Detail image of a hand welding and improving a part", "title": "Image of a hand welding"},
+            "variation_five": {"alt": "Image of a part with a white background that has a blue filter", "title": "Image of a part of Itear"},
+            "variation_six": {"alt": "Image of a piece of Itear with white background", "title": "Image of a piece of Itear"},
+            "variation_seven": {"alt": "Image showing the corporate stationery of the company Itear", "title": "Image of the corporate stationery of Itear"},
+            "variation_eight": {"alt": "Image showing the business card of Itear's corporate stationery", "title": "Image of Itear's corporate stationery"},
+            "variation_nine": {"alt": "Image showing the corporate folder of Itear's corporate stationery", "title": "Image of Itear's corporate stationery"},
+            "variation_ten": {"alt": "Image presenting the design of Itear's new corporate website", "title": "Image presenting Itear's website"},
+            "next_project": {"alt": "Image referring to Kimu's project", "title": "Kimu Image"}
+          }
         }
       },
       "kimu": {
