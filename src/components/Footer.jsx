@@ -20,8 +20,7 @@ export const Footer = () => {
                             <h2 className='text-white font-bold font-title mb-[10px] text-[20px] text-start'>{t("footer.social_networks")}</h2>
                             <div className='flex flex-col'>
                                 <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
-                                <a href='' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
-                                <a href='' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Figma</a>
+                                <a href='https://github.com/nereast' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
                                 {/* <a href={cv} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a> */}
                             </div>
                         </div>
@@ -47,8 +46,7 @@ export const Footer = () => {
                 </h3>
                 <div className='flex flex-col'>
                     <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
-                    <a href='' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
-                    <a href='' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Figma</a>
+                    <a href='https://github.com/nereast' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
                     {/* <a href={cv} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a> */}
                 </div>
             </div>
