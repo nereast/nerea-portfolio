@@ -1,5 +1,4 @@
 import React from 'react'
-// import cv from "../assets/CV_NereaSarasola.pdf";
 import { useTranslation } from "react-i18next";
 
 
@@ -21,7 +20,7 @@ export const Footer = () => {
                             <div className='flex flex-col'>
                                 <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
                                 <a href='https://github.com/nereast' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
-                                {/* <a href={cv} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a> */}
+                                <a href={t("footer.cv")} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
                             </div>
                         </div>
                         <div className='flex justify-end w-3/6'>
@@ -47,7 +46,7 @@ export const Footer = () => {
                 <div className='flex flex-col'>
                     <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
                     <a href='https://github.com/nereast' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
-                    {/* <a href={cv} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a> */}
+                    <a href={t("footer.cv")} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
                 </div>
             </div>
             <div className='hidden xl:block w-1/12'></div>
