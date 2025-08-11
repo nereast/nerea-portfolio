@@ -4,9 +4,9 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "https://nerea-portfolio.vercel.app/",
+  base: "https://nerea-portfolio.vercel.app",
   server: {
-    historyApiFallback: true, // <-- Hau gehitu
+    historyApiFallback: true, 
   }
 });
 
