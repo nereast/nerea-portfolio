@@ -1,26 +1,15 @@
 import './App.css'
-import { Layout } from './components/Layout'
+import { Suspense } from 'react';
 import ScrollToTop from './components/ScrollToTop';
 
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
-
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/home" element={<Layout />}>
-      <Route index element={<Layout />} />
-    </Route>
-  )
-)
 
 function App() {
-
   return (
-    <div className="App">
+    <Suspense fallback='loading'>
       <ScrollToTop />
-      <RouterProvider router={router}/>
-    </div>
-  )
+    </Suspense>
+  );
 }
 
-export default App
+export default App;
+

@@ -1,9 +1,9 @@
-import React from 'react'
+import {useEffect,useState} from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Link } from 'react-router-dom';
-import { Button } from '../components/Button';
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
 import coverImage from "../assets/designsystem/imagen-que-muestra-los-componentes.png";
@@ -20,6 +20,13 @@ import echoCoverImage from "../assets/echo/imagen-de-la-pantalla-principal-en-mi
 export const DesignSystem = () => {
 
     const { t } = useTranslation();
+
+    const [language, setLanguage] = useState(i18next.language);
+
+    useEffect(() => {
+        const currentLang = i18next.language;
+        setLanguage(currentLang)
+    }, [i18next.language]);
 
     return (
 
@@ -166,7 +173,7 @@ export const DesignSystem = () => {
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={echoCoverImage} alt={t("design_system.project.images.next_project.alt")} title={t("design_system.project.images.next_project.title")}/>
-                <Link className='flex items-center' to="/projects/echo">
+                <Link className='flex items-center' to={`/${language}/${t("header.links.projects")}/echo`}>
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("design_system.project.next_project")}</p>
                 </Link>
             </div>

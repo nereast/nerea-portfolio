@@ -1,8 +1,9 @@
-import React from 'react'
+import {useEffect,useState} from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
 import coverImage from "../assets/echo/imagen-de-la-pantalla-principal-de-la-aplicacion.jpg";
@@ -16,6 +17,13 @@ import itearCoverImage from '../assets/itear/itear-rodete-gray-image-of-cover.jp
 export const Echo = () => {
 
     const { t } = useTranslation();
+
+    const [language, setLanguage] = useState(i18next.language);
+
+    useEffect(() => {
+        const currentLang = i18next.language;
+        setLanguage(currentLang)
+    }, [i18next.language]);
 
     return (
 
@@ -96,7 +104,7 @@ export const Echo = () => {
             <img className='w-full px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px] rounded-[10px]' src={screens} alt={t("echo.project.images.variation_four.alt")} title={t("echo.project.images.variation_four.title")}/>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={itearCoverImage} alt={t("echo.project.images.next_project.alt")} title={t("echo.project.images.next_project.title")}/>
-                <Link className='flex items-center' to="/projects/itear">
+                <Link className='flex items-center' to={`/${language}/${t("header.links.projects")}/itear`}>
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("echo.project.next_project")}</p>
                 </Link>
             </div>

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { Card } from './Card';
@@ -20,7 +19,7 @@ export const Layout = () => {
   return (
     <div className='bg-beige'>
       <Header />
-      <div id="home" className="relative flex flex-col md:flex-row px-[25px] md:px-[50px] items-center justify-center h-screen">
+      <div id={t("header.links.home")} className="relative flex flex-col md:flex-row px-[25px] md:px-[50px] items-center justify-center h-screen">
         <div className='absolute w-full h-screen overflow-hidden'>
           <div className="absolute w-[500px] h-[500px] right-[-300px] top-[-250px] bg-[linear-gradient(0deg,_#3D9277,_#3D9277)] filter blur-[100px] z-0"></div>
         </div>
@@ -33,7 +32,7 @@ export const Layout = () => {
           <div className="absolute w-[200px] h-[200px] left-[-100px] top-[521px] bg-[#F1D02D] filter blur-[100px] z-0"></div>
         </div>
       </div>
-      <div id="about" className='flex flex-col px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
+      <div id={t("header.links.about_me")} className='flex flex-col px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
         <h2 className='text-[30px] md:text-[40px] xl:text-[60px] text-black font-title font-bold mb-[50px] text-center'>{t("home.about_me.title")}</h2>
         <div className='flex md:items-start xl:items-start justify-center flex-col md:flex-row gap-[25px] md:gap-[20px]'>
           <div className='xl:w-1/12'></div>
@@ -49,34 +48,34 @@ export const Layout = () => {
           <div className='xl:w-1/12'></div>
         </div>
       </div>
-      <div id="projects" className='px-[25px] md:px-[50px] py-[50px] md:pb-[100px] xl:pb-[150px]'>
+      <div id={t("header.links.projects")} className='px-[25px] md:px-[50px] py-[50px] md:pb-[100px] xl:pb-[150px]'>
         <h2 className='text-[30px] md:text-[40px] xl:text-[60px] md:leading-[42px] xl:leading-[62px] text-black font-title font-bold mb-[50px] text-center'>{t("home.projects")}</h2>
         <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
           <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
-            <Card projectName="ITEAR" category={t("itear.card.subtitle")} coverImage={itearCoverImage} href="/projects/itear" width="480" height="480" color="green" />
+            <Card projectName="ITEAR" category={t("itear.card.subtitle")} coverImage={itearCoverImage} href={`${t("header.links.projects")}/itear`} width="480" height="480" color="green" />
           </div>
           <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
-            <Card projectName="KIMU" category={t("kimu.card.subtitle")} coverImage={kimuCoverImage} href="/projects/kimu" width="680" height="480" color="red" />
+            <Card projectName="KIMU" category={t("kimu.card.subtitle")} coverImage={kimuCoverImage} href={`${t("header.links.projects")}/kimu`} width="680" height="480" color="red" />
           </div>
         </div>
         <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
           <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
-            <Card projectName="DESCUBRE" category={t("descubre.card.subtitle")} coverImage={descubreCoverImage} href="/projects/descubre" width="680" height="480" color="yellow" />
+            <Card projectName="DESCUBRE" category={t("descubre.card.subtitle")} coverImage={descubreCoverImage} href={`${t("header.links.projects")}/descubre`} width="680" height="480" color="yellow" />
           </div>
           <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
-            <Card projectName="ERROFEST" category={t("errofest.card.subtitle")} coverImage={errofestCoverImage} href="/projects/errofest" width="480" height="480" color="orange" />
+            <Card projectName="ERROFEST" category={t("errofest.card.subtitle")} coverImage={errofestCoverImage} href={`${t("header.links.projects")}/errofest`} width="480" height="480" color="orange" />
           </div>
         </div>
         <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
           <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
-            <Card projectName="DESIGN SYSTEM" category={t("design_system.card.subtitle")} coverImage={designSystemCoverImage} href="/projects/designsystem" width="480" height="480" color="green" />
+            <Card projectName="DESIGN SYSTEM" category={t("design_system.card.subtitle")} coverImage={designSystemCoverImage} href={`${t("header.links.projects")}/designsystem`} width="480" height="480" color="green" />
           </div>
           <div className='w-full xl:w-8/12'>
-            <Card projectName="ECHO" category={t("echo.card.subtitle")} coverImage={echoCoverImage} href="/projects/echo" width="680" height="480" color="red" />
+            <Card projectName="ECHO" category={t("echo.card.subtitle")} coverImage={echoCoverImage} href={`${t("header.links.projects")}/echo`} width="680" height="480" color="red" />
           </div>
         </div>
       </div>
-      <div id="contact">
+      <div id={t("header.links.contact")}>
         <Footer />
       </div>
     </div>

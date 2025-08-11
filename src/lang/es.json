@@ -5,7 +5,13 @@
         "about_me": "Sobre mí",
         "projects": "Proyectos",
         "contact": "Contacto",
-        "menu": "Menu"
+        "menu": "Menu",
+        "links": {
+          "home": "presentacion",
+          "about_me": "sobre-mi",
+          "projects": "proyectos",
+          "contact": "contacto"
+        }
       },
       "home": {
         "welcome": "¡Hola! Soy Nerea Sarasola, Desarrolladora Front-end y Diseñadora UX/UI.",

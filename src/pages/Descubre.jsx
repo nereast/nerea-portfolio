@@ -1,11 +1,13 @@
-import React from 'react';
+import {useState,useEffect} from 'react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { Button } from '../components/Button';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
+import coverImage from "../assets/descubre/cover.jpg";
 import layout from "../assets/descubre/layout.jpg";
 import layoutTwo from "../assets/descubre/layout-two.jpg";
 import detail from "../assets/descubre/magazine-details.jpg";
@@ -13,9 +15,16 @@ import collage from "../assets/descubre/collage.jpg";
 import errofestCoverImage from "../assets/errofest/imagen-de-montana-que-hace-referencia-a-errofest.jpg";
 
 
-export const Descubre = ({ coverImage }) => {
+export const Descubre = () => {
 
     const { t } = useTranslation();
+
+    const [language, setLanguage] = useState(i18next.language);
+
+    useEffect(() => {
+        const currentLang = i18next.language;
+        setLanguage(currentLang)
+    }, [i18next.language]);
 
     return (
 
@@ -103,7 +112,7 @@ export const Descubre = ({ coverImage }) => {
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={errofestCoverImage} alt={t("descubre.project.images.next_project.alt")} title={t("descubre.project.images.next_project.title")}/>
-                <Link className='flex items-center' to="/projects/errofest">
+                <Link className='flex items-center' to={`/${language}/${t("header.links.projects")}/errofest`}>
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("descubre.project.next_project")}</p>
                 </Link>
             </div>

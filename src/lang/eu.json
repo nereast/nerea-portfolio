@@ -5,7 +5,13 @@
         "about_me": "Niri buruz",
         "projects": "Proiektuak",
         "contact": "Kontaktua",
-        "menu": "Menua"
+        "menu": "Menua",
+        "links": {
+          "home": "hasiera",
+          "about_me": "niri-buruz",
+          "projects": "proiektuak",
+          "contact": "kontaktua"
+        }
       },
       "home": {
         "welcome": "Kaixo! Nerea Sarasola naiz, Front-end garatzailea eta UX/UI Diseinatzailea.",

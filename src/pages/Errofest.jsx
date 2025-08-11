@@ -1,11 +1,13 @@
-import React from 'react'
+import {useState,useEffect} from 'react'
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { Button } from '../components/Button';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
+import coverImage from "../assets/errofest/imagen-del-festival.jpg";
 import logo from "../assets/errofest/logo-de-errofest-con-fondo-montanosa.jpg";
 import illustrations from "../assets/errofest/ilustraciones-en-fondo-verde.jpg";
 import womanSmiling from "../assets/errofest/mujer-sonriendo.jpg";
@@ -14,9 +16,15 @@ import layoutPresentation from "../assets/errofest/presentacion-del-layout-de-la
 import websiteVideo from "../assets/errofest/presentacion-de-la-web.mp4";
 import designSystemCoverImage from "../assets/designsystem/imagen-de-portada-del-design-system.jpg";
 
-export const Errofest = ({ coverImage }) => {
+export const Errofest = () => {
 
     const { t } = useTranslation();
+    const [language, setLanguage] = useState(i18next.language);
+
+    useEffect(() => {
+        const currentLang = i18next.language;
+        setLanguage(currentLang)
+    }, [i18next.language]);
 
     return (
         <div className='bg-beige'>
@@ -108,7 +116,7 @@ export const Errofest = ({ coverImage }) => {
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={designSystemCoverImage} alt={t("errofest.project.images.next_project.alt")} title={t("errofest.project.images.next_project.title")}/>
-                <Link className='flex items-center' to="/projects/designsystem">
+                <Link className='flex items-center' to={`/${language}/${t("header.links.projects")}/designsystem`}>
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("errofest.project.next_project")}</p>
                 </Link>
             </div>

@@ -22,43 +22,33 @@ import { DesignSystem } from "./pages/DesignSystem";
 import { Echo } from "./pages/Echo";
 
 
-import coverImage from "./assets/itear/itear-rodete-gray-image-of-cover.jpg";
-import kimuCoverImage from "./assets/kimu/market-tolosa.jpg";
-import descubreCoverImage from "./assets/descubre/cover.jpg";
-import errofestCoverImage from "./assets/errofest/imagen-del-festival.jpg";
-
-
-
 const router = createBrowserRouter([
-  {
-    path: "/home",
-    element: <Layout/>,
-  },
-  {
-    path: "/projects/itear",
-    element: <Itear coverImage={coverImage}/>,
-  },
-  {
-    path: "/projects/kimu",
-    element: <Kimu coverImage={kimuCoverImage}/>,
-  },
-  {
-    path: "/projects/descubre",
-    element: <Descubre coverImage={descubreCoverImage}/>,
-  },
-  {
-    path: "/projects/errofest",
-    element: <Errofest coverImage={errofestCoverImage}/>,
-  },
-  {
-    path: "/projects/designsystem",
-    element: <DesignSystem/>,
-  },
-  {
-    path: "/projects/echo",
-    element: <Echo/>,
-  },
+  { path: "/eu", element: <Layout /> },
+  { path: "/eu/proiektuak/itear", element: <Itear/> },
+  { path: "/eu/proiektuak/kimu", element: <Kimu/>},
+  { path: "/eu/proiektuak/descubre", element: <Descubre/>},
+  { path: "/eu/proiektuak/errofest", element: <Errofest/>},
+  { path: "/eu/proiektuak/designsystem", element: <DesignSystem/>},
+  { path: "/eu/proiektuak/echo", element: <Echo/>},
+
+  { path: "/es", element: <Layout /> },
+  { path: "/es/proyectos/itear", element: <Itear/> },
+  { path: "/es/proyectos/kimu", element: <Kimu/>},
+  { path: "/es/proyectos/descubre", element: <Descubre/>},
+  { path: "/es/proyectos/errofest", element: <Errofest/>},
+  { path: "/es/proyectos/designsystem", element: <DesignSystem/>},
+  { path: "/es/proyectos/echo", element: <Echo/>},
+
+  { path: "/en", element: <Layout /> },
+  { path: "/en/projects/itear", element: <Itear/> },
+  { path: "/en/projects/kimu", element: <Kimu/>},
+  { path: "/en/projects/descubre", element: <Descubre/>},
+  { path: "/en/projects/errofest", element: <Errofest/>},
+  { path: "/en/projects/designsystem", element: <DesignSystem/>},
+  { path: "/en/projects/echo", element: <Echo/>},
 ]);
+
+
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -66,11 +56,9 @@ i18n.use(initReactI18next).init({
       es: spanishContent,
       en: englishContent,
   },
-
-  fallbackLng: "eu",
-
+  
   interpolation: {
-      escapeValue: false, // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
+      escapeValue: false, 
   },
 });
 

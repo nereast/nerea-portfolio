@@ -1,13 +1,15 @@
-import React from 'react'
+import {useState,useEffect} from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 import background from "../assets/imagen-de-fondo-para-los-projectos.jpg";
 import logos from "../assets/itear/itear-branding.jpg";
 import icons from "../assets/itear/icons.jpg";
 
+import coverImage from "../assets/itear/itear-rodete-gray-image-of-cover.jpg";
 import pieceOne from "../assets/itear/piece-of-itear.jpg";
 import pieceFour from "../assets/itear/itear-piece-four.jpg";
 import pieceFive from "../assets/itear/piece-five.jpg";
@@ -20,9 +22,15 @@ import websiteDetail from "../assets/itear/website-detail.jpg";
 import websiteVideo from "../assets/itear/web-presentation.mov";
 import kimuCoverImage from "../assets/kimu/market-tolosa.jpg";
 
-export const Itear = ({ coverImage }) => {
+export const Itear = () => {
 
     const { t } = useTranslation();
+    const [language, setLanguage] = useState(i18next.language);
+
+    useEffect(() => {
+        const currentLang = i18next.language;
+        setLanguage(currentLang)
+    }, [i18next.language]);
 
     return (
 
@@ -51,7 +59,7 @@ export const Itear = ({ coverImage }) => {
 
                 </div>
             </div>
-            <img class="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt={t("itear.project.images.cover.alt")} title={t("itear.project.images.cover.title")} />
+            <img className="w-screen h-[50vh] md:h-[100vh] object-cover" src={coverImage} alt={t("itear.project.images.cover.alt")} title={t("itear.project.images.cover.title")} />
             <div className='flex flex-col lg:flex-row px-[25px] py-[50px] md:px-[50px] xl:py-[100px]'>
                 <div className='lg:w-4/12'>
                     <h2 className='text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] uppercase text-black font-bold font-title pb-[25px]' dangerouslySetInnerHTML={{ __html: t("itear.project.project_overview") }}/>
@@ -122,7 +130,7 @@ export const Itear = ({ coverImage }) => {
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] md:px-[50px] py-[50px] xl:py-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={kimuCoverImage} alt={t("itear.project.images.next_project.alt")} title={t("itear.project.images.next_project.title")} />
-                <Link className='flex items-center' to="/projects/kimu">
+                <Link className='flex items-center' to={`/${language}/${t("header.links.projects")}/kimu`}>
                     <p className='text-black font-bold text-[40px] leading-[42px] md:text-[50px] md-xl:text-[60px] font-title'>{t("itear.project.next_project")}</p>
                 </Link>
             </div>
