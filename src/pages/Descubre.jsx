@@ -108,7 +108,7 @@ export const Descubre = () => {
                 <img className="object-cover w-screen h-[350px] md:h-[800px] rounded-[10px]" src={layoutTwo} alt={t("descubre.project.images.variation_four.alt")} title={t("descubre.project.images.variation_four.title")}/>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>{t("descubre.project.view_project")} <Button href='https://descubre-magazine.vercel.app/' text={t("descubre.project.view_project_here")} number="bottom-[10px]"/>.</p>
+                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>{t("descubre.project.view_project")} <Button href='https://descubre-magazine.vercel.app/' text={t("descubre.project.view_project_here")}/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={errofestCoverImage} alt={t("descubre.project.images.next_project.alt")} title={t("descubre.project.images.next_project.title")}/>
