@@ -11,11 +11,10 @@ import errofestCoverImage from "../assets/errofest/imagen-de-montana-que-hace-re
 import designSystemCoverImage from "../assets/designsystem/imagen-de-portada-del-design-system.jpg";
 import echoCoverImage from "../assets/echo/imagen-de-la-pantalla-principal-en-miniatura.jpg";
 
-
 export const Layout = () => {
 
   const { t } = useTranslation();
-  
+
   return (
     <div className='bg-beige'>
       <Header />

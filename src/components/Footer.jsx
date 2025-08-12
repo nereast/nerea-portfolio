@@ -1,10 +1,22 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
+import cvEU from "../assets/CV_NereaSarasola_EU.pdf";
+import cvES from "../assets/CV_NereaSarasola_ES.pdf";
+import cvEN from "../assets/CV_NereaSarasola_EN.pdf";
 
 
 export const Footer = () => {
 
     const { t } = useTranslation();
+
+    const cvMap = {
+        eu: cvEU,
+        es: cvES,
+        en: cvEN,
+      };
+    
+      const cvLink = cvMap[t.language] || cvEU;
+    
 
     return (
         <div className='bg-black flex flex-col md:flex-row px-[25px] md:px-[50px] py-[50px] md:py-[100px] rounded-[25px_25px_0_0] md:rounded-[50px_50px_0_0]'>
@@ -20,7 +32,7 @@ export const Footer = () => {
                             <div className='flex flex-col'>
                                 <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
                                 <a href='https://github.com/nereast' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
-                                <a href={t("footer.cv")} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
+                                <a href={cvLink} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
                             </div>
                         </div>
                         <div className='flex justify-end w-3/6'>
@@ -46,7 +58,7 @@ export const Footer = () => {
                 <div className='flex flex-col'>
                     <a href='https://www.linkedin.com/in/nereasarasola/' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Linkedin</a>
                     <a href='https://github.com/nereast' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
-                    <a href={t("footer.cv")} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
+                    <a href={cvLink} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
                 </div>
             </div>
             <div className='hidden xl:block w-1/12'></div>
