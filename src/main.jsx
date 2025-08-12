@@ -20,6 +20,7 @@ import { Descubre } from "./pages/Descubre";
 import { Errofest } from "./pages/Errofest";
 import { DesignSystem } from "./pages/DesignSystem";
 import { Echo } from "./pages/Echo";
+import { ErrorPage } from "./pages/ErrorPage";
 
 
 const router = createBrowserRouter([
@@ -46,6 +47,8 @@ const router = createBrowserRouter([
   { path: "/en/projects/errofest", element: <Errofest/>},
   { path: "/en/projects/designsystem", element: <DesignSystem/>},
   { path: "/en/projects/echo", element: <Echo/>},
+
+   { path: "*", element: <ErrorPage /> }
 ]);
 
 

@@ -211,6 +211,11 @@
           }
         }
       },
+      "error_page": {
+        "subtitle": "No se ha encontrado la página",
+        "button_text": "Vuelve al inicio",
+        "button_url": "/es"
+      },
       "footer": {
         "title": "¡No dudes en ponerte en contacto conmigo!",
         "social_networks": "Redes sociales",

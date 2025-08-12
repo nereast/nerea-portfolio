@@ -212,6 +212,11 @@
 
         }
       },
+      "error_page": {
+        "subtitle": "Orrialdea ez da aurkitu",
+        "button_text": "Itzuli Hasierara",
+        "button_url": "/eu"
+      },
       "footer": {
         "title": "Ez izan zalantzarik nirekin kontaktuan jartzeko!",
         "social_networks": "Sare sozialak",

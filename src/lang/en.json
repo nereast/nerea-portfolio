@@ -212,6 +212,11 @@
           }
         }
       },
+      "error_page": {
+        "subtitle": "Page Not Found",
+        "button_text": "Go back home",
+        "button_url": "/en"
+      },
       "footer": {
         "title": "Feel free to contact me!",
         "social_networks": "Social media",
