@@ -1,5 +1,6 @@
-import React from 'react'
+import {useEffect, useState} from 'react'
 import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 import cvEU from "../assets/CV_NereaSarasola_EU.pdf";
 import cvES from "../assets/CV_NereaSarasola_ES.pdf";
 import cvEN from "../assets/CV_NereaSarasola_EN.pdf";
@@ -8,6 +9,7 @@ import cvEN from "../assets/CV_NereaSarasola_EN.pdf";
 export const Footer = () => {
 
     const { t } = useTranslation();
+    const [cvLink, setLink] = useState();
 
     const cvMap = {
         eu: cvEU,
@@ -15,7 +17,12 @@ export const Footer = () => {
         en: cvEN,
       };
     
-      const cvLink = cvMap[t.language] || cvEU;
+
+    useEffect(() => {
+        const currentLang = i18next.language;
+        setLink(cvMap[currentLang])
+    }, [i18next.language])
+    
     
 
     return (
