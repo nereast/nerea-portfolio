@@ -34,7 +34,7 @@ export const DesignSystem = () => {
         setTimeout(() => setLoading(false), 3300)
     }, [])
     if (loading) {
-        return <Loading title="DESIGN SYSTEM" subtitle={t("design_system.card.subtitle")} background="bg-green"/>
+        return <Loading title="DESIGN SYSTEM" background="bg-green" onFinish={() => setLoading(false)}/>
     }
 
     return (

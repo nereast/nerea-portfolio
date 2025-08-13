@@ -38,7 +38,7 @@ export const Itear = () => {
         setTimeout(() => setLoading(false), 3300)
     }, [])
     if (loading) {
-        return <Loading title="ITEAR" subtitle={t("itear.card.subtitle")} background="bg-green"/>
+        return <Loading title="ITEAR" background="bg-green" onFinish={() => setLoading(false)}/>
     }
 
     return (

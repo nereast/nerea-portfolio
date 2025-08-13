@@ -32,7 +32,7 @@ export const Errofest = () => {
         setTimeout(() => setLoading(false), 3300)
     }, [])
     if (loading) {
-        return <Loading title="ERROFEST" subtitle={t("errofest.card.subtitle")} background="bg-orange"/>
+        return <Loading title="ERROFEST" background="bg-orange" onFinish={() => setLoading(false)}/>
     }
 
     return (

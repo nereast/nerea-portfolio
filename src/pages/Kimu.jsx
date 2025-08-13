@@ -41,7 +41,7 @@ export const Kimu = () => {
         setTimeout(() => setLoading(false), 3300)
     }, [])
     if (loading) {
-        return <Loading title="KIMU" subtitle={t("kimu.card.subtitle")} background="bg-red"/>
+        return <Loading title="KIMU" background="bg-red" onFinish={() => setLoading(false)}/>
     }
 
 

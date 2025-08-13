@@ -32,7 +32,7 @@ export const Descubre = () => {
         setTimeout(() => setLoading(false), 3300)
     }, [])
     if (loading) {
-        return <Loading title="DESCUBRE" subtitle={t("descubre.card.subtitle")} background="bg-yellow"/>
+        return <Loading title="DESCUBRE" background="bg-yellow" onFinish={() => setLoading(false)}/>
     }
 
     return (

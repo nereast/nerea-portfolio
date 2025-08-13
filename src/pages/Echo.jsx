@@ -31,7 +31,7 @@ export const Echo = () => {
         setTimeout(() => setLoading(false), 3300)
     }, [])
     if (loading) {
-        return <Loading title="ECHO" subtitle={t("echo.card.subtitle")} background="bg-red"/>
+        return <Loading title="ECHO" background="bg-red" onFinish={() => setLoading(false)}/>
     }
 
     return (
