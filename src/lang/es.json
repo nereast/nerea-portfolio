@@ -162,7 +162,7 @@
           "challenge_subtitle": "Tras reflexionar sobre la lista completa de elementos que complementarían el sistema de diseño, comenzó el desarrollo de los elementos principales.",
           "challenge_text": "Los primeros elementos que se desarrollaron fueron los tipos de letra, los colores, los elementos gráficos, la iconografía y la estructura.",
           "typefaces": "Tipografías",
-          "typefaces_text": "El tipo de letra IBM Plex Mono se utiliza para los títulos y el tipo Inter para los textos. Las escalas de los tipos de letra se han definido para su uso en distintos tamaños de dispositivo,que cambian y siguen el orden establecido según el tamaño de los dispositivos.",
+          "typefaces_text": "El tipo de letra IBM Plex Mono se utiliza para los títulos y el tipo Inter para los textos. Las escalas de los tipos de letra se han definido para su uso en distintos tamaños de dispositivo, que cambian y siguen el orden establecido según el tamaño de los dispositivos.",
           "colours": "Colores",
           "colours_text": "La paleta de colores se ha establecido con un total de cinco colores secundarios, que junto con los principales (blanco y negro) ayudan a combinar colores para generar distintas composiciones. Por otro lado, están los colores semánticos, que se han elegido para informar al usuario. También se utilizarán distintos tipos de transparencia cromática para crear nuevas composiciones.",
           "iconography": "Iconografía",
