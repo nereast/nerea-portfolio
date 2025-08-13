@@ -2,6 +2,7 @@ import {useState,useEffect} from 'react'
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { Button } from '../components/Button';
+import { Loading } from '../components/Loading';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
@@ -20,11 +21,19 @@ export const Errofest = () => {
 
     const { t } = useTranslation();
     const [language, setLanguage] = useState(i18next.language);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const currentLang = i18next.language;
         setLanguage(currentLang)
     }, [i18next.language]);
+
+    useEffect(() => {
+        setTimeout(() => setLoading(false), 3300)
+    }, [])
+    if (loading) {
+        return <Loading title="ERROFEST" subtitle={t("errofest.card.subtitle")} background="bg-orange"/>
+    }
 
     return (
         <div className='bg-beige'>
@@ -112,7 +121,7 @@ export const Errofest = () => {
                 <video className='w-full h-full rounded-[10px]' src={websiteVideo} width="320" height="240" autoPlay muted loop></video>
             </div>
             <div className='px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
-                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>{t("errofest.project.view_project")} <Button href={t("errofest.project.project_web")} text={t("errofest.project.view_project_here")} height="40"/>.</p>
+                <p className='text-black font-bold font-title text-[25px] leading-[27px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px]'>{t("errofest.project.view_project")} <Button href={t("errofest.project.project_web")} text={t("errofest.project.view_project_here")}/>.</p>
             </div>
             <div className='flex justify-start md:justify-center gap-[25px] px-[25px] pb-[50px] md:px-[50px] xl:pb-[100px]'>
                 <img className='w-[111px] md:w-[200px] h-[100px] rounded-[10px] object-cover' src={designSystemCoverImage} alt={t("errofest.project.images.next_project.alt")} title={t("errofest.project.images.next_project.title")}/>

@@ -1,6 +1,7 @@
 import {useEffect,useState} from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
+import { Loading } from '../components/Loading';
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
@@ -22,11 +23,19 @@ export const DesignSystem = () => {
     const { t } = useTranslation();
 
     const [language, setLanguage] = useState(i18next.language);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const currentLang = i18next.language;
         setLanguage(currentLang)
     }, [i18next.language]);
+
+    useEffect(() => {
+        setTimeout(() => setLoading(false), 3300)
+    }, [])
+    if (loading) {
+        return <Loading title="DESIGN SYSTEM" subtitle={t("design_system.card.subtitle")} background="bg-green"/>
+    }
 
     return (
 
