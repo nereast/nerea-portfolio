@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react'
-import { Header } from '../components/Header';
+import { Nav } from '../components/Nav';
 import { Footer } from '../components/Footer';
 import { Button } from '../components/Button';
 import { Loading } from '../components/Loading';
@@ -37,7 +37,7 @@ export const Errofest = () => {
 
     return (
         <div className='bg-beige'>
-            <Header />
+            <Nav />
             <div className='px-[25px] md:px-[50px] pt-[200px] md:pb-[50px] xl:pt-[300px] xl:pb-[100px] flex flex-col xl:flex-row bg-cover bg-right xl:bg-top-left' style={{ backgroundImage: `url(${background})` }}>
                 <div className='xl:w-6/12'>
                     <h1 className='text-[25px] md:text-[40px] xl:text-[50px] leading-[27px] md:leading-[42px] xl:leading-[52px] text-black font-bold font-title mb-[20px] md:mb-[30px]'>

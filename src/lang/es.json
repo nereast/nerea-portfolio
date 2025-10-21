@@ -6,6 +6,8 @@
         "projects": "Proyectos",
         "contact": "Contacto",
         "menu": "Menu",
+        "menu_arial": "Navegación principal",
+        "close_menu": "Cerrar la navegación principal",
         "links": {
           "home": "presentacion",
           "about_me": "sobre-mi",
@@ -14,7 +16,7 @@
         }
       },
       "home": {
-        "welcome": "¡Hola! Soy Nerea Sarasola, Desarrolladora Front-end y Diseñadora UX/UI.",
+        "welcome": "¡Hola! Soy Nerea, Diseñadora Digital y Desarrolladora Front-end.",
         "about_me": {
           "title": "Sobre mí",
           "subtitle": "Tengo 26 años y hasta ahora he trabajado como diseñadora gráfica en la cooperativa social Bizzart de Vicenza, una ciudad ubicada en la región del Véneto, en Italia.",

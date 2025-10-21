@@ -6,6 +6,8 @@
         "projects": "Projects",
         "contact": "Contact",
         "menu": "Menu",
+        "menu_arial": "Principal navigation",
+        "close_menu": "Close the principal navigation",
         "links": {
           "home": "presentation",
           "about_me": "about-me",
@@ -14,7 +16,7 @@
         }
       },
       "home": {
-        "welcome": "Hello! I'm Nerea Sarasola, Front-end developer and UX/UI designer.",
+        "welcome": "Hello! I'm Nerea, Digital Designer and Front-end Developer.",
         "about_me": {
           "title": "About me",
           "subtitle": "I am 26 years old and until now I have worked as a graphic designer at the Bizzart social cooperative in Vicenza, a city located in the Veneto region of Italy.",

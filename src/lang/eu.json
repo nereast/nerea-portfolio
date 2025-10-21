@@ -6,6 +6,8 @@
         "projects": "Proiektuak",
         "contact": "Kontaktua",
         "menu": "Menua",
+        "menu_arial": "Nabigazio nagusia",
+        "close_menu": "Nabigazio nagusia itxi",
         "links": {
           "home": "hasiera",
           "about_me": "niri-buruz",
@@ -14,7 +16,7 @@
         }
       },
       "home": {
-        "welcome": "Kaixo! Nerea Sarasola naiz, Front-end garatzailea eta UX/UI Diseinatzailea.",
+        "welcome": "Kaixo! Nerea naiz, Diseinatzaile Digitala eta Front-end Garatzailea.",
         "about_me": {
           "title": "Niri buruz",
           "subtitle": "26 urte ditut eta orain arte Bizzart izeneko kooperatiba sozialean egin dut lan, Vicenzan, Veneto eskualdean, Italian, dagoen hiri batean.",
