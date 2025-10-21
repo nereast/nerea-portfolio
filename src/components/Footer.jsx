@@ -53,12 +53,12 @@ export const Footer = () => {
             </div>
             <div className='hidden md:block md:w-7/12 xl:w-5/12'>
                 <h2 className='text-white pb-[25px] md:text-[30px] md:leading-[32px] xl:text-[40px] xl:leading-[42px] font-title font-bold'>{t("footer.title")}</h2>
-                <h3 className='text-white md:text-[20px] md:text-[22px] xl:text-[30px] xl:leading-[32px] font-title font-bold underline underline-offset-1'>
-                    <a href='mailto:nereasarasolatome@gmail.com'>nereasarasolatome@gmail.com</a>
-                </h3>
+                <address className='text-white not-italic text-[20px] md:text-[22px] xl:text-[30px] xl:leading-[32px] font-title font-bold underline underline-offset-1'>
+                    <a href='mailto:nereasarasolatome@gmail.com' aria-label={t("footer.email_aria_label")}>nereasarasolatome@gmail.com</a>
+                </address>
             </div>
             <div className='hidden xl:block w-1/12'></div>
-            <div className='hidden md:block md:w-3/12 xl:w-2/12'>
+            <nav className='hidden md:block md:w-3/12 xl:w-2/12'>
                 <h3 className='text-white md:pb-[30px] xl:pb-[50px] text-[20px] md:text-[25px] xl:text-[30px] xl:leading-[32px] font-title font-bold'>
                     {t("footer.social_networks")}
                 </h3>
@@ -67,7 +67,7 @@ export const Footer = () => {
                     <a href='https://github.com/nereast' target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>Github</a>
                     <a href={cvLink} target='_blank' className='text-white md:text-[20px] xl:text-[30px] font-paragraph'>CV</a>
                 </div>
-            </div>
+            </nav>
             <div className='hidden xl:block w-1/12'></div>
             <div className='hidden md:flex md:w-2/12 xl:w-3/12 justify-end'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="310" height="310" viewBox="0 0 310 310" fill="none" className='md:w-[100px] xl:w-[310px] md:h-[100px] xl:h-[310px]'>

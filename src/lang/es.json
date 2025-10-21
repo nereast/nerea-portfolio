@@ -20,13 +20,14 @@
         "about_me": {
           "title": "Sobre mí",
           "subtitle": "Tengo 26 años y hasta ahora he trabajado como diseñadora gráfica en la cooperativa social Bizzart de Vicenza, una ciudad ubicada en la región del Véneto, en Italia.",
-          "text": "En la cooperativa he tenido la oportunidad de gestionar y maquetar páginas web con WordPress. También he creado diferentes logotipos para asociaciones y carteles creativos para eventos que se iban a celebrar en la ciudad de Vicenza. Antes de trabajar en la cooperativa, tuve la oportunidad de trabajar como desarrolladora front-end y maquetadora en diferentes páginas web. <br><br> Mi objetivo principal de cara al futuro es formar parte de un nuevo equipo en el que pueda aprender y adquirir más conocimientos sobre UX/UI, maquetación y desarrollo front-end. <br><br> Si quieres saber más sobre mí, puedes consultar mi <a href='https://nerea-portfolio.vercel.app/assets/CV_NereaSarasola_ES--SR-bZZv.pdf' target='_blank' class='relative inline-block h-[35px]'><strong class='after:absolute after:bottom-0 after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow lg:after:transition-transform lg:after:duration-150 lg:after:ease-in-out lg:hover:after:origin-bottom-right lg:hover:after:scale-x-0''>currículum vitae.</strong></a>",
+          "text": "En la cooperativa he tenido la oportunidad de gestionar y maquetar páginas web con WordPress. También he creado diferentes logotipos para asociaciones y carteles creativos para eventos que se iban a celebrar en la ciudad de Vicenza. Antes de trabajar en la cooperativa, tuve la oportunidad de trabajar como desarrolladora front-end y maquetadora en diferentes páginas web. <br><br> Mi objetivo principal de cara al futuro es formar parte de un nuevo equipo en el que pueda aprender y adquirir más conocimientos sobre diseño UX/UI, maquetación web y desarrollo front-end. <br><br> Si quieres saber más sobre mí, puedes consultar mi <a href='https://nerea-portfolio.vercel.app/assets/CV_NereaSarasola_ES--SR-bZZv.pdf' target='_blank' aria-label='Consulta mi CV' class='relative inline-block h-[35px]'><strong class='after:absolute after:bottom-0 after:left-0 after:h-[5px] after:w-full after:origin-bottom-left after:scale-x-100 after:bg-yellow lg:after:transition-transform lg:after:duration-150 lg:after:ease-in-out lg:hover:after:origin-bottom-right lg:hover:after:scale-x-0''>currículum vitae.</strong></a>",
           "image": {
             "alt": "Imagen de una mujer con gafas sonriendo a la cámara",
             "title": "Imagen de una mujer sonriente"
           }
         },
-        "projects": "Proyectos"
+        "projects": "Proyectos",
+        "project_aria_label": "Presentación del proyecto {{name}}"
       },
       "itear": {
         "card": {
@@ -123,7 +124,7 @@
       },
       "errofest": {
         "card": {
-          "subtitle": "Branding, Diseño UX/UI y Desarrollo"
+          "subtitle": "Branding, Diseño UX/UI y Desarrollo Web"
         },
         "project": {
           "title": "Errofest: Creación de una identidad y promoción de un festival local.",
@@ -221,7 +222,8 @@
       "footer": {
         "title": "¡No dudes en ponerte en contacto conmigo!",
         "social_networks": "Redes sociales",
-        "cv": "/src/assets/CV_NereaSarasola_ES.pdf"
+        "cv": "/src/assets/CV_NereaSarasola_ES.pdf",
+        "email_aria_label": "Enlace del correo electrónico personal"
       }
     }
 }

@@ -22,9 +22,6 @@ export const Nav = () => {
   }, [i18next.language]);
 
 
-
-
-
   return (
     <nav aria-label={t("header.menu_arial")} className="w-screen flex justify-center">
       <ul className="flex p-[15px] fixed z-10 top-[50px] w-[70vw] bg-yellow/[.7] rounded-[50px] backdrop-blur-[20px] backdrop-saturate-[1.7]	">
@@ -47,14 +44,12 @@ export const Nav = () => {
           </a>
           <LanguageSelector />
         </li>
-
         <li className="w-6/12 text-end flex items-center justify-end md:hidden">
           <button onClick={toggleMenu} className="text-black focus:outline-none" aria-label={t("header.menu")}>
             <p className="text-black font-paragraph uppercase text-sm">{t("header.menu")}</p>
           </button>
         </li>
       </ul>
-
       <ul className={`block md:hidden flex-col md:flex-row ${isOpen ? '' : 'hidden'} fixed top-0 left-0 bg-yellow w-full h-full z-50 pt-0 p-[50px]`}>
         <li className="flex py-[15px] mt-[25px] w-full">
           <a className="w-6/12" href={`/${language}` + "#" + t("header.links.home")}>
@@ -81,8 +76,6 @@ export const Nav = () => {
         </li>
       </ul>
     </nav>
-
-
 
   );
 };

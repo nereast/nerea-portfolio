@@ -30,7 +30,7 @@ export const Layout = () => {
           <div className="absolute w-[200px] h-[200px] left-[-100px] top-[521px] bg-[#F1D02D] filter blur-[100px] z-0"></div>
         </div>
       </header>
-      <Nav/>
+      <Nav />
 
       <main>
         <section id={t("header.links.about_me")} className='flex flex-col px-[25px] md:px-[50px] pb-[50px] md:pb-[100px]'>
@@ -56,28 +56,28 @@ export const Layout = () => {
           <h2 className='text-[30px] md:text-[40px] xl:text-[60px] md:leading-[42px] xl:leading-[62px] text-black font-title font-bold mb-[50px] text-center'>{t("home.projects")}</h2>
           <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
             <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
-              <Card projectName="ITEAR" category={t("itear.card.subtitle")} coverImage={itearCoverImage} href={`${t("header.links.projects")}/itear`} width="480" height="480" color="green" />
+              <Card projectName="Itear" category={t("itear.card.subtitle")} coverImage={itearCoverImage} href={`${t("header.links.projects")}/itear`} width="480" height="480" color="green" />
             </div>
             <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
-              <Card projectName="KIMU" category={t("kimu.card.subtitle")} coverImage={kimuCoverImage} href={`${t("header.links.projects")}/kimu`} width="680" height="480" color="red" />
+              <Card projectName="Kimu" category={t("kimu.card.subtitle")} coverImage={kimuCoverImage} href={`${t("header.links.projects")}/kimu`} width="680" height="480" color="red" />
             </div>
           </div>
           <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
-            <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
+            {/* <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
               <Card projectName="DESCUBRE" category={t("descubre.card.subtitle")} coverImage={descubreCoverImage} href={`${t("header.links.projects")}/descubre`} width="680" height="480" color="yellow" />
+            </div> */}
+            <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
+              <Card projectName="Errofest" category={t("errofest.card.subtitle")} coverImage={errofestCoverImage} href={`${t("header.links.projects")}/errofest`} width="480" height="480" color="orange" />
             </div>
-            <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
-              <Card projectName="ERROFEST" category={t("errofest.card.subtitle")} coverImage={errofestCoverImage} href={`${t("header.links.projects")}/errofest`} width="480" height="480" color="orange" />
-            </div>
-          </div>
-          <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
-            <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
-              <Card projectName="DESIGN SYSTEM" category={t("design_system.card.subtitle")} coverImage={designSystemCoverImage} href={`${t("header.links.projects")}/designsystem`} width="480" height="480" color="green" />
-            </div>
-            <div className='w-full xl:w-8/12'>
-              <Card projectName="ECHO" category={t("echo.card.subtitle")} coverImage={echoCoverImage} href={`${t("header.links.projects")}/echo`} width="680" height="480" color="red" />
+            <div className='w-full xl:w-5/12'>
+              <Card projectName="Echo" category={t("echo.card.subtitle")} coverImage={echoCoverImage} href={`${t("header.links.projects")}/echo`} width="680" height="480" color="red" />
             </div>
           </div>
+          {/* <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
+            <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
+              <Card projectName="Design System" category={t("design_system.card.subtitle")} coverImage={designSystemCoverImage} href={`${t("header.links.projects")}/designsystem`} width="480" height="480" color="green" />
+            </div>
+          </div> */}
         </section>
         <Footer id={t("header.links.contact")} />
       </main>
