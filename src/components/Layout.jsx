@@ -63,21 +63,21 @@ export const Layout = () => {
             </div>
           </div>
           <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
-            {/* <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
-              <Card projectName="DESCUBRE" category={t("descubre.card.subtitle")} coverImage={descubreCoverImage} href={`${t("header.links.projects")}/descubre`} width="680" height="480" color="yellow" />
-            </div> */}
             <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
+              <Card projectName="DESCUBRE" category={t("descubre.card.subtitle")} coverImage={descubreCoverImage} href={`${t("header.links.projects")}/descubre`} width="680" height="480" color="yellow" />
+            </div>
+            <div className='w-full xl:w-5/12 mb-[25px] xl:mb-[20px]'>
               <Card projectName="Errofest" category={t("errofest.card.subtitle")} coverImage={errofestCoverImage} href={`${t("header.links.projects")}/errofest`} width="480" height="480" color="orange" />
             </div>
+          </div>
+          <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
             <div className='w-full xl:w-5/12'>
               <Card projectName="Echo" category={t("echo.card.subtitle")} coverImage={echoCoverImage} href={`${t("header.links.projects")}/echo`} width="680" height="480" color="red" />
             </div>
-          </div>
-          {/* <div className='flex flex-col xl:flex-row xl:gap-[20px]'>
             <div className='w-full xl:w-8/12 mb-[25px] xl:mb-[20px]'>
               <Card projectName="Design System" category={t("design_system.card.subtitle")} coverImage={designSystemCoverImage} href={`${t("header.links.projects")}/designsystem`} width="480" height="480" color="green" />
             </div>
-          </div> */}
+          </div>
         </section>
         <Footer id={t("header.links.contact")} />
       </main>
