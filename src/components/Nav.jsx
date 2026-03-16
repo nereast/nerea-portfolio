@@ -33,13 +33,13 @@ export const Nav = () => {
           </a>
         </li>
         <li className="hidden md:flex md:w-10/12 xl:w-10/12 flex-row justify-end gap-[20px]">
-          <a className="flex items-center" href={"#" + t("header.links.about_me")} aria-label={t("header.links.about_me")}>
+          <a className="flex items-center" href={`https://nerea-portfolio.vercel.app/${language}` + "#" + t("header.links.about_me")} aria-label={t("header.links.about_me")}>
             <p className="font-paragraph uppercase text-[15px]">{t("header.about_me")}</p>
           </a>
-          <a className="flex items-center" href={"#" + t("header.links.projects")} aria-label={t("header.links.projects")}>
+          <a className="flex items-center" href={`https://nerea-portfolio.vercel.app/${language}` + "#" + t("header.links.projects")} aria-label={t("header.links.projects")}>
             <p className="font-paragraph uppercase text-[15px]">{t("header.projects")}</p>
           </a>
-          <a className="flex items-center" href={"#" + t("header.links.contact")} aria-label={t("header.links.contact")}>
+          <a className="flex items-center" href={`https://nerea-portfolio.vercel.app/${language}` + "#" + t("header.links.contact")} aria-label={t("header.links.contact")}>
             <p className="font-paragraph uppercase text-[15px]">{t("header.contact")}</p>
           </a>
           <LanguageSelector />
@@ -67,9 +67,9 @@ export const Nav = () => {
 
         </li>
         <li className="md:hidden flex flex-col mt-[100px]">
-          <a href={`/${language}` + "#" + t("header.links.about_me")} className="text-black font-paragraph uppercase font-regular text-[20px] mr-4 mb-[20px]" onClick={toggleMenu} aria-label={t("header.about_me")}>{t("header.about_me")}</a>
-          <a href={`/${language}` + "#" + t("header.links.projects")} className="text-black font-paragraph uppercase font-regular text-[20px] mr-4 mb-[20px]" onClick={toggleMenu} aria-label={t("header.projects")}>{t("header.projects")}</a>
-          <a href={`/${language}` + "#" + t("header.links.contact")} className="text-black font-paragraph uppercase font-regular text-[20px] mr-4 mb-[20px]" onClick={toggleMenu} aria-label={t("header.contact")}>{t("header.contact")}</a>
+          <a href={`https://nerea-portfolio.vercel.app/${language}` + "#" + t("header.links.about_me")} className="text-black font-paragraph uppercase font-regular text-[20px] mr-4 mb-[20px]" onClick={toggleMenu} aria-label={t("header.about_me")}>{t("header.about_me")}</a>
+          <a href={`https://nerea-portfolio.vercel.app/${language}` + "#" + t("header.links.projects")} className="text-black font-paragraph uppercase font-regular text-[20px] mr-4 mb-[20px]" onClick={toggleMenu} aria-label={t("header.projects")}>{t("header.projects")}</a>
+          <a href={`https://nerea-portfolio.vercel.app/${language}` + "#" + t("header.links.contact")} className="text-black font-paragraph uppercase font-regular text-[20px] mr-4 mb-[20px]" onClick={toggleMenu} aria-label={t("header.contact")}>{t("header.contact")}</a>
         </li>
         <li>
           <LanguageSelector />
