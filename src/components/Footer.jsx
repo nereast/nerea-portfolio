@@ -26,7 +26,7 @@ export const Footer = () => {
     
 
     return (
-        <footer className='bg-black flex flex-col md:flex-row px-[25px] md:px-[50px] py-[50px] md:py-[100px] rounded-[25px_25px_0_0] md:rounded-[50px_50px_0_0]'>
+        <footer id={t("header.links.contact")} className='bg-black flex flex-col md:flex-row px-[25px] md:px-[50px] py-[50px] md:py-[100px] rounded-[25px_25px_0_0] md:rounded-[50px_50px_0_0]'>
             <div className='flex flex-col items-center md:hidden'>
                 <div className='grid justify-items-start w-full'>
                     <h2 className='text-white mb-[20px] text-[25px] leading-[27px] font-title font-bold'>{t("footer.title")}</h2>
